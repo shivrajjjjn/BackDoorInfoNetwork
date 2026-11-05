@@ -1,0 +1,64 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793919421.064470   64235 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+/home/shivraj/BackDoorInfoNetwork/visualizer.py:163: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if intensity_range is 'raw':
+/home/shivraj/BackDoorInfoNetwork/visualizer.py:166: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif intensity_range is 'imagenet':
+/home/shivraj/BackDoorInfoNetwork/visualizer.py:173: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif intensity_range is 'inception':
+/home/shivraj/BackDoorInfoNetwork/visualizer.py:176: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif intensity_range is 'mnist':
+/home/shivraj/BackDoorInfoNetwork/visualizer.py:186: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if intensity_range is 'raw':
+/home/shivraj/BackDoorInfoNetwork/visualizer.py:189: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif intensity_range is 'imagenet':
+/home/shivraj/BackDoorInfoNetwork/visualizer.py:196: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif intensity_range is 'inception':
+/home/shivraj/BackDoorInfoNetwork/visualizer.py:199: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif intensity_range is 'mnist':
+/home/shivraj/BackDoorInfoNetwork/visualizer.py:239: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif self.regularization is 'l1':
+/home/shivraj/BackDoorInfoNetwork/visualizer.py:242: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif self.regularization is 'l2':
+W0000 00:00:1793919422.203072   64235 gpu_device.cc:2459] TensorFlow was not built with CUDA kernel binaries compatible with compute capability 12.0a. CUDA kernels will be jit-compiled from PTX, which could take 30 minutes or longer.
+I0000 00:00:1793919422.305141   64235 gpu_device.cc:2043] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 7790 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 5060, pci bus id: 0000:0a:00.0, compute capability: 12.0a
+I0000 00:00:1793919422.306436   64235 mlir_graph_optimization_pass.cc:437] MLIR V1 optimization pass is not enabled
+W0000 00:00:1793919422.443690   64235 c_api.cc:305] Operation '{name:'dense_2/kernel/Assign' id:189 op device:{requested: '', assigned: ''} def:{{{node dense_2/kernel/Assign}} = AssignVariableOp[_has_manual_control_dependencies=true, dtype=DT_FLOAT, validate_shape=false](dense_2/kernel, dense_2/kernel/Initializer/stateless_random_uniform)}}' was changed by setting attribute after it was run by a session. This mutation will have no effect, and will trigger an error in the future. Either don't modify nodes after running them or create a new session.
+W0000 00:00:1793919422.642528   64235 c_api.cc:305] Operation '{name:'conv2d_6/bias/accum_grad/Assign' id:430 op device:{requested: '', assigned: ''} def:{{{node conv2d_6/bias/accum_grad/Assign}} = AssignVariableOp[_has_manual_control_dependencies=true, dtype=DT_FLOAT, validate_shape=false](conv2d_6/bias/accum_grad, conv2d_6/bias/accum_grad/Initializer/zeros)}}' was changed by setting attribute after it was run by a session. This mutation will have no effect, and will trigger an error in the future. Either don't modify nodes after running them or create a new session.
+W0000 00:00:1793919422.845182   64235 c_api.cc:305] Operation '{name:'Adam/Variable/v/Assign' id:1040 op device:{requested: '', assigned: ''} def:{{{node Adam/Variable/v/Assign}} = AssignVariableOp[_has_manual_control_dependencies=true, dtype=DT_FLOAT, validate_shape=false](Adam/Variable/v, Adam/Variable/v/Initializer/zeros)}}' was changed by setting attribute after it was run by a session. This mutation will have no effect, and will trigger an error in the future. Either don't modify nodes after running them or create a new session.
+loading dataset
+X_test shape (12630, 32, 32, 3)
+Y_test shape (12630, 43)
+loading model
+processing label 33
+resetting state
+mask_tanh -3.7462409542995845 3.4530466883337865
+pattern_tanh -4.798973586874538 3.9704292714645932
+Traceback (most recent call last):
+  File "/home/shivraj/BackDoorInfoNetwork/gtsrb_visualize_example.py", line 230, in <module>
+    main()
+  File "/home/shivraj/BackDoorInfoNetwork/gtsrb_visualize_example.py", line 222, in main
+    gtsrb_visualize_label_scan_bottom_right_white_4()
+  File "/home/shivraj/BackDoorInfoNetwork/gtsrb_visualize_example.py", line 209, in gtsrb_visualize_label_scan_bottom_right_white_4
+    _, _, logs = visualize_trigger_w_mask(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shivraj/BackDoorInfoNetwork/gtsrb_visualize_example.py", line 126, in visualize_trigger_w_mask
+    pattern, mask, mask_upsample, logs = visualizer.visualize(
+                                         ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shivraj/BackDoorInfoNetwork/visualizer.py", line 357, in visualize
+    X_batch, _ = gen.next()
+                 ^^^^^^^^^^
+  File "/home/shivraj/miniconda3/envs/nc-gpu/lib/python3.11/site-packages/tf_keras/src/preprocessing/image.py", line 168, in next
+    return self._get_batches_of_transformed_samples(index_array)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shivraj/miniconda3/envs/nc-gpu/lib/python3.11/site-packages/tf_keras/src/preprocessing/image.py", line 801, in _get_batches_of_transformed_samples
+    x = self.image_data_generator.apply_transform(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shivraj/miniconda3/envs/nc-gpu/lib/python3.11/site-packages/tf_keras/src/preprocessing/image.py", line 2012, in apply_transform
+    x = apply_affine_transform(
+        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shivraj/miniconda3/envs/nc-gpu/lib/python3.11/site-packages/tf_keras/src/preprocessing/image.py", line 2526, in apply_affine_transform
+    if scipy is None:
+       ^^^^^
+NameError: name 'scipy' is not defined

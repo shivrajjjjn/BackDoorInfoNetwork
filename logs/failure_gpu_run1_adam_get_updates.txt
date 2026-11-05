@@ -1,0 +1,45 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793919255.831926   63779 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+/home/shivraj/BackDoorInfoNetwork/visualizer.py:163: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if intensity_range is 'raw':
+/home/shivraj/BackDoorInfoNetwork/visualizer.py:166: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif intensity_range is 'imagenet':
+/home/shivraj/BackDoorInfoNetwork/visualizer.py:173: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif intensity_range is 'inception':
+/home/shivraj/BackDoorInfoNetwork/visualizer.py:176: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif intensity_range is 'mnist':
+/home/shivraj/BackDoorInfoNetwork/visualizer.py:186: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if intensity_range is 'raw':
+/home/shivraj/BackDoorInfoNetwork/visualizer.py:189: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif intensity_range is 'imagenet':
+/home/shivraj/BackDoorInfoNetwork/visualizer.py:196: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif intensity_range is 'inception':
+/home/shivraj/BackDoorInfoNetwork/visualizer.py:199: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif intensity_range is 'mnist':
+/home/shivraj/BackDoorInfoNetwork/visualizer.py:239: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif self.regularization is 'l1':
+/home/shivraj/BackDoorInfoNetwork/visualizer.py:242: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif self.regularization is 'l2':
+W0000 00:00:1793919256.963132   63779 gpu_device.cc:2459] TensorFlow was not built with CUDA kernel binaries compatible with compute capability 12.0a. CUDA kernels will be jit-compiled from PTX, which could take 30 minutes or longer.
+I0000 00:00:1793919257.068257   63779 gpu_device.cc:2043] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 7790 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 5060, pci bus id: 0000:0a:00.0, compute capability: 12.0a
+I0000 00:00:1793919257.069561   63779 mlir_graph_optimization_pass.cc:437] MLIR V1 optimization pass is not enabled
+W0000 00:00:1793919257.217828   63779 c_api.cc:305] Operation '{name:'dense_2/bias/Assign' id:194 op device:{requested: '', assigned: ''} def:{{{node dense_2/bias/Assign}} = AssignVariableOp[_has_manual_control_dependencies=true, dtype=DT_FLOAT, validate_shape=false](dense_2/bias, dense_2/bias/Initializer/zeros)}}' was changed by setting attribute after it was run by a session. This mutation will have no effect, and will trigger an error in the future. Either don't modify nodes after running them or create a new session.
+W0000 00:00:1793919257.410682   63779 c_api.cc:305] Operation '{name:'dense_1/bias/accum_var/Assign' id:536 op device:{requested: '', assigned: ''} def:{{{node dense_1/bias/accum_var/Assign}} = AssignVariableOp[_has_manual_control_dependencies=true, dtype=DT_FLOAT, validate_shape=false](dense_1/bias/accum_var, dense_1/bias/accum_var/Initializer/zeros)}}' was changed by setting attribute after it was run by a session. This mutation will have no effect, and will trigger an error in the future. Either don't modify nodes after running them or create a new session.
+W0000 00:00:1793919257.530153   63779 gpu_device.cc:2459] TensorFlow was not built with CUDA kernel binaries compatible with compute capability 12.0a. CUDA kernels will be jit-compiled from PTX, which could take 30 minutes or longer.
+loading dataset
+X_test shape (12630, 32, 32, 3)
+Y_test shape (12630, 43)
+loading model
+Traceback (most recent call last):
+  File "/home/shivraj/BackDoorInfoNetwork/gtsrb_visualize_example.py", line 230, in <module>
+    main()
+  File "/home/shivraj/BackDoorInfoNetwork/gtsrb_visualize_example.py", line 222, in main
+    gtsrb_visualize_label_scan_bottom_right_white_4()
+  File "/home/shivraj/BackDoorInfoNetwork/gtsrb_visualize_example.py", line 186, in gtsrb_visualize_label_scan_bottom_right_white_4
+    visualizer = Visualizer(
+                 ^^^^^^^^^^^
+  File "/home/shivraj/BackDoorInfoNetwork/visualizer.py", line 251, in __init__
+    self.updates = self.opt.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Adam' object has no attribute 'get_updates'

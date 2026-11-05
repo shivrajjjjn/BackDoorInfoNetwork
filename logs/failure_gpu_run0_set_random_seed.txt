@@ -1,0 +1,7 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793919192.569468   63416 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Traceback (most recent call last):
+  File "/home/shivraj/BackDoorInfoNetwork/gtsrb_visualize_example.py", line 14, in <module>
+    from tensorflow import set_random_seed
+ImportError: cannot import name 'set_random_seed' from 'tensorflow' (/home/shivraj/miniconda3/envs/nc-gpu/lib/python3.11/site-packages/tensorflow/__init__.py)
