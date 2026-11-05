@@ -1,0 +1,31 @@
+Python 3.11.18
+Thu Nov  5 17:52:50 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 615.78.08              KMD Version: 615.78.08     CUDA UMD Version: 13.4     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 5060        Off |   00000000:0A:00.0  On |                  N/A |
+|  0%   47C    P3             19W /  160W |    1435MiB /   8151MiB |      1%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|    0   N/A  N/A            1425      G   /usr/lib/Xorg                            42MiB |
+|    0   N/A  N/A            1539      G   /usr/bin/umbriel                        105MiB |
+|    0   N/A  N/A            1571      G   noctalia                                211MiB |
+|    0   N/A  N/A            2225      G   /usr/lib/electron39/electron             25MiB |
+|    0   N/A  N/A            5600      G   /opt/zen-browser-bin/zen-bin            392MiB |
+|    0   N/A  N/A            6299      G   Xwayland                                  3MiB |
+|    0   N/A  N/A            6429      G   ...l/share/Steam/steamrt64/steam          4MiB |
+|    0   N/A  N/A            6451      G   ./steamwebhelper                         34MiB |
+|    0   N/A  N/A            6481      G   ...team/steamrt64/steamwebhelper         46MiB |
+|    0   N/A  N/A           55793      G   alacritty                                24MiB |
+|    0   N/A  N/A           63196    C+G   nautilus                                 36MiB |
++-----------------------------------------------------------------------------------------+
