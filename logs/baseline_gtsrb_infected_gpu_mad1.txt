@@ -1,0 +1,9 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793920388.350122   66578 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+mad_outlier_detection.py start
+43 labels found
+median: 60.682354, MAD: 18.198187
+anomaly index: 2.679646
+flagged label list: 33: 11.917646
+elapsed time 0.01 s
