@@ -1,3 +1,5 @@
+import tensorflow as tf
+tf.compat.v1.disable_eager_execution()
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # @Date    : 2018-11-05 11:30:01
@@ -8,7 +10,7 @@
 import h5py
 import numpy as np
 import tensorflow as tf
-from keras.preprocessing import image
+from tensorflow.keras.preprocessing import image
 
 
 def dump_image(x, filename, format):
@@ -18,17 +20,17 @@ def dump_image(x, filename, format):
 
 
 def fix_gpu_memory(mem_fraction=1):
-    import keras.backend as K
+    from tensorflow.keras import backend as K
 
-    gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=mem_fraction)
-    tf_config = tf.ConfigProto(gpu_options=gpu_options)
+    gpu_options = tf.compat.v1.GPUOptions(per_process_gpu_memory_fraction=mem_fraction)
+    tf_config = tf.compat.v1.ConfigProto(gpu_options=gpu_options)
     tf_config.gpu_options.allow_growth = True
     tf_config.log_device_placement = False
     tf_config.allow_soft_placement = True
-    init_op = tf.global_variables_initializer()
-    sess = tf.Session(config=tf_config)
+    init_op = tf.compat.v1.global_variables_initializer()
+    sess = tf.compat.v1.Session(config=tf_config)
     sess.run(init_op)
-    K.set_session(sess)
+    tf.compat.v1.keras.backend.set_session(sess)
 
     return sess
 
