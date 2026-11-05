@@ -11,7 +11,7 @@ import time
 
 import numpy as np
 import random
-from tensorflow import set_random_seed
+from tensorflow.compat.v1 import set_random_seed
 random.seed(123)
 np.random.seed(123)
 set_random_seed(123)

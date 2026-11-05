@@ -16,7 +16,7 @@ from tensorflow.keras.preprocessing import image
 #        PARAMETERS          #
 ##############################
 
-RESULT_DIR = 'results'  # directory for storing results
+RESULT_DIR = 'results_gpu'  # directory for storing results
 IMG_FILENAME_TEMPLATE = 'gtsrb_visualize_%s_label_%d.png'  # image filename template for visualization results
 
 # input size

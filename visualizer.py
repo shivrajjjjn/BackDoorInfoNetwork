@@ -9,7 +9,7 @@ from tensorflow.keras import backend as K
 
 from tensorflow.keras.losses import categorical_crossentropy
 from tensorflow.keras.metrics import categorical_accuracy
-from tensorflow.keras.optimizers import Adam
+from tensorflow.compat.v1.keras.optimizers import Adam
 from tensorflow.keras.utils import to_categorical
 from tensorflow.keras.layers import UpSampling2D, Cropping2D
 
@@ -247,7 +247,7 @@ class Visualizer:
         self.cost_tensor = K.variable(cost)
         self.loss = self.loss_ce + self.loss_reg * self.cost_tensor
 
-        self.opt = Adam(lr=self.lr, beta_1=0.5, beta_2=0.9)
+        self.opt = Adam(learning_rate=self.lr, beta_1=0.5, beta_2=0.9)
         self.updates = self.opt.get_updates(
             params=[self.pattern_tanh_tensor, self.mask_tanh_tensor],
             loss=self.loss)
