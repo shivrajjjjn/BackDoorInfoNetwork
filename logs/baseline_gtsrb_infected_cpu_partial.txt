@@ -1,0 +1,1813 @@
+2026-11-05 17:10:52.560575: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+loading dataset
+X_test shape (12630, 32, 32, 3)
+Y_test shape (12630, 43)
+loading model
+processing label 33
+resetting state
+mask_tanh -3.672258450327029 3.5073656483843307
+pattern_tanh -3.9436355297972994 4.010161127999756
+step:   0, cost: 0.00E+00, attack: 0.900, loss: 1.647655, ce: 1.647655, reg: 535.389954, reg_best: inf
+step:   1, cost: 0.00E+00, attack: 1.000, loss: 0.000069, ce: 0.000069, reg: 539.859192, reg_best: 539.859192
+step:   2, cost: 0.00E+00, attack: 1.000, loss: 0.000313, ce: 0.000313, reg: 542.223511, reg_best: 539.859192
+step:   3, cost: 0.00E+00, attack: 1.000, loss: 0.000000, ce: 0.000000, reg: 547.934204, reg_best: 539.859192
+step:   4, cost: 0.00E+00, attack: 1.000, loss: 0.000000, ce: 0.000000, reg: 547.936707, reg_best: 539.859192
+step:   5, cost: 0.00E+00, attack: 1.000, loss: 0.000000, ce: 0.000000, reg: 547.936707, reg_best: 539.859192
+initialize cost to 1.00E-03
+step:   6, cost: 1.00E-03, attack: 0.998, loss: 0.258921, ce: 0.039826, reg: 219.095703, reg_best: 219.095703
+step:   7, cost: 1.00E-03, attack: 1.000, loss: 0.117906, ce: 0.002765, reg: 115.140984, reg_best: 115.140984
+step:   8, cost: 1.00E-03, attack: 1.000, loss: 0.089007, ce: 0.000000, reg: 89.007156, reg_best: 89.007156
+step:   9, cost: 1.00E-03, attack: 1.000, loss: 0.071939, ce: 0.004453, reg: 67.486084, reg_best: 67.486084
+up cost from 1.00E-03 to 2.00E-03
+step:  10, cost: 2.00E-03, attack: 0.999, loss: 0.117216, ce: 0.014922, reg: 51.146866, reg_best: 51.146866
+step:  11, cost: 2.00E-03, attack: 0.999, loss: 0.099177, ce: 0.015263, reg: 41.956657, reg_best: 41.956657
+step:  12, cost: 2.00E-03, attack: 0.997, loss: 0.125963, ce: 0.047891, reg: 39.017662, reg_best: 39.017662
+step:  13, cost: 2.00E-03, attack: 0.998, loss: 0.091089, ce: 0.026611, reg: 32.239021, reg_best: 32.239021
+step:  14, cost: 2.00E-03, attack: 0.998, loss: 0.087922, ce: 0.024565, reg: 31.678370, reg_best: 31.678370
+up cost from 2.00E-03 to 4.00E-03
+step:  15, cost: 4.00E-03, attack: 0.999, loss: 0.132928, ce: 0.014372, reg: 29.639004, reg_best: 29.639004
+step:  16, cost: 4.00E-03, attack: 0.999, loss: 0.131867, ce: 0.009287, reg: 30.644991, reg_best: 29.639004
+step:  17, cost: 4.00E-03, attack: 0.998, loss: 0.140229, ce: 0.031919, reg: 27.077425, reg_best: 27.077425
+step:  18, cost: 4.00E-03, attack: 0.997, loss: 0.142043, ce: 0.048639, reg: 23.351097, reg_best: 23.351097
+step:  19, cost: 4.00E-03, attack: 0.999, loss: 0.105535, ce: 0.016690, reg: 22.211246, reg_best: 22.211246
+up cost from 4.00E-03 to 8.00E-03
+step:  20, cost: 8.00E-03, attack: 0.987, loss: 0.358958, ce: 0.200959, reg: 19.749922, reg_best: 22.211246
+step:  21, cost: 8.00E-03, attack: 0.996, loss: 0.230699, ce: 0.060394, reg: 21.288122, reg_best: 21.288122
+step:  22, cost: 8.00E-03, attack: 0.999, loss: 0.202046, ce: 0.030295, reg: 21.468954, reg_best: 21.288122
+step:  23, cost: 8.00E-03, attack: 1.000, loss: 0.188876, ce: 0.000107, reg: 23.596046, reg_best: 21.288122
+step:  24, cost: 8.00E-03, attack: 0.997, loss: 0.224752, ce: 0.050125, reg: 21.828470, reg_best: 21.288122
+step:  25, cost: 8.00E-03, attack: 0.996, loss: 0.235345, ce: 0.071380, reg: 20.495516, reg_best: 20.495516
+up cost from 8.00E-03 to 1.60E-02
+step:  26, cost: 1.60E-02, attack: 0.995, loss: 0.411138, ce: 0.087857, reg: 20.205044, reg_best: 20.205044
+step:  27, cost: 1.60E-02, attack: 0.991, loss: 0.452097, ce: 0.145302, reg: 19.174700, reg_best: 19.174700
+step:  28, cost: 1.60E-02, attack: 0.997, loss: 0.412504, ce: 0.060272, reg: 22.014538, reg_best: 19.174700
+step:  29, cost: 1.60E-02, attack: 0.994, loss: 0.427335, ce: 0.098693, reg: 20.540113, reg_best: 19.174700
+step:  30, cost: 1.60E-02, attack: 0.997, loss: 0.350254, ce: 0.051116, reg: 18.696121, reg_best: 18.696121
+up cost from 1.60E-02 to 3.20E-02
+step:  31, cost: 3.20E-02, attack: 0.984, loss: 0.828871, ce: 0.255537, reg: 17.916693, reg_best: 18.696121
+step:  32, cost: 3.20E-02, attack: 0.992, loss: 0.747324, ce: 0.130051, reg: 19.289803, reg_best: 18.696121
+step:  33, cost: 3.20E-02, attack: 0.992, loss: 0.719386, ce: 0.133893, reg: 18.296658, reg_best: 18.296658
+step:  34, cost: 3.20E-02, attack: 0.992, loss: 0.734830, ce: 0.144628, reg: 18.443834, reg_best: 18.296658
+step:  35, cost: 3.20E-02, attack: 0.998, loss: 0.709207, ce: 0.040687, reg: 20.891243, reg_best: 18.296658
+step:  36, cost: 3.20E-02, attack: 0.997, loss: 0.683723, ce: 0.042918, reg: 20.025141, reg_best: 18.296658
+up cost from 3.20E-02 to 6.40E-02
+step:  37, cost: 6.40E-02, attack: 0.996, loss: 1.317101, ce: 0.077376, reg: 19.370708, reg_best: 18.296658
+step:  38, cost: 6.40E-02, attack: 0.995, loss: 1.337677, ce: 0.084610, reg: 19.589819, reg_best: 18.296658
+step:  39, cost: 6.40E-02, attack: 0.980, loss: 1.410994, ce: 0.328418, reg: 16.915258, reg_best: 18.296658
+step:  40, cost: 6.40E-02, attack: 0.990, loss: 1.300544, ce: 0.169186, reg: 17.677475, reg_best: 18.296658
+step:  41, cost: 6.40E-02, attack: 0.971, loss: 1.491687, ce: 0.480515, reg: 15.799579, reg_best: 18.296658
+step:  42, cost: 6.40E-02, attack: 0.977, loss: 1.451992, ce: 0.364053, reg: 16.999043, reg_best: 18.296658
+step:  43, cost: 6.40E-02, attack: 0.981, loss: 1.399319, ce: 0.310607, reg: 17.011120, reg_best: 18.296658
+down cost from 6.40E-02 to 2.26E-02
+step:  44, cost: 2.26E-02, attack: 0.997, loss: 0.482053, ce: 0.047033, reg: 19.225357, reg_best: 18.296658
+step:  45, cost: 2.26E-02, attack: 0.996, loss: 0.487749, ce: 0.062483, reg: 18.794264, reg_best: 18.296658
+step:  46, cost: 2.26E-02, attack: 0.995, loss: 0.504903, ce: 0.075610, reg: 18.972288, reg_best: 18.296658
+step:  47, cost: 2.26E-02, attack: 0.992, loss: 0.549412, ce: 0.127665, reg: 18.638758, reg_best: 18.296658
+step:  48, cost: 2.26E-02, attack: 1.000, loss: 0.464624, ce: 0.005456, reg: 20.292540, reg_best: 18.296658
+up cost from 2.26E-02 to 4.53E-02
+step:  49, cost: 4.53E-02, attack: 0.995, loss: 0.933156, ce: 0.079569, reg: 18.861807, reg_best: 18.296658
+step:  50, cost: 4.53E-02, attack: 0.987, loss: 1.004103, ce: 0.202198, reg: 17.730753, reg_best: 18.296658
+step:  51, cost: 4.53E-02, attack: 0.995, loss: 0.954951, ce: 0.067847, reg: 19.602415, reg_best: 18.296658
+step:  52, cost: 4.53E-02, attack: 0.992, loss: 0.967111, ce: 0.124267, reg: 18.624392, reg_best: 18.296658
+step:  53, cost: 4.53E-02, attack: 0.993, loss: 0.931716, ce: 0.123282, reg: 17.864048, reg_best: 17.864048
+step:  54, cost: 4.53E-02, attack: 0.993, loss: 0.900574, ce: 0.115260, reg: 17.353151, reg_best: 17.353151
+step:  55, cost: 4.53E-02, attack: 0.988, loss: 1.014372, ce: 0.197537, reg: 18.049675, reg_best: 17.353151
+step:  56, cost: 4.53E-02, attack: 0.994, loss: 0.893521, ce: 0.094162, reg: 17.663496, reg_best: 17.353151
+step:  57, cost: 4.53E-02, attack: 0.992, loss: 0.986735, ce: 0.128943, reg: 18.954706, reg_best: 17.353151
+step:  58, cost: 4.53E-02, attack: 0.996, loss: 0.932211, ce: 0.066821, reg: 19.122614, reg_best: 17.353151
+step:  59, cost: 4.53E-02, attack: 0.979, loss: 1.092209, ce: 0.348943, reg: 16.424023, reg_best: 17.353151
+step:  60, cost: 4.53E-02, attack: 0.989, loss: 0.991729, ce: 0.182237, reg: 17.887400, reg_best: 17.353151
+step:  61, cost: 4.53E-02, attack: 0.996, loss: 0.945390, ce: 0.054539, reg: 19.685198, reg_best: 17.353151
+step:  62, cost: 4.53E-02, attack: 0.992, loss: 0.981963, ce: 0.135004, reg: 18.715334, reg_best: 17.353151
+step:  63, cost: 4.53E-02, attack: 0.991, loss: 0.986476, ce: 0.149017, reg: 18.502810, reg_best: 17.353151
+step:  64, cost: 4.53E-02, attack: 0.992, loss: 0.944739, ce: 0.111634, reg: 18.409189, reg_best: 17.353151
+step:  65, cost: 4.53E-02, attack: 0.995, loss: 0.893105, ce: 0.072660, reg: 18.129440, reg_best: 17.353151
+up cost from 4.53E-02 to 9.05E-02
+step:  66, cost: 9.05E-02, attack: 0.966, loss: 1.953670, ce: 0.544469, reg: 15.569617, reg_best: 17.353151
+step:  67, cost: 9.05E-02, attack: 0.961, loss: 1.994552, ce: 0.619597, reg: 15.191247, reg_best: 17.353151
+step:  68, cost: 9.05E-02, attack: 0.991, loss: 1.708305, ce: 0.154704, reg: 17.165031, reg_best: 17.165031
+step:  69, cost: 9.05E-02, attack: 0.995, loss: 1.713806, ce: 0.080529, reg: 18.045332, reg_best: 17.165031
+step:  70, cost: 9.05E-02, attack: 0.980, loss: 1.827356, ce: 0.327983, reg: 16.565886, reg_best: 17.165031
+step:  71, cost: 9.05E-02, attack: 0.982, loss: 1.822101, ce: 0.279619, reg: 17.042171, reg_best: 17.165031
+step:  72, cost: 9.05E-02, attack: 0.976, loss: 1.857799, ce: 0.391218, reg: 16.203585, reg_best: 17.165031
+step:  73, cost: 9.05E-02, attack: 0.992, loss: 1.805387, ce: 0.143434, reg: 18.362160, reg_best: 17.165031
+step:  74, cost: 9.05E-02, attack: 0.986, loss: 1.732362, ce: 0.223132, reg: 16.674791, reg_best: 17.165031
+step:  75, cost: 9.05E-02, attack: 0.977, loss: 1.845224, ce: 0.382854, reg: 16.157063, reg_best: 17.165031
+step:  76, cost: 9.05E-02, attack: 0.986, loss: 1.774086, ce: 0.216926, reg: 17.213844, reg_best: 17.165031
+step:  77, cost: 9.05E-02, attack: 0.981, loss: 1.782567, ce: 0.313606, reg: 16.229877, reg_best: 17.165031
+step:  78, cost: 9.05E-02, attack: 0.989, loss: 1.765598, ce: 0.185096, reg: 17.462254, reg_best: 17.165031
+down cost from 9.05E-02 to 3.20E-02
+step:  79, cost: 3.20E-02, attack: 0.993, loss: 0.719325, ce: 0.102545, reg: 19.274355, reg_best: 17.165031
+step:  80, cost: 3.20E-02, attack: 0.999, loss: 0.661504, ce: 0.026412, reg: 19.846636, reg_best: 17.165031
+step:  81, cost: 3.20E-02, attack: 0.994, loss: 0.688727, ce: 0.098555, reg: 18.442886, reg_best: 17.165031
+step:  82, cost: 3.20E-02, attack: 0.988, loss: 0.755742, ce: 0.198498, reg: 17.413881, reg_best: 17.165031
+step:  83, cost: 3.20E-02, attack: 0.993, loss: 0.712336, ce: 0.104182, reg: 19.004808, reg_best: 17.165031
+step:  84, cost: 3.20E-02, attack: 0.998, loss: 0.670981, ce: 0.041061, reg: 19.685009, reg_best: 17.165031
+step:  85, cost: 3.20E-02, attack: 0.994, loss: 0.721687, ce: 0.108280, reg: 19.168966, reg_best: 17.165031
+step:  86, cost: 3.20E-02, attack: 0.991, loss: 0.728170, ce: 0.158080, reg: 17.815332, reg_best: 17.165031
+step:  87, cost: 3.20E-02, attack: 0.991, loss: 0.729642, ce: 0.142738, reg: 18.340761, reg_best: 17.165031
+up cost from 3.20E-02 to 6.40E-02
+step:  88, cost: 6.40E-02, attack: 0.980, loss: 1.383231, ce: 0.332941, reg: 16.410772, reg_best: 17.165031
+step:  89, cost: 6.40E-02, attack: 0.993, loss: 1.274790, ce: 0.112146, reg: 18.169235, reg_best: 17.165031
+step:  90, cost: 6.40E-02, attack: 0.983, loss: 1.366322, ce: 0.274592, reg: 17.058285, reg_best: 17.165031
+step:  91, cost: 6.40E-02, attack: 0.985, loss: 1.325768, ce: 0.238434, reg: 16.989592, reg_best: 17.165031
+step:  92, cost: 6.40E-02, attack: 0.990, loss: 1.298737, ce: 0.170601, reg: 17.627131, reg_best: 17.165031
+step:  93, cost: 6.40E-02, attack: 0.983, loss: 1.371473, ce: 0.288750, reg: 16.917549, reg_best: 17.165031
+early stop
+pattern, shape: (32, 32, 3), min: -0.000015, max: 255.000000
+mask, shape: (32, 32), min: -0.000000, max: 1.000000
+mask norm of label 33: 17.340490
+visualization cost 86.504238 seconds
+processing label 0
+resetting state
+mask_tanh -4.494605200064122 2.8897316021755253
+pattern_tanh -5.191879161638642 4.141280549490085
+step:   0, cost: 0.00E+00, attack: 0.861, loss: 2.319283, ce: 2.319283, reg: 549.088440, reg_best: inf
+step:   1, cost: 0.00E+00, attack: 1.000, loss: 0.000187, ce: 0.000187, reg: 567.391113, reg_best: 567.391113
+step:   2, cost: 0.00E+00, attack: 1.000, loss: 0.000012, ce: 0.000012, reg: 570.335388, reg_best: 567.391113
+step:   3, cost: 0.00E+00, attack: 1.000, loss: 0.000003, ce: 0.000003, reg: 570.894226, reg_best: 567.391113
+step:   4, cost: 0.00E+00, attack: 1.000, loss: 0.000007, ce: 0.000007, reg: 572.405518, reg_best: 567.391113
+step:   5, cost: 0.00E+00, attack: 1.000, loss: 0.000000, ce: 0.000000, reg: 575.406189, reg_best: 567.391113
+initialize cost to 1.00E-03
+step:   6, cost: 1.00E-03, attack: 1.000, loss: 0.385472, ce: 0.007273, reg: 378.199280, reg_best: 378.199280
+step:   7, cost: 1.00E-03, attack: 1.000, loss: 0.266707, ce: 0.012050, reg: 254.494232, reg_best: 254.494232
+step:   8, cost: 1.00E-03, attack: 1.000, loss: 0.218641, ce: 0.004380, reg: 214.261642, reg_best: 214.261642
+step:   9, cost: 1.00E-03, attack: 0.999, loss: 0.201890, ce: 0.018210, reg: 183.679977, reg_best: 183.679977
+up cost from 1.00E-03 to 2.00E-03
+step:  10, cost: 2.00E-03, attack: 0.998, loss: 0.352753, ce: 0.030457, reg: 161.148102, reg_best: 161.148102
+step:  11, cost: 2.00E-03, attack: 0.996, loss: 0.331873, ce: 0.063664, reg: 134.104599, reg_best: 134.104599
+step:  12, cost: 2.00E-03, attack: 0.999, loss: 0.263168, ce: 0.025920, reg: 118.623993, reg_best: 118.623993
+step:  13, cost: 2.00E-03, attack: 0.998, loss: 0.245890, ce: 0.031063, reg: 107.413277, reg_best: 107.413277
+step:  14, cost: 2.00E-03, attack: 0.997, loss: 0.231474, ce: 0.039922, reg: 95.776100, reg_best: 95.776100
+up cost from 2.00E-03 to 4.00E-03
+step:  15, cost: 4.00E-03, attack: 1.000, loss: 0.351213, ce: 0.003935, reg: 86.819519, reg_best: 86.819519
+step:  16, cost: 4.00E-03, attack: 0.998, loss: 0.347594, ce: 0.029763, reg: 79.457832, reg_best: 79.457832
+step:  17, cost: 4.00E-03, attack: 0.996, loss: 0.386357, ce: 0.075860, reg: 77.624245, reg_best: 77.624245
+step:  18, cost: 4.00E-03, attack: 0.999, loss: 0.329127, ce: 0.013905, reg: 78.805649, reg_best: 77.624245
+step:  19, cost: 4.00E-03, attack: 0.999, loss: 0.320309, ce: 0.023385, reg: 74.230896, reg_best: 74.230896
+up cost from 4.00E-03 to 8.00E-03
+step:  20, cost: 8.00E-03, attack: 0.998, loss: 0.601989, ce: 0.040727, reg: 70.115028, reg_best: 70.115028
+step:  21, cost: 8.00E-03, attack: 0.999, loss: 0.558316, ce: 0.029510, reg: 66.100670, reg_best: 66.100670
+step:  22, cost: 8.00E-03, attack: 0.994, loss: 0.615803, ce: 0.093871, reg: 65.241486, reg_best: 65.241486
+step:  23, cost: 8.00E-03, attack: 0.998, loss: 0.544011, ce: 0.041757, reg: 62.781822, reg_best: 62.781822
+step:  24, cost: 8.00E-03, attack: 0.996, loss: 0.575910, ce: 0.060319, reg: 64.448906, reg_best: 62.781822
+up cost from 8.00E-03 to 1.60E-02
+step:  25, cost: 1.60E-02, attack: 0.995, loss: 1.070056, ce: 0.098383, reg: 60.729572, reg_best: 60.729572
+step:  26, cost: 1.60E-02, attack: 0.994, loss: 1.070258, ce: 0.103543, reg: 60.419678, reg_best: 60.419678
+step:  27, cost: 1.60E-02, attack: 0.991, loss: 1.108835, ce: 0.152043, reg: 59.799473, reg_best: 59.799473
+step:  28, cost: 1.60E-02, attack: 0.996, loss: 0.985448, ce: 0.065998, reg: 57.465656, reg_best: 57.465656
+step:  29, cost: 1.60E-02, attack: 0.995, loss: 1.011177, ce: 0.087158, reg: 57.751198, reg_best: 57.465656
+up cost from 1.60E-02 to 3.20E-02
+step:  30, cost: 3.20E-02, attack: 0.991, loss: 1.909907, ce: 0.149137, reg: 55.024078, reg_best: 55.024078
+step:  31, cost: 3.20E-02, attack: 0.994, loss: 1.861793, ce: 0.120612, reg: 54.411903, reg_best: 54.411903
+step:  32, cost: 3.20E-02, attack: 0.986, loss: 1.938016, ce: 0.225801, reg: 53.506714, reg_best: 54.411903
+step:  33, cost: 3.20E-02, attack: 0.991, loss: 1.889348, ce: 0.143847, reg: 54.545952, reg_best: 54.411903
+step:  34, cost: 3.20E-02, attack: 0.994, loss: 1.896851, ce: 0.094787, reg: 56.314495, reg_best: 54.411903
+step:  35, cost: 3.20E-02, attack: 0.984, loss: 1.884643, ce: 0.231652, reg: 51.655956, reg_best: 54.411903
+step:  36, cost: 3.20E-02, attack: 0.988, loss: 1.906759, ce: 0.217510, reg: 52.789036, reg_best: 54.411903
+step:  37, cost: 3.20E-02, attack: 0.995, loss: 1.832772, ce: 0.076107, reg: 54.895767, reg_best: 54.411903
+step:  38, cost: 3.20E-02, attack: 0.972, loss: 2.063224, ce: 0.502907, reg: 48.759911, reg_best: 54.411903
+step:  39, cost: 3.20E-02, attack: 0.992, loss: 1.904602, ce: 0.140170, reg: 55.138519, reg_best: 54.411903
+step:  40, cost: 3.20E-02, attack: 0.993, loss: 1.890023, ce: 0.124306, reg: 55.178665, reg_best: 54.411903
+step:  41, cost: 3.20E-02, attack: 0.986, loss: 1.933759, ce: 0.227909, reg: 53.307816, reg_best: 54.411903
+step:  42, cost: 3.20E-02, attack: 0.985, loss: 1.926233, ce: 0.267190, reg: 51.845085, reg_best: 54.411903
+step:  43, cost: 3.20E-02, attack: 0.988, loss: 1.910798, ce: 0.215937, reg: 52.964420, reg_best: 54.411903
+step:  44, cost: 3.20E-02, attack: 0.989, loss: 1.902240, ce: 0.198750, reg: 53.234074, reg_best: 54.411903
+step:  45, cost: 3.20E-02, attack: 0.988, loss: 1.883960, ce: 0.197642, reg: 52.697414, reg_best: 54.411903
+down cost from 3.20E-02 to 1.13E-02
+step:  46, cost: 1.13E-02, attack: 0.994, loss: 0.738591, ce: 0.093115, reg: 57.048378, reg_best: 54.411903
+step:  47, cost: 1.13E-02, attack: 0.994, loss: 0.713369, ce: 0.097161, reg: 54.465595, reg_best: 54.411903
+step:  48, cost: 1.13E-02, attack: 0.998, loss: 0.700197, ce: 0.049354, reg: 57.526936, reg_best: 54.411903
+step:  49, cost: 1.13E-02, attack: 0.998, loss: 0.670171, ce: 0.032167, reg: 56.392086, reg_best: 54.411903
+step:  50, cost: 1.13E-02, attack: 0.993, loss: 0.730623, ce: 0.116932, reg: 54.243137, reg_best: 54.243137
+up cost from 1.13E-02 to 2.26E-02
+step:  51, cost: 2.26E-02, attack: 0.991, loss: 1.341005, ce: 0.144177, reg: 52.892830, reg_best: 52.892830
+step:  52, cost: 2.26E-02, attack: 0.984, loss: 1.435656, ce: 0.249827, reg: 52.406742, reg_best: 52.892830
+step:  53, cost: 2.26E-02, attack: 0.995, loss: 1.334761, ce: 0.078161, reg: 55.534378, reg_best: 52.892830
+step:  54, cost: 2.26E-02, attack: 0.993, loss: 1.335043, ce: 0.121584, reg: 53.627808, reg_best: 52.892830
+step:  55, cost: 2.26E-02, attack: 0.990, loss: 1.419692, ce: 0.182050, reg: 54.696552, reg_best: 52.892830
+step:  56, cost: 2.26E-02, attack: 0.996, loss: 1.338793, ce: 0.069143, reg: 56.111107, reg_best: 52.892830
+step:  57, cost: 2.26E-02, attack: 0.993, loss: 1.329746, ce: 0.103761, reg: 54.181423, reg_best: 52.892830
+step:  58, cost: 2.26E-02, attack: 0.980, loss: 1.513133, ce: 0.318483, reg: 52.808933, reg_best: 52.892830
+step:  59, cost: 2.26E-02, attack: 0.990, loss: 1.352428, ce: 0.167666, reg: 52.359612, reg_best: 52.892830
+step:  60, cost: 2.26E-02, attack: 0.996, loss: 1.265607, ce: 0.098809, reg: 51.565662, reg_best: 51.565662
+step:  61, cost: 2.26E-02, attack: 0.994, loss: 1.344786, ce: 0.115015, reg: 54.348705, reg_best: 51.565662
+step:  62, cost: 2.26E-02, attack: 0.997, loss: 1.289510, ce: 0.063191, reg: 54.196129, reg_best: 51.565662
+step:  63, cost: 2.26E-02, attack: 0.993, loss: 1.352285, ce: 0.130813, reg: 53.981956, reg_best: 51.565662
+step:  64, cost: 2.26E-02, attack: 0.997, loss: 1.285761, ce: 0.052312, reg: 54.511242, reg_best: 51.565662
+up cost from 2.26E-02 to 4.53E-02
+step:  65, cost: 4.53E-02, attack: 0.975, loss: 2.667219, ce: 0.401435, reg: 50.067223, reg_best: 51.565662
+step:  66, cost: 4.53E-02, attack: 0.988, loss: 2.460425, ce: 0.191979, reg: 50.126045, reg_best: 51.565662
+step:  67, cost: 4.53E-02, attack: 0.982, loss: 2.543951, ce: 0.316092, reg: 49.229198, reg_best: 51.565662
+step:  68, cost: 4.53E-02, attack: 0.989, loss: 2.515892, ce: 0.172737, reg: 51.776882, reg_best: 51.565662
+step:  69, cost: 4.53E-02, attack: 0.981, loss: 2.636693, ce: 0.312375, reg: 51.360668, reg_best: 51.565662
+down cost from 4.53E-02 to 1.60E-02
+step:  70, cost: 1.60E-02, attack: 0.996, loss: 0.922978, ce: 0.082014, reg: 52.560207, reg_best: 51.565662
+step:  71, cost: 1.60E-02, attack: 0.998, loss: 0.911520, ce: 0.051996, reg: 53.719437, reg_best: 51.565662
+step:  72, cost: 1.60E-02, attack: 0.990, loss: 1.010351, ce: 0.170751, reg: 52.474987, reg_best: 51.565662
+step:  73, cost: 1.60E-02, attack: 0.991, loss: 0.992350, ce: 0.148560, reg: 52.736855, reg_best: 51.565662
+step:  74, cost: 1.60E-02, attack: 0.990, loss: 1.021478, ce: 0.149709, reg: 54.485542, reg_best: 51.565662
+step:  75, cost: 1.60E-02, attack: 0.991, loss: 0.991092, ce: 0.153975, reg: 52.319817, reg_best: 51.565662
+step:  76, cost: 1.60E-02, attack: 0.993, loss: 0.994480, ce: 0.122743, reg: 54.483555, reg_best: 51.565662
+step:  77, cost: 1.60E-02, attack: 0.998, loss: 0.944377, ce: 0.039033, reg: 56.583977, reg_best: 51.565662
+step:  78, cost: 1.60E-02, attack: 0.997, loss: 0.931223, ce: 0.049946, reg: 55.079762, reg_best: 51.565662
+step:  79, cost: 1.60E-02, attack: 0.992, loss: 1.002628, ce: 0.136656, reg: 54.123264, reg_best: 51.565662
+up cost from 1.60E-02 to 3.20E-02
+step:  80, cost: 3.20E-02, attack: 0.993, loss: 1.838252, ce: 0.122178, reg: 53.627300, reg_best: 51.565662
+step:  81, cost: 3.20E-02, attack: 0.987, loss: 1.861397, ce: 0.209452, reg: 51.623260, reg_best: 51.565662
+step:  82, cost: 3.20E-02, attack: 0.994, loss: 1.839859, ce: 0.111662, reg: 54.006176, reg_best: 51.565662
+step:  83, cost: 3.20E-02, attack: 0.991, loss: 1.810995, ce: 0.126138, reg: 52.651787, reg_best: 51.565662
+step:  84, cost: 3.20E-02, attack: 0.982, loss: 1.914058, ce: 0.296316, reg: 50.544472, reg_best: 51.565662
+step:  85, cost: 3.20E-02, attack: 0.989, loss: 1.824048, ce: 0.198840, reg: 50.787735, reg_best: 51.565662
+early stop
+pattern, shape: (32, 32, 3), min: -0.000015, max: 255.000031
+mask, shape: (32, 32), min: -0.000000, max: 1.000000
+mask norm of label 0: 54.703178
+visualization cost 78.667962 seconds
+processing label 1
+resetting state
+mask_tanh -3.916911918960324 4.436663146515911
+pattern_tanh -3.6076802325295696 4.40319662337642
+step:   0, cost: 0.00E+00, attack: 0.903, loss: 1.563096, ce: 1.563096, reg: 544.625854, reg_best: inf
+step:   1, cost: 0.00E+00, attack: 1.000, loss: 0.002167, ce: 0.002167, reg: 556.275574, reg_best: 556.275574
+step:   2, cost: 0.00E+00, attack: 1.000, loss: 0.000004, ce: 0.000004, reg: 564.148865, reg_best: 556.275574
+step:   3, cost: 0.00E+00, attack: 1.000, loss: 0.000056, ce: 0.000056, reg: 565.748474, reg_best: 556.275574
+step:   4, cost: 0.00E+00, attack: 1.000, loss: 0.000000, ce: 0.000000, reg: 568.459534, reg_best: 556.275574
+step:   5, cost: 0.00E+00, attack: 1.000, loss: 0.000000, ce: 0.000000, reg: 568.558228, reg_best: 556.275574
+initialize cost to 1.00E-03
+step:   6, cost: 1.00E-03, attack: 0.999, loss: 0.370191, ce: 0.020949, reg: 349.242096, reg_best: 349.242096
+step:   7, cost: 1.00E-03, attack: 0.998, loss: 0.260813, ce: 0.030151, reg: 230.662292, reg_best: 230.662292
+step:   8, cost: 1.00E-03, attack: 0.999, loss: 0.208274, ce: 0.023904, reg: 184.369476, reg_best: 184.369476
+step:   9, cost: 1.00E-03, attack: 0.998, loss: 0.192173, ce: 0.034109, reg: 158.064087, reg_best: 158.064087
+up cost from 1.00E-03 to 2.00E-03
+step:  10, cost: 2.00E-03, attack: 0.999, loss: 0.297596, ce: 0.023950, reg: 136.822693, reg_best: 136.822693
+step:  11, cost: 2.00E-03, attack: 0.999, loss: 0.258821, ce: 0.019152, reg: 119.926346, reg_best: 119.926346
+step:  12, cost: 2.00E-03, attack: 0.998, loss: 0.249382, ce: 0.030305, reg: 109.538826, reg_best: 109.538826
+step:  13, cost: 2.00E-03, attack: 0.999, loss: 0.232375, ce: 0.018866, reg: 106.754044, reg_best: 106.754044
+step:  14, cost: 2.00E-03, attack: 0.997, loss: 0.230292, ce: 0.027798, reg: 101.247208, reg_best: 101.247208
+up cost from 2.00E-03 to 4.00E-03
+step:  15, cost: 4.00E-03, attack: 0.996, loss: 0.432795, ce: 0.067104, reg: 91.422935, reg_best: 91.422935
+step:  16, cost: 4.00E-03, attack: 0.996, loss: 0.406477, ce: 0.065452, reg: 85.256256, reg_best: 85.256256
+step:  17, cost: 4.00E-03, attack: 0.998, loss: 0.374910, ce: 0.032750, reg: 85.540016, reg_best: 85.256256
+step:  18, cost: 4.00E-03, attack: 0.996, loss: 0.404199, ce: 0.073055, reg: 82.785973, reg_best: 82.785973
+step:  19, cost: 4.00E-03, attack: 0.998, loss: 0.386216, ce: 0.037487, reg: 87.182304, reg_best: 82.785973
+up cost from 4.00E-03 to 8.00E-03
+step:  20, cost: 8.00E-03, attack: 0.994, loss: 0.756543, ce: 0.092749, reg: 82.974228, reg_best: 82.785973
+step:  21, cost: 8.00E-03, attack: 0.998, loss: 0.701281, ce: 0.030614, reg: 83.833351, reg_best: 82.785973
+step:  22, cost: 8.00E-03, attack: 0.998, loss: 0.662640, ce: 0.045332, reg: 77.163498, reg_best: 77.163498
+step:  23, cost: 8.00E-03, attack: 0.999, loss: 0.617787, ce: 0.018892, reg: 74.823761, reg_best: 74.823761
+step:  24, cost: 8.00E-03, attack: 0.996, loss: 0.643876, ce: 0.077293, reg: 70.822891, reg_best: 70.822891
+up cost from 8.00E-03 to 1.60E-02
+step:  25, cost: 1.60E-02, attack: 0.988, loss: 1.253725, ce: 0.187468, reg: 66.641075, reg_best: 70.822891
+step:  26, cost: 1.60E-02, attack: 0.991, loss: 1.203212, ce: 0.155731, reg: 65.467552, reg_best: 65.467552
+step:  27, cost: 1.60E-02, attack: 0.994, loss: 1.153347, ce: 0.090757, reg: 66.411850, reg_best: 65.467552
+step:  28, cost: 1.60E-02, attack: 0.998, loss: 1.151924, ce: 0.041875, reg: 69.378090, reg_best: 65.467552
+step:  29, cost: 1.60E-02, attack: 0.995, loss: 1.134461, ce: 0.076846, reg: 66.100906, reg_best: 65.467552
+step:  30, cost: 1.60E-02, attack: 0.989, loss: 1.197906, ce: 0.160500, reg: 64.837891, reg_best: 65.467552
+step:  31, cost: 1.60E-02, attack: 0.995, loss: 1.094217, ce: 0.084641, reg: 63.098473, reg_best: 63.098473
+step:  32, cost: 1.60E-02, attack: 0.996, loss: 1.084705, ce: 0.081334, reg: 62.710651, reg_best: 62.710651
+step:  33, cost: 1.60E-02, attack: 0.996, loss: 1.080358, ce: 0.075001, reg: 62.834843, reg_best: 62.710651
+step:  34, cost: 1.60E-02, attack: 0.991, loss: 1.066300, ce: 0.163971, reg: 56.395531, reg_best: 56.395531
+step:  35, cost: 1.60E-02, attack: 0.993, loss: 1.055591, ce: 0.127701, reg: 57.993118, reg_best: 56.395531
+up cost from 1.60E-02 to 3.20E-02
+step:  36, cost: 3.20E-02, attack: 0.990, loss: 1.897525, ce: 0.188046, reg: 53.429440, reg_best: 56.395531
+step:  37, cost: 3.20E-02, attack: 0.991, loss: 1.840031, ce: 0.167802, reg: 52.257130, reg_best: 52.257130
+step:  38, cost: 3.20E-02, attack: 0.990, loss: 1.849668, ce: 0.175120, reg: 52.329632, reg_best: 52.257130
+step:  39, cost: 3.20E-02, attack: 0.990, loss: 1.833290, ce: 0.166940, reg: 52.073452, reg_best: 52.257130
+step:  40, cost: 3.20E-02, attack: 0.990, loss: 1.812788, ce: 0.156573, reg: 51.756699, reg_best: 52.257130
+step:  41, cost: 3.20E-02, attack: 0.991, loss: 1.823615, ce: 0.147573, reg: 52.376308, reg_best: 52.257130
+step:  42, cost: 3.20E-02, attack: 0.991, loss: 1.727895, ce: 0.160540, reg: 48.979816, reg_best: 48.979816
+step:  43, cost: 3.20E-02, attack: 0.991, loss: 1.707228, ce: 0.166186, reg: 48.157562, reg_best: 48.157562
+step:  44, cost: 3.20E-02, attack: 0.986, loss: 1.738603, ce: 0.234631, reg: 46.999134, reg_best: 48.157562
+step:  45, cost: 3.20E-02, attack: 0.988, loss: 1.726020, ce: 0.192236, reg: 47.930767, reg_best: 48.157562
+step:  46, cost: 3.20E-02, attack: 0.990, loss: 1.662632, ce: 0.180234, reg: 46.324944, reg_best: 48.157562
+step:  47, cost: 3.20E-02, attack: 0.982, loss: 1.774336, ce: 0.275868, reg: 46.827126, reg_best: 48.157562
+step:  48, cost: 3.20E-02, attack: 0.981, loss: 1.808111, ce: 0.303499, reg: 47.019138, reg_best: 48.157562
+down cost from 3.20E-02 to 1.13E-02
+step:  49, cost: 1.13E-02, attack: 0.996, loss: 0.643616, ce: 0.079429, reg: 49.866692, reg_best: 48.157562
+step:  50, cost: 1.13E-02, attack: 0.996, loss: 0.657582, ce: 0.077028, reg: 51.314171, reg_best: 48.157562
+step:  51, cost: 1.13E-02, attack: 0.998, loss: 0.617237, ce: 0.043134, reg: 50.744030, reg_best: 48.157562
+step:  52, cost: 1.13E-02, attack: 0.992, loss: 0.678570, ce: 0.116864, reg: 49.648331, reg_best: 48.157562
+step:  53, cost: 1.13E-02, attack: 0.991, loss: 0.695973, ce: 0.163171, reg: 47.093475, reg_best: 47.093475
+up cost from 1.13E-02 to 2.26E-02
+step:  54, cost: 2.26E-02, attack: 0.991, loss: 1.217442, ce: 0.137541, reg: 47.725334, reg_best: 47.093475
+step:  55, cost: 2.26E-02, attack: 0.990, loss: 1.214131, ce: 0.175147, reg: 45.917011, reg_best: 47.093475
+step:  56, cost: 2.26E-02, attack: 0.987, loss: 1.258413, ce: 0.207262, reg: 46.454769, reg_best: 47.093475
+step:  57, cost: 2.26E-02, attack: 0.986, loss: 1.263352, ce: 0.223823, reg: 45.941151, reg_best: 47.093475
+step:  58, cost: 2.26E-02, attack: 0.990, loss: 1.257263, ce: 0.180923, reg: 47.567944, reg_best: 47.093475
+step:  59, cost: 2.26E-02, attack: 0.989, loss: 1.248466, ce: 0.166406, reg: 47.820755, reg_best: 47.093475
+down cost from 2.26E-02 to 8.00E-03
+step:  60, cost: 8.00E-03, attack: 0.995, loss: 0.467964, ce: 0.074153, reg: 49.226448, reg_best: 47.093475
+step:  61, cost: 8.00E-03, attack: 0.995, loss: 0.472882, ce: 0.072635, reg: 50.030838, reg_best: 47.093475
+step:  62, cost: 8.00E-03, attack: 0.994, loss: 0.489898, ce: 0.103307, reg: 48.328175, reg_best: 47.093475
+step:  63, cost: 8.00E-03, attack: 0.994, loss: 0.501993, ce: 0.106343, reg: 49.456257, reg_best: 47.093475
+step:  64, cost: 8.00E-03, attack: 0.996, loss: 0.470854, ce: 0.058952, reg: 51.487713, reg_best: 47.093475
+up cost from 8.00E-03 to 1.60E-02
+step:  65, cost: 1.60E-02, attack: 0.994, loss: 0.923965, ce: 0.117859, reg: 50.381676, reg_best: 47.093475
+step:  66, cost: 1.60E-02, attack: 0.995, loss: 0.832633, ce: 0.079815, reg: 47.051136, reg_best: 47.051136
+step:  67, cost: 1.60E-02, attack: 0.994, loss: 0.870628, ce: 0.088672, reg: 48.872219, reg_best: 47.051136
+step:  68, cost: 1.60E-02, attack: 0.995, loss: 0.882073, ce: 0.101181, reg: 48.805729, reg_best: 47.051136
+step:  69, cost: 1.60E-02, attack: 0.989, loss: 0.945331, ce: 0.175814, reg: 48.094772, reg_best: 47.051136
+step:  70, cost: 1.60E-02, attack: 0.991, loss: 0.911112, ce: 0.130489, reg: 48.788895, reg_best: 47.051136
+step:  71, cost: 1.60E-02, attack: 0.991, loss: 0.906506, ce: 0.129227, reg: 48.579964, reg_best: 47.051136
+step:  72, cost: 1.60E-02, attack: 0.994, loss: 0.866655, ce: 0.109949, reg: 47.294140, reg_best: 47.051136
+step:  73, cost: 1.60E-02, attack: 0.995, loss: 0.851533, ce: 0.084821, reg: 47.919506, reg_best: 47.051136
+step:  74, cost: 1.60E-02, attack: 0.991, loss: 0.878373, ce: 0.134608, reg: 46.495529, reg_best: 46.495529
+up cost from 1.60E-02 to 3.20E-02
+step:  75, cost: 3.20E-02, attack: 0.992, loss: 1.609964, ce: 0.138114, reg: 45.995323, reg_best: 45.995323
+step:  76, cost: 3.20E-02, attack: 0.985, loss: 1.697132, ce: 0.246206, reg: 45.341419, reg_best: 45.995323
+step:  77, cost: 3.20E-02, attack: 0.989, loss: 1.637928, ce: 0.179640, reg: 45.571533, reg_best: 45.995323
+step:  78, cost: 3.20E-02, attack: 0.991, loss: 1.597641, ce: 0.139638, reg: 45.562588, reg_best: 45.562588
+step:  79, cost: 3.20E-02, attack: 0.988, loss: 1.626174, ce: 0.179941, reg: 45.194786, reg_best: 45.562588
+step:  80, cost: 3.20E-02, attack: 0.983, loss: 1.705947, ce: 0.261726, reg: 45.131908, reg_best: 45.562588
+step:  81, cost: 3.20E-02, attack: 0.989, loss: 1.660612, ce: 0.176379, reg: 46.382271, reg_best: 45.562588
+step:  82, cost: 3.20E-02, attack: 0.995, loss: 1.571471, ce: 0.096077, reg: 46.106041, reg_best: 45.562588
+step:  83, cost: 3.20E-02, attack: 0.979, loss: 1.703213, ce: 0.314425, reg: 43.399616, reg_best: 45.562588
+step:  84, cost: 3.20E-02, attack: 0.990, loss: 1.652915, ce: 0.160554, reg: 46.636269, reg_best: 45.562588
+step:  85, cost: 3.20E-02, attack: 0.984, loss: 1.668794, ce: 0.266798, reg: 43.812378, reg_best: 45.562588
+step:  86, cost: 3.20E-02, attack: 0.984, loss: 1.660418, ce: 0.254976, reg: 43.920063, reg_best: 45.562588
+step:  87, cost: 3.20E-02, attack: 0.989, loss: 1.649418, ce: 0.190662, reg: 45.598740, reg_best: 45.562588
+down cost from 3.20E-02 to 1.13E-02
+step:  88, cost: 1.13E-02, attack: 0.987, loss: 0.750708, ce: 0.207296, reg: 48.031277, reg_best: 45.562588
+step:  89, cost: 1.13E-02, attack: 0.994, loss: 0.630248, ce: 0.099206, reg: 46.937866, reg_best: 45.562588
+step:  90, cost: 1.13E-02, attack: 0.994, loss: 0.625265, ce: 0.094377, reg: 46.924274, reg_best: 45.562588
+step:  91, cost: 1.13E-02, attack: 0.992, loss: 0.666440, ce: 0.132214, reg: 47.219357, reg_best: 45.562588
+step:  92, cost: 1.13E-02, attack: 0.993, loss: 0.647093, ce: 0.116437, reg: 46.903816, reg_best: 45.562588
+step:  93, cost: 1.13E-02, attack: 0.990, loss: 0.666723, ce: 0.158840, reg: 44.890987, reg_best: 45.562588
+step:  94, cost: 1.13E-02, attack: 0.995, loss: 0.613675, ce: 0.091972, reg: 46.112415, reg_best: 45.562588
+step:  95, cost: 1.13E-02, attack: 0.987, loss: 0.739897, ce: 0.205534, reg: 47.231403, reg_best: 45.562588
+step:  96, cost: 1.13E-02, attack: 0.998, loss: 0.612468, ce: 0.051716, reg: 49.563953, reg_best: 45.562588
+step:  97, cost: 1.13E-02, attack: 0.995, loss: 0.650440, ce: 0.093737, reg: 49.206013, reg_best: 45.562588
+step:  98, cost: 1.13E-02, attack: 0.993, loss: 0.664093, ce: 0.112096, reg: 48.790131, reg_best: 45.562588
+step:  99, cost: 1.13E-02, attack: 1.000, loss: 0.585705, ce: 0.015612, reg: 50.389496, reg_best: 45.562588
+step: 100, cost: 1.13E-02, attack: 0.995, loss: 0.639630, ce: 0.077026, reg: 49.741619, reg_best: 45.562588
+up cost from 1.13E-02 to 2.26E-02
+step: 101, cost: 2.26E-02, attack: 0.995, loss: 1.174272, ce: 0.101140, reg: 47.426205, reg_best: 45.562588
+step: 102, cost: 2.26E-02, attack: 0.993, loss: 1.212031, ce: 0.114646, reg: 48.498024, reg_best: 45.562588
+step: 103, cost: 2.26E-02, attack: 0.988, loss: 1.240610, ce: 0.194428, reg: 46.235130, reg_best: 45.562588
+early stop
+pattern, shape: (32, 32, 3), min: -0.000015, max: 255.000000
+mask, shape: (32, 32), min: -0.000000, max: 1.000000
+mask norm of label 1: 45.035961
+visualization cost 94.529003 seconds
+processing label 2
+resetting state
+mask_tanh -4.250869281502305 3.9571041042995145
+pattern_tanh -4.606474017180532 4.070058605055512
+step:   0, cost: 0.00E+00, attack: 0.926, loss: 1.256481, ce: 1.256481, reg: 539.201111, reg_best: inf
+step:   1, cost: 0.00E+00, attack: 1.000, loss: 0.002693, ce: 0.002693, reg: 554.624390, reg_best: 554.624390
+step:   2, cost: 0.00E+00, attack: 1.000, loss: 0.000180, ce: 0.000180, reg: 562.021851, reg_best: 554.624390
+step:   3, cost: 0.00E+00, attack: 1.000, loss: 0.000020, ce: 0.000020, reg: 567.238525, reg_best: 554.624390
+step:   4, cost: 0.00E+00, attack: 1.000, loss: 0.000000, ce: 0.000000, reg: 567.499634, reg_best: 554.624390
+step:   5, cost: 0.00E+00, attack: 1.000, loss: 0.000000, ce: 0.000000, reg: 567.994934, reg_best: 554.624390
+initialize cost to 1.00E-03
+step:   6, cost: 1.00E-03, attack: 0.999, loss: 0.383031, ce: 0.026005, reg: 357.025513, reg_best: 357.025513
+step:   7, cost: 1.00E-03, attack: 0.994, loss: 0.346395, ce: 0.095770, reg: 250.624298, reg_best: 250.624298
+step:   8, cost: 1.00E-03, attack: 0.999, loss: 0.232919, ce: 0.026460, reg: 206.458832, reg_best: 206.458832
+step:   9, cost: 1.00E-03, attack: 0.999, loss: 0.197137, ce: 0.016276, reg: 181.039246, reg_best: 181.039246
+up cost from 1.00E-03 to 2.00E-03
+step:  10, cost: 2.00E-03, attack: 0.996, loss: 0.366536, ce: 0.076897, reg: 144.819229, reg_best: 144.819229
+step:  11, cost: 2.00E-03, attack: 0.998, loss: 0.300465, ce: 0.028926, reg: 135.769577, reg_best: 135.769577
+step:  12, cost: 2.00E-03, attack: 0.999, loss: 0.271053, ce: 0.018983, reg: 126.035011, reg_best: 126.035011
+step:  13, cost: 2.00E-03, attack: 0.999, loss: 0.244640, ce: 0.017036, reg: 113.802277, reg_best: 113.802277
+step:  14, cost: 2.00E-03, attack: 0.999, loss: 0.237927, ce: 0.023405, reg: 107.260811, reg_best: 107.260811
+up cost from 2.00E-03 to 4.00E-03
+step:  15, cost: 4.00E-03, attack: 1.000, loss: 0.430341, ce: 0.009967, reg: 105.093544, reg_best: 105.093544
+step:  16, cost: 4.00E-03, attack: 0.998, loss: 0.416700, ce: 0.040574, reg: 94.031525, reg_best: 94.031525
+step:  17, cost: 4.00E-03, attack: 0.995, loss: 0.417636, ce: 0.081654, reg: 83.995537, reg_best: 83.995537
+step:  18, cost: 4.00E-03, attack: 0.996, loss: 0.403451, ce: 0.074312, reg: 82.284554, reg_best: 82.284554
+step:  19, cost: 4.00E-03, attack: 0.993, loss: 0.448900, ce: 0.118406, reg: 82.623337, reg_best: 82.284554
+up cost from 4.00E-03 to 8.00E-03
+step:  20, cost: 8.00E-03, attack: 0.999, loss: 0.674731, ce: 0.035500, reg: 79.903854, reg_best: 79.903854
+step:  21, cost: 8.00E-03, attack: 0.998, loss: 0.683647, ce: 0.043388, reg: 80.019478, reg_best: 79.903854
+step:  22, cost: 8.00E-03, attack: 0.997, loss: 0.661937, ce: 0.049297, reg: 76.579987, reg_best: 76.579987
+step:  23, cost: 8.00E-03, attack: 0.995, loss: 0.658214, ce: 0.094518, reg: 70.461906, reg_best: 70.461906
+step:  24, cost: 8.00E-03, attack: 0.995, loss: 0.652452, ce: 0.084162, reg: 71.036316, reg_best: 70.461906
+up cost from 8.00E-03 to 1.60E-02
+step:  25, cost: 1.60E-02, attack: 0.993, loss: 1.155925, ce: 0.107100, reg: 65.551552, reg_best: 65.551552
+step:  26, cost: 1.60E-02, attack: 0.997, loss: 1.152399, ce: 0.065562, reg: 67.927322, reg_best: 65.551552
+step:  27, cost: 1.60E-02, attack: 0.995, loss: 1.163762, ce: 0.086684, reg: 67.317322, reg_best: 65.551552
+step:  28, cost: 1.60E-02, attack: 1.000, loss: 1.095858, ce: 0.021366, reg: 67.155777, reg_best: 65.551552
+step:  29, cost: 1.60E-02, attack: 0.992, loss: 1.166857, ce: 0.133109, reg: 64.609261, reg_best: 64.609261
+up cost from 1.60E-02 to 3.20E-02
+step:  30, cost: 3.20E-02, attack: 0.988, loss: 2.210611, ce: 0.194417, reg: 63.006058, reg_best: 64.609261
+step:  31, cost: 3.20E-02, attack: 0.979, loss: 2.223493, ce: 0.370038, reg: 57.920456, reg_best: 64.609261
+step:  32, cost: 3.20E-02, attack: 0.986, loss: 2.114537, ce: 0.235709, reg: 58.713348, reg_best: 64.609261
+step:  33, cost: 3.20E-02, attack: 0.987, loss: 2.027338, ce: 0.222949, reg: 56.387169, reg_best: 64.609261
+step:  34, cost: 3.20E-02, attack: 0.971, loss: 2.202244, ce: 0.456494, reg: 54.571854, reg_best: 64.609261
+down cost from 3.20E-02 to 1.13E-02
+step:  35, cost: 1.13E-02, attack: 0.994, loss: 0.752292, ce: 0.098223, reg: 57.812031, reg_best: 57.812031
+step:  36, cost: 1.13E-02, attack: 0.995, loss: 0.768303, ce: 0.093578, reg: 59.637859, reg_best: 57.812031
+step:  37, cost: 1.13E-02, attack: 0.994, loss: 0.805349, ce: 0.108610, reg: 61.583656, reg_best: 57.812031
+step:  38, cost: 1.13E-02, attack: 0.992, loss: 0.809338, ce: 0.128610, reg: 60.168491, reg_best: 57.812031
+step:  39, cost: 1.13E-02, attack: 0.994, loss: 0.806475, ce: 0.110569, reg: 61.509991, reg_best: 57.812031
+up cost from 1.13E-02 to 2.26E-02
+step:  40, cost: 2.26E-02, attack: 0.991, loss: 1.485190, ce: 0.130860, reg: 59.853474, reg_best: 57.812031
+step:  41, cost: 2.26E-02, attack: 0.989, loss: 1.512322, ce: 0.194772, reg: 58.228024, reg_best: 57.812031
+step:  42, cost: 2.26E-02, attack: 0.991, loss: 1.435389, ce: 0.132153, reg: 57.595428, reg_best: 57.595428
+step:  43, cost: 2.26E-02, attack: 0.988, loss: 1.466051, ce: 0.207492, reg: 55.620968, reg_best: 57.595428
+step:  44, cost: 2.26E-02, attack: 0.990, loss: 1.437277, ce: 0.177161, reg: 55.689804, reg_best: 57.595428
+step:  45, cost: 2.26E-02, attack: 0.988, loss: 1.457096, ce: 0.205148, reg: 55.328793, reg_best: 57.595428
+step:  46, cost: 2.26E-02, attack: 0.982, loss: 1.569152, ce: 0.290685, reg: 56.500778, reg_best: 57.595428
+step:  47, cost: 2.26E-02, attack: 0.976, loss: 1.626223, ce: 0.419151, reg: 53.338177, reg_best: 57.595428
+down cost from 2.26E-02 to 8.00E-03
+step:  48, cost: 8.00E-03, attack: 0.994, loss: 0.577281, ce: 0.111509, reg: 58.221512, reg_best: 57.595428
+step:  49, cost: 8.00E-03, attack: 0.995, loss: 0.582295, ce: 0.102648, reg: 59.955856, reg_best: 57.595428
+step:  50, cost: 8.00E-03, attack: 0.995, loss: 0.573541, ce: 0.086233, reg: 60.913475, reg_best: 57.595428
+step:  51, cost: 8.00E-03, attack: 0.995, loss: 0.556818, ce: 0.083380, reg: 59.179714, reg_best: 57.595428
+step:  52, cost: 8.00E-03, attack: 0.995, loss: 0.581945, ce: 0.085674, reg: 62.033817, reg_best: 57.595428
+up cost from 8.00E-03 to 1.60E-02
+step:  53, cost: 1.60E-02, attack: 0.996, loss: 0.966593, ce: 0.077503, reg: 55.568123, reg_best: 55.568123
+step:  54, cost: 1.60E-02, attack: 0.987, loss: 1.112500, ce: 0.228052, reg: 55.277988, reg_best: 55.568123
+step:  55, cost: 1.60E-02, attack: 0.990, loss: 1.076198, ce: 0.167551, reg: 56.790413, reg_best: 55.568123
+step:  56, cost: 1.60E-02, attack: 0.991, loss: 1.064086, ce: 0.151547, reg: 57.033707, reg_best: 55.568123
+step:  57, cost: 1.60E-02, attack: 0.989, loss: 1.069449, ce: 0.180538, reg: 55.556950, reg_best: 55.568123
+step:  58, cost: 1.60E-02, attack: 0.987, loss: 1.080661, ce: 0.210525, reg: 54.383480, reg_best: 55.568123
+step:  59, cost: 1.60E-02, attack: 0.990, loss: 1.047160, ce: 0.157545, reg: 55.600964, reg_best: 55.568123
+step:  60, cost: 1.60E-02, attack: 0.991, loss: 1.027347, ce: 0.143263, reg: 55.238857, reg_best: 55.238857
+step:  61, cost: 1.60E-02, attack: 0.990, loss: 1.058177, ce: 0.163453, reg: 55.920223, reg_best: 55.238857
+step:  62, cost: 1.60E-02, attack: 0.992, loss: 1.030728, ce: 0.128038, reg: 56.418125, reg_best: 55.238857
+step:  63, cost: 1.60E-02, attack: 0.987, loss: 1.084584, ce: 0.208375, reg: 54.763027, reg_best: 55.238857
+step:  64, cost: 1.60E-02, attack: 0.992, loss: 1.078070, ce: 0.150809, reg: 57.953827, reg_best: 55.238857
+step:  65, cost: 1.60E-02, attack: 0.994, loss: 1.014393, ce: 0.094628, reg: 57.485352, reg_best: 55.238857
+step:  66, cost: 1.60E-02, attack: 0.994, loss: 1.004343, ce: 0.100309, reg: 56.502117, reg_best: 55.238857
+step:  67, cost: 1.60E-02, attack: 0.997, loss: 0.965236, ce: 0.050311, reg: 57.182777, reg_best: 55.238857
+step:  68, cost: 1.60E-02, attack: 0.989, loss: 1.047134, ce: 0.179561, reg: 54.223274, reg_best: 55.238857
+step:  69, cost: 1.60E-02, attack: 0.993, loss: 1.005492, ce: 0.125977, reg: 54.969685, reg_best: 54.969685
+step:  70, cost: 1.60E-02, attack: 0.993, loss: 0.991481, ce: 0.095935, reg: 55.971653, reg_best: 54.969685
+step:  71, cost: 1.60E-02, attack: 0.995, loss: 1.020537, ce: 0.093628, reg: 57.931805, reg_best: 54.969685
+step:  72, cost: 1.60E-02, attack: 0.989, loss: 1.097785, ce: 0.182332, reg: 57.217651, reg_best: 54.969685
+step:  73, cost: 1.60E-02, attack: 0.986, loss: 1.110338, ce: 0.213420, reg: 56.057365, reg_best: 54.969685
+step:  74, cost: 1.60E-02, attack: 0.993, loss: 1.027951, ce: 0.117399, reg: 56.909500, reg_best: 54.969685
+step:  75, cost: 1.60E-02, attack: 0.995, loss: 0.995430, ce: 0.074758, reg: 57.542027, reg_best: 54.969685
+step:  76, cost: 1.60E-02, attack: 0.996, loss: 1.000670, ce: 0.073814, reg: 57.928497, reg_best: 54.969685
+step:  77, cost: 1.60E-02, attack: 0.991, loss: 1.062935, ce: 0.142210, reg: 57.545296, reg_best: 54.969685
+step:  78, cost: 1.60E-02, attack: 0.998, loss: 1.019475, ce: 0.030186, reg: 61.830540, reg_best: 54.969685
+up cost from 1.60E-02 to 3.20E-02
+step:  79, cost: 3.20E-02, attack: 0.987, loss: 1.957477, ce: 0.243159, reg: 53.572426, reg_best: 54.969685
+step:  80, cost: 3.20E-02, attack: 0.988, loss: 1.924122, ce: 0.211171, reg: 53.529701, reg_best: 54.969685
+step:  81, cost: 3.20E-02, attack: 0.981, loss: 1.972291, ce: 0.310607, reg: 51.927620, reg_best: 54.969685
+step:  82, cost: 3.20E-02, attack: 0.983, loss: 2.010388, ce: 0.282263, reg: 54.003910, reg_best: 54.969685
+step:  83, cost: 3.20E-02, attack: 0.987, loss: 1.929459, ce: 0.225036, reg: 53.263210, reg_best: 54.969685
+down cost from 3.20E-02 to 1.13E-02
+step:  84, cost: 1.13E-02, attack: 0.991, loss: 0.803561, ce: 0.158742, reg: 56.994476, reg_best: 54.969685
+step:  85, cost: 1.13E-02, attack: 0.992, loss: 0.791467, ce: 0.136534, reg: 57.897430, reg_best: 54.969685
+step:  86, cost: 1.13E-02, attack: 0.991, loss: 0.788454, ce: 0.155228, reg: 55.969830, reg_best: 54.969685
+step:  87, cost: 1.13E-02, attack: 0.997, loss: 0.697961, ce: 0.065193, reg: 55.929314, reg_best: 54.969685
+step:  88, cost: 1.13E-02, attack: 0.991, loss: 0.773817, ce: 0.150330, reg: 55.109028, reg_best: 54.969685
+up cost from 1.13E-02 to 2.26E-02
+step:  89, cost: 2.26E-02, attack: 0.994, loss: 1.383664, ce: 0.095375, reg: 56.934853, reg_best: 54.969685
+step:  90, cost: 2.26E-02, attack: 0.994, loss: 1.383338, ce: 0.095931, reg: 56.895901, reg_best: 54.969685
+step:  91, cost: 2.26E-02, attack: 0.989, loss: 1.484421, ce: 0.197194, reg: 56.887939, reg_best: 54.969685
+step:  92, cost: 2.26E-02, attack: 0.985, loss: 1.482130, ce: 0.244876, reg: 54.679420, reg_best: 54.969685
+step:  93, cost: 2.26E-02, attack: 0.987, loss: 1.446105, ce: 0.215979, reg: 54.364388, reg_best: 54.969685
+step:  94, cost: 2.26E-02, attack: 0.993, loss: 1.327056, ce: 0.127402, reg: 53.017704, reg_best: 53.017704
+step:  95, cost: 2.26E-02, attack: 0.986, loss: 1.402481, ce: 0.229387, reg: 51.843918, reg_best: 53.017704
+step:  96, cost: 2.26E-02, attack: 0.981, loss: 1.513293, ce: 0.295461, reg: 53.821053, reg_best: 53.017704
+step:  97, cost: 2.26E-02, attack: 0.985, loss: 1.506226, ce: 0.265902, reg: 54.815117, reg_best: 53.017704
+step:  98, cost: 2.26E-02, attack: 0.991, loss: 1.327221, ce: 0.155845, reg: 51.771332, reg_best: 51.771332
+step:  99, cost: 2.26E-02, attack: 0.988, loss: 1.412007, ce: 0.222277, reg: 52.579136, reg_best: 51.771332
+step: 100, cost: 2.26E-02, attack: 0.990, loss: 1.421037, ce: 0.167079, reg: 55.417629, reg_best: 51.771332
+step: 101, cost: 2.26E-02, attack: 0.990, loss: 1.391241, ce: 0.147721, reg: 54.956326, reg_best: 51.771332
+step: 102, cost: 2.26E-02, attack: 0.996, loss: 1.344888, ce: 0.100452, reg: 54.996799, reg_best: 51.771332
+step: 103, cost: 2.26E-02, attack: 0.991, loss: 1.422137, ce: 0.156350, reg: 55.940411, reg_best: 51.771332
+step: 104, cost: 2.26E-02, attack: 0.993, loss: 1.435211, ce: 0.123712, reg: 57.960625, reg_best: 51.771332
+step: 105, cost: 2.26E-02, attack: 0.989, loss: 1.425481, ce: 0.182854, reg: 54.916897, reg_best: 51.771332
+step: 106, cost: 2.26E-02, attack: 0.993, loss: 1.354840, ce: 0.140274, reg: 53.676765, reg_best: 51.771332
+step: 107, cost: 2.26E-02, attack: 0.987, loss: 1.455485, ce: 0.215492, reg: 54.800499, reg_best: 51.771332
+step: 108, cost: 2.26E-02, attack: 0.991, loss: 1.390123, ce: 0.150007, reg: 54.805904, reg_best: 51.771332
+step: 109, cost: 2.26E-02, attack: 0.981, loss: 1.470420, ce: 0.280277, reg: 52.597347, reg_best: 51.771332
+step: 110, cost: 2.26E-02, attack: 0.984, loss: 1.466702, ce: 0.258548, reg: 53.383423, reg_best: 51.771332
+step: 111, cost: 2.26E-02, attack: 0.989, loss: 1.408160, ce: 0.182100, reg: 54.184673, reg_best: 51.771332
+step: 112, cost: 2.26E-02, attack: 0.991, loss: 1.375170, ce: 0.137308, reg: 54.706287, reg_best: 51.771332
+step: 113, cost: 2.26E-02, attack: 0.986, loss: 1.401619, ce: 0.245824, reg: 51.079384, reg_best: 51.771332
+step: 114, cost: 2.26E-02, attack: 0.989, loss: 1.357995, ce: 0.175894, reg: 52.241974, reg_best: 51.771332
+step: 115, cost: 2.26E-02, attack: 0.984, loss: 1.439278, ce: 0.275795, reg: 51.419167, reg_best: 51.771332
+step: 116, cost: 2.26E-02, attack: 0.967, loss: 1.660600, ce: 0.542985, reg: 49.392044, reg_best: 51.771332
+step: 117, cost: 2.26E-02, attack: 0.982, loss: 1.514034, ce: 0.291915, reg: 54.010517, reg_best: 51.771332
+down cost from 2.26E-02 to 8.00E-03
+step: 118, cost: 8.00E-03, attack: 0.988, loss: 0.644376, ce: 0.192469, reg: 56.488388, reg_best: 51.771332
+step: 119, cost: 8.00E-03, attack: 0.993, loss: 0.590228, ce: 0.118113, reg: 59.014481, reg_best: 51.771332
+step: 120, cost: 8.00E-03, attack: 0.992, loss: 0.601045, ce: 0.131212, reg: 58.729053, reg_best: 51.771332
+step: 121, cost: 8.00E-03, attack: 0.992, loss: 0.562686, ce: 0.120180, reg: 55.313335, reg_best: 51.771332
+step: 122, cost: 8.00E-03, attack: 0.992, loss: 0.574917, ce: 0.128281, reg: 55.829468, reg_best: 51.771332
+step: 123, cost: 8.00E-03, attack: 0.992, loss: 0.590582, ce: 0.126930, reg: 57.959297, reg_best: 51.771332
+early stop
+pattern, shape: (32, 32, 3), min: -0.000015, max: 255.000000
+mask, shape: (32, 32), min: -0.000000, max: 1.000000
+mask norm of label 2: 52.698444
+visualization cost 112.226804 seconds
+processing label 3
+resetting state
+mask_tanh -2.8196172695490227 2.745121557568905
+pattern_tanh -4.016654126474106 4.423255555961227
+step:   0, cost: 0.00E+00, attack: 0.892, loss: 1.802609, ce: 1.802609, reg: 533.556458, reg_best: inf
+step:   1, cost: 0.00E+00, attack: 1.000, loss: 0.002052, ce: 0.002052, reg: 547.770691, reg_best: 547.770691
+step:   2, cost: 0.00E+00, attack: 1.000, loss: 0.000003, ce: 0.000003, reg: 549.581543, reg_best: 547.770691
+step:   3, cost: 0.00E+00, attack: 1.000, loss: 0.000001, ce: 0.000001, reg: 549.697510, reg_best: 547.770691
+step:   4, cost: 0.00E+00, attack: 1.000, loss: 0.000001, ce: 0.000001, reg: 550.515564, reg_best: 547.770691
+step:   5, cost: 0.00E+00, attack: 1.000, loss: 0.000000, ce: 0.000000, reg: 550.730347, reg_best: 547.770691
+initialize cost to 1.00E-03
+step:   6, cost: 1.00E-03, attack: 0.991, loss: 0.492099, ce: 0.145966, reg: 346.133545, reg_best: 346.133545
+step:   7, cost: 1.00E-03, attack: 0.999, loss: 0.296371, ce: 0.011980, reg: 284.391174, reg_best: 284.391174
+step:   8, cost: 1.00E-03, attack: 1.000, loss: 0.237535, ce: 0.007846, reg: 229.689224, reg_best: 229.689224
+step:   9, cost: 1.00E-03, attack: 0.999, loss: 0.188861, ce: 0.016803, reg: 172.057800, reg_best: 172.057800
+up cost from 1.00E-03 to 2.00E-03
+step:  10, cost: 2.00E-03, attack: 0.997, loss: 0.300780, ce: 0.040908, reg: 129.935944, reg_best: 129.935944
+step:  11, cost: 2.00E-03, attack: 0.999, loss: 0.246589, ce: 0.017755, reg: 114.416977, reg_best: 114.416977
+step:  12, cost: 2.00E-03, attack: 0.998, loss: 0.243961, ce: 0.038898, reg: 102.552643, reg_best: 102.552643
+step:  13, cost: 2.00E-03, attack: 1.000, loss: 0.200868, ce: 0.003286, reg: 98.791046, reg_best: 98.791046
+step:  14, cost: 2.00E-03, attack: 0.998, loss: 0.207085, ce: 0.031228, reg: 87.928284, reg_best: 87.928284
+up cost from 2.00E-03 to 4.00E-03
+step:  15, cost: 4.00E-03, attack: 0.999, loss: 0.354815, ce: 0.020426, reg: 83.597092, reg_best: 83.597092
+step:  16, cost: 4.00E-03, attack: 0.997, loss: 0.353539, ce: 0.050592, reg: 75.736778, reg_best: 75.736778
+step:  17, cost: 4.00E-03, attack: 0.995, loss: 0.384164, ce: 0.084433, reg: 74.932915, reg_best: 74.932915
+step:  18, cost: 4.00E-03, attack: 0.999, loss: 0.344358, ce: 0.016110, reg: 82.061882, reg_best: 74.932915
+step:  19, cost: 4.00E-03, attack: 0.998, loss: 0.320482, ce: 0.036262, reg: 71.055031, reg_best: 71.055031
+up cost from 4.00E-03 to 8.00E-03
+step:  20, cost: 8.00E-03, attack: 0.997, loss: 0.603058, ce: 0.033934, reg: 71.140526, reg_best: 71.055031
+step:  21, cost: 8.00E-03, attack: 0.991, loss: 0.659141, ce: 0.155882, reg: 62.907391, reg_best: 62.907391
+step:  22, cost: 8.00E-03, attack: 0.996, loss: 0.596610, ce: 0.068572, reg: 66.004654, reg_best: 62.907391
+step:  23, cost: 8.00E-03, attack: 0.992, loss: 0.586248, ce: 0.125007, reg: 57.655228, reg_best: 57.655228
+step:  24, cost: 8.00E-03, attack: 0.996, loss: 0.548196, ce: 0.068072, reg: 60.015549, reg_best: 57.655228
+up cost from 8.00E-03 to 1.60E-02
+step:  25, cost: 1.60E-02, attack: 0.995, loss: 0.981107, ce: 0.078546, reg: 56.436989, reg_best: 56.436989
+step:  26, cost: 1.60E-02, attack: 0.994, loss: 0.970301, ce: 0.092258, reg: 54.877663, reg_best: 54.877663
+step:  27, cost: 1.60E-02, attack: 0.989, loss: 1.004617, ce: 0.183800, reg: 51.301064, reg_best: 54.877663
+step:  28, cost: 1.60E-02, attack: 0.991, loss: 1.005842, ce: 0.154190, reg: 53.228241, reg_best: 53.228241
+step:  29, cost: 1.60E-02, attack: 0.996, loss: 0.940854, ce: 0.062206, reg: 54.915485, reg_best: 53.228241
+step:  30, cost: 1.60E-02, attack: 0.993, loss: 0.962881, ce: 0.115203, reg: 52.979858, reg_best: 52.979858
+step:  31, cost: 1.60E-02, attack: 0.988, loss: 1.055557, ce: 0.210386, reg: 52.823200, reg_best: 52.979858
+step:  32, cost: 1.60E-02, attack: 0.995, loss: 0.955631, ce: 0.074343, reg: 55.080482, reg_best: 52.979858
+step:  33, cost: 1.60E-02, attack: 0.991, loss: 1.017987, ce: 0.135152, reg: 55.177155, reg_best: 52.979858
+step:  34, cost: 1.60E-02, attack: 0.993, loss: 0.938219, ce: 0.117874, reg: 51.271553, reg_best: 51.271553
+step:  35, cost: 1.60E-02, attack: 0.990, loss: 1.021266, ce: 0.168136, reg: 53.320560, reg_best: 51.271553
+step:  36, cost: 1.60E-02, attack: 0.989, loss: 1.020289, ce: 0.172400, reg: 52.993031, reg_best: 51.271553
+step:  37, cost: 1.60E-02, attack: 0.979, loss: 1.115576, ce: 0.344271, reg: 48.230270, reg_best: 51.271553
+step:  38, cost: 1.60E-02, attack: 0.993, loss: 0.922936, ce: 0.127415, reg: 49.720078, reg_best: 49.720078
+step:  39, cost: 1.60E-02, attack: 0.994, loss: 0.939694, ce: 0.089901, reg: 53.112072, reg_best: 49.720078
+step:  40, cost: 1.60E-02, attack: 0.981, loss: 1.119761, ce: 0.308050, reg: 50.731884, reg_best: 49.720078
+step:  41, cost: 1.60E-02, attack: 0.994, loss: 0.970426, ce: 0.098286, reg: 54.508736, reg_best: 49.720078
+step:  42, cost: 1.60E-02, attack: 0.994, loss: 0.970442, ce: 0.105077, reg: 54.085323, reg_best: 49.720078
+step:  43, cost: 1.60E-02, attack: 0.994, loss: 0.946034, ce: 0.103585, reg: 52.653046, reg_best: 49.720078
+step:  44, cost: 1.60E-02, attack: 0.992, loss: 0.932742, ce: 0.095498, reg: 52.327736, reg_best: 49.720078
+step:  45, cost: 1.60E-02, attack: 0.991, loss: 0.970561, ce: 0.150693, reg: 51.241772, reg_best: 49.720078
+up cost from 1.60E-02 to 3.20E-02
+step:  46, cost: 3.20E-02, attack: 0.981, loss: 1.931306, ce: 0.306052, reg: 50.789162, reg_best: 49.720078
+step:  47, cost: 3.20E-02, attack: 0.994, loss: 1.711988, ce: 0.090712, reg: 50.664871, reg_best: 49.720078
+step:  48, cost: 3.20E-02, attack: 0.991, loss: 1.728059, ce: 0.160121, reg: 48.998081, reg_best: 48.998081
+step:  49, cost: 3.20E-02, attack: 0.989, loss: 1.758653, ce: 0.181197, reg: 49.295506, reg_best: 48.998081
+step:  50, cost: 3.20E-02, attack: 0.988, loss: 1.729031, ce: 0.219382, reg: 47.184605, reg_best: 48.998081
+step:  51, cost: 3.20E-02, attack: 0.978, loss: 1.912496, ce: 0.343981, reg: 49.016087, reg_best: 48.998081
+step:  52, cost: 3.20E-02, attack: 0.995, loss: 1.714035, ce: 0.117926, reg: 49.878403, reg_best: 48.998081
+step:  53, cost: 3.20E-02, attack: 0.997, loss: 1.698352, ce: 0.054120, reg: 51.382236, reg_best: 48.998081
+step:  54, cost: 3.20E-02, attack: 0.995, loss: 1.710454, ce: 0.102516, reg: 50.248070, reg_best: 48.998081
+step:  55, cost: 3.20E-02, attack: 0.979, loss: 1.838331, ce: 0.350165, reg: 46.505192, reg_best: 48.998081
+step:  56, cost: 3.20E-02, attack: 0.981, loss: 1.849954, ce: 0.312613, reg: 48.041901, reg_best: 48.998081
+step:  57, cost: 3.20E-02, attack: 0.986, loss: 1.812167, ce: 0.236692, reg: 49.233574, reg_best: 48.998081
+step:  58, cost: 3.20E-02, attack: 0.988, loss: 1.751008, ce: 0.213955, reg: 48.032913, reg_best: 48.998081
+step:  59, cost: 3.20E-02, attack: 0.995, loss: 1.692124, ce: 0.119318, reg: 49.150181, reg_best: 48.998081
+step:  60, cost: 3.20E-02, attack: 0.991, loss: 1.691992, ce: 0.148312, reg: 48.239990, reg_best: 48.239990
+step:  61, cost: 3.20E-02, attack: 0.987, loss: 1.741456, ce: 0.207291, reg: 47.942627, reg_best: 48.239990
+step:  62, cost: 3.20E-02, attack: 0.985, loss: 1.823103, ce: 0.248092, reg: 49.219090, reg_best: 48.239990
+step:  63, cost: 3.20E-02, attack: 0.991, loss: 1.694713, ce: 0.180094, reg: 47.324028, reg_best: 47.324028
+step:  64, cost: 3.20E-02, attack: 0.992, loss: 1.693354, ce: 0.130714, reg: 48.832478, reg_best: 47.324028
+step:  65, cost: 3.20E-02, attack: 0.981, loss: 1.806626, ce: 0.298934, reg: 47.115391, reg_best: 47.324028
+step:  66, cost: 3.20E-02, attack: 0.984, loss: 1.812954, ce: 0.275177, reg: 48.055519, reg_best: 47.324028
+step:  67, cost: 3.20E-02, attack: 0.986, loss: 1.747493, ce: 0.228728, reg: 47.461426, reg_best: 47.324028
+step:  68, cost: 3.20E-02, attack: 0.977, loss: 1.817965, ce: 0.371926, reg: 45.188721, reg_best: 47.324028
+step:  69, cost: 3.20E-02, attack: 0.987, loss: 1.802038, ce: 0.214026, reg: 49.625347, reg_best: 47.324028
+down cost from 3.20E-02 to 1.13E-02
+step:  70, cost: 1.13E-02, attack: 0.996, loss: 0.641020, ce: 0.076912, reg: 49.860516, reg_best: 47.324028
+step:  71, cost: 1.13E-02, attack: 0.994, loss: 0.707675, ce: 0.106030, reg: 53.178410, reg_best: 47.324028
+step:  72, cost: 1.13E-02, attack: 0.996, loss: 0.645288, ce: 0.070187, reg: 50.832153, reg_best: 47.324028
+step:  73, cost: 1.13E-02, attack: 0.987, loss: 0.756427, ce: 0.208658, reg: 48.416447, reg_best: 47.324028
+step:  74, cost: 1.13E-02, attack: 0.991, loss: 0.711067, ce: 0.145471, reg: 49.992119, reg_best: 47.324028
+step:  75, cost: 1.13E-02, attack: 0.999, loss: 0.605101, ce: 0.022558, reg: 51.489944, reg_best: 47.324028
+step:  76, cost: 1.13E-02, attack: 0.993, loss: 0.677622, ce: 0.118095, reg: 49.469032, reg_best: 47.324028
+step:  77, cost: 1.13E-02, attack: 0.992, loss: 0.681751, ce: 0.131764, reg: 48.612484, reg_best: 47.324028
+step:  78, cost: 1.13E-02, attack: 0.993, loss: 0.692959, ce: 0.126552, reg: 50.063839, reg_best: 47.324028
+up cost from 1.13E-02 to 2.26E-02
+step:  79, cost: 2.26E-02, attack: 0.986, loss: 1.348783, ce: 0.226822, reg: 49.584118, reg_best: 47.324028
+step:  80, cost: 2.26E-02, attack: 0.996, loss: 1.223324, ce: 0.088712, reg: 50.143242, reg_best: 47.324028
+step:  81, cost: 2.26E-02, attack: 0.991, loss: 1.292977, ce: 0.121902, reg: 51.754723, reg_best: 47.324028
+step:  82, cost: 2.26E-02, attack: 0.990, loss: 1.276373, ce: 0.155730, reg: 49.525890, reg_best: 47.324028
+step:  83, cost: 2.26E-02, attack: 0.992, loss: 1.253112, ce: 0.134544, reg: 49.434193, reg_best: 47.324028
+step:  84, cost: 2.26E-02, attack: 0.985, loss: 1.316057, ce: 0.249254, reg: 47.146454, reg_best: 47.324028
+step:  85, cost: 2.26E-02, attack: 0.986, loss: 1.291021, ce: 0.225092, reg: 47.107822, reg_best: 47.324028
+step:  86, cost: 2.26E-02, attack: 0.988, loss: 1.302917, ce: 0.209111, reg: 48.339848, reg_best: 47.324028
+step:  87, cost: 2.26E-02, attack: 0.981, loss: 1.393393, ce: 0.316541, reg: 47.590595, reg_best: 47.324028
+step:  88, cost: 2.26E-02, attack: 0.984, loss: 1.367010, ce: 0.277479, reg: 48.147491, reg_best: 47.324028
+early stop
+pattern, shape: (32, 32, 3), min: -0.000015, max: 255.000000
+mask, shape: (32, 32), min: -0.000000, max: 1.000000
+mask norm of label 3: 49.102207
+visualization cost 81.396828 seconds
+processing label 4
+resetting state
+mask_tanh -3.4565574438288844 3.784508350566748
+pattern_tanh -4.961432695937529 5.249340636200484
+step:   0, cost: 0.00E+00, attack: 0.890, loss: 1.826535, ce: 1.826535, reg: 535.986389, reg_best: inf
+step:   1, cost: 0.00E+00, attack: 1.000, loss: 0.002576, ce: 0.002576, reg: 547.712280, reg_best: 547.712280
+step:   2, cost: 0.00E+00, attack: 1.000, loss: 0.000000, ce: 0.000000, reg: 553.611023, reg_best: 547.712280
+step:   3, cost: 0.00E+00, attack: 1.000, loss: 0.000000, ce: 0.000000, reg: 553.611206, reg_best: 547.712280
+step:   4, cost: 0.00E+00, attack: 1.000, loss: 0.000000, ce: 0.000000, reg: 553.613159, reg_best: 547.712280
+step:   5, cost: 0.00E+00, attack: 1.000, loss: 0.000000, ce: 0.000000, reg: 553.615173, reg_best: 547.712280
+initialize cost to 1.00E-03
+step:   6, cost: 1.00E-03, attack: 0.998, loss: 0.458964, ce: 0.024646, reg: 434.317902, reg_best: 434.317902
+step:   7, cost: 1.00E-03, attack: 0.997, loss: 0.359922, ce: 0.050405, reg: 309.517853, reg_best: 309.517853
+step:   8, cost: 1.00E-03, attack: 1.000, loss: 0.270409, ce: 0.005495, reg: 264.913483, reg_best: 264.913483
+step:   9, cost: 1.00E-03, attack: 0.998, loss: 0.228085, ce: 0.033282, reg: 194.803268, reg_best: 194.803268
+up cost from 1.00E-03 to 2.00E-03
+step:  10, cost: 2.00E-03, attack: 0.999, loss: 0.314986, ce: 0.028167, reg: 143.409637, reg_best: 143.409637
+step:  11, cost: 2.00E-03, attack: 0.999, loss: 0.272057, ce: 0.019792, reg: 126.132530, reg_best: 126.132530
+step:  12, cost: 2.00E-03, attack: 0.996, loss: 0.279484, ce: 0.060221, reg: 109.577858, reg_best: 109.577858
+step:  13, cost: 2.00E-03, attack: 1.000, loss: 0.230112, ce: 0.007317, reg: 111.397575, reg_best: 109.577858
+step:  14, cost: 2.00E-03, attack: 0.996, loss: 0.267948, ce: 0.062288, reg: 102.830154, reg_best: 102.830154
+up cost from 2.00E-03 to 4.00E-03
+step:  15, cost: 4.00E-03, attack: 0.995, loss: 0.445718, ce: 0.086809, reg: 89.727211, reg_best: 89.727211
+step:  16, cost: 4.00E-03, attack: 0.993, loss: 0.443882, ce: 0.110152, reg: 83.432457, reg_best: 83.432457
+step:  17, cost: 4.00E-03, attack: 0.998, loss: 0.380974, ce: 0.040898, reg: 85.019073, reg_best: 83.432457
+step:  18, cost: 4.00E-03, attack: 0.998, loss: 0.336782, ce: 0.037647, reg: 74.783768, reg_best: 74.783768
+step:  19, cost: 4.00E-03, attack: 0.995, loss: 0.392330, ce: 0.085958, reg: 76.593102, reg_best: 74.783768
+up cost from 4.00E-03 to 8.00E-03
+step:  20, cost: 8.00E-03, attack: 0.996, loss: 0.655408, ce: 0.070000, reg: 73.175941, reg_best: 73.175941
+step:  21, cost: 8.00E-03, attack: 0.988, loss: 0.739833, ce: 0.198051, reg: 67.722694, reg_best: 73.175941
+step:  22, cost: 8.00E-03, attack: 0.995, loss: 0.647097, ce: 0.087509, reg: 69.948509, reg_best: 69.948509
+step:  23, cost: 8.00E-03, attack: 0.996, loss: 0.666036, ce: 0.078387, reg: 73.456139, reg_best: 69.948509
+step:  24, cost: 8.00E-03, attack: 0.991, loss: 0.672809, ce: 0.143920, reg: 66.111115, reg_best: 66.111115
+step:  25, cost: 8.00E-03, attack: 0.998, loss: 0.589823, ce: 0.036212, reg: 69.194847, reg_best: 66.111115
+step:  26, cost: 8.00E-03, attack: 0.988, loss: 0.703854, ce: 0.202308, reg: 62.693233, reg_best: 66.111115
+step:  27, cost: 8.00E-03, attack: 0.991, loss: 0.646200, ce: 0.149825, reg: 62.046818, reg_best: 62.046818
+step:  28, cost: 8.00E-03, attack: 0.991, loss: 0.612059, ce: 0.140690, reg: 58.921074, reg_best: 58.921074
+step:  29, cost: 8.00E-03, attack: 0.992, loss: 0.609356, ce: 0.132437, reg: 59.614845, reg_best: 58.921074
+step:  30, cost: 8.00E-03, attack: 0.994, loss: 0.595120, ce: 0.090109, reg: 63.126423, reg_best: 58.921074
+step:  31, cost: 8.00E-03, attack: 0.993, loss: 0.592336, ce: 0.109385, reg: 60.368923, reg_best: 58.921074
+up cost from 8.00E-03 to 1.60E-02
+step:  32, cost: 1.60E-02, attack: 0.989, loss: 1.117732, ce: 0.188456, reg: 58.079754, reg_best: 58.921074
+step:  33, cost: 1.60E-02, attack: 0.994, loss: 1.062357, ce: 0.112717, reg: 59.352539, reg_best: 58.921074
+step:  34, cost: 1.60E-02, attack: 0.997, loss: 1.036413, ce: 0.048475, reg: 61.746124, reg_best: 58.921074
+step:  35, cost: 1.60E-02, attack: 0.988, loss: 1.091016, ce: 0.206687, reg: 55.270535, reg_best: 58.921074
+step:  36, cost: 1.60E-02, attack: 0.989, loss: 1.064778, ce: 0.169371, reg: 55.962933, reg_best: 58.921074
+step:  37, cost: 1.60E-02, attack: 0.985, loss: 1.105113, ce: 0.249802, reg: 53.456959, reg_best: 58.921074
+step:  38, cost: 1.60E-02, attack: 0.991, loss: 1.019754, ce: 0.154027, reg: 54.119480, reg_best: 54.119480
+step:  39, cost: 1.60E-02, attack: 0.991, loss: 1.015651, ce: 0.160756, reg: 53.430897, reg_best: 53.430897
+step:  40, cost: 1.60E-02, attack: 0.978, loss: 1.200626, ce: 0.357109, reg: 52.719791, reg_best: 53.430897
+step:  41, cost: 1.60E-02, attack: 0.982, loss: 1.149215, ce: 0.298272, reg: 53.183880, reg_best: 53.430897
+step:  42, cost: 1.60E-02, attack: 0.990, loss: 1.096149, ce: 0.179809, reg: 57.271271, reg_best: 53.430897
+step:  43, cost: 1.60E-02, attack: 0.982, loss: 1.133382, ce: 0.292536, reg: 52.552860, reg_best: 53.430897
+step:  44, cost: 1.60E-02, attack: 0.989, loss: 1.028503, ce: 0.181295, reg: 52.950489, reg_best: 53.430897
+down cost from 1.60E-02 to 5.66E-03
+step:  45, cost: 5.66E-03, attack: 0.991, loss: 0.466460, ce: 0.149791, reg: 55.979652, reg_best: 53.430897
+step:  46, cost: 5.66E-03, attack: 0.990, loss: 0.499688, ce: 0.172187, reg: 57.894703, reg_best: 53.430897
+step:  47, cost: 5.66E-03, attack: 0.997, loss: 0.379528, ce: 0.051895, reg: 57.917892, reg_best: 53.430897
+step:  48, cost: 5.66E-03, attack: 0.985, loss: 0.559197, ce: 0.240508, reg: 56.336777, reg_best: 53.430897
+step:  49, cost: 5.66E-03, attack: 0.994, loss: 0.424221, ce: 0.103483, reg: 56.698956, reg_best: 53.430897
+step:  50, cost: 5.66E-03, attack: 0.990, loss: 0.482398, ce: 0.153987, reg: 58.066006, reg_best: 53.430897
+step:  51, cost: 5.66E-03, attack: 0.995, loss: 0.426735, ce: 0.088513, reg: 59.789799, reg_best: 53.430897
+step:  52, cost: 5.66E-03, attack: 0.993, loss: 0.442419, ce: 0.117503, reg: 57.437500, reg_best: 53.430897
+step:  53, cost: 5.66E-03, attack: 0.991, loss: 0.459786, ce: 0.139419, reg: 56.633305, reg_best: 53.430897
+step:  54, cost: 5.66E-03, attack: 0.990, loss: 0.478417, ce: 0.158468, reg: 56.559502, reg_best: 53.430897
+step:  55, cost: 5.66E-03, attack: 0.998, loss: 0.386083, ce: 0.037159, reg: 61.681610, reg_best: 53.430897
+step:  56, cost: 5.66E-03, attack: 0.998, loss: 0.393220, ce: 0.036330, reg: 63.089859, reg_best: 53.430897
+step:  57, cost: 5.66E-03, attack: 0.996, loss: 0.421296, ce: 0.070743, reg: 61.969688, reg_best: 53.430897
+step:  58, cost: 5.66E-03, attack: 0.997, loss: 0.398143, ce: 0.054997, reg: 60.660255, reg_best: 53.430897
+step:  59, cost: 5.66E-03, attack: 0.996, loss: 0.406673, ce: 0.071168, reg: 59.309574, reg_best: 53.430897
+up cost from 5.66E-03 to 1.13E-02
+step:  60, cost: 1.13E-02, attack: 0.989, loss: 0.806141, ce: 0.177835, reg: 55.534943, reg_best: 53.430897
+step:  61, cost: 1.13E-02, attack: 0.990, loss: 0.807054, ce: 0.171354, reg: 56.188450, reg_best: 53.430897
+step:  62, cost: 1.13E-02, attack: 0.997, loss: 0.724103, ce: 0.060990, reg: 58.611435, reg_best: 53.430897
+step:  63, cost: 1.13E-02, attack: 0.994, loss: 0.733493, ce: 0.105755, reg: 55.482414, reg_best: 53.430897
+step:  64, cost: 1.13E-02, attack: 0.988, loss: 0.821398, ce: 0.201731, reg: 54.771366, reg_best: 53.430897
+early stop
+pattern, shape: (32, 32, 3), min: -0.000030, max: 255.000031
+mask, shape: (32, 32), min: -0.000000, max: 1.000000
+mask norm of label 4: 52.185825
+visualization cost 59.502110 seconds
+processing label 5
+resetting state
+mask_tanh -3.304186741363556 3.4236302023974137
+pattern_tanh -4.497133211648027 3.2250282791057514
+step:   0, cost: 0.00E+00, attack: 0.925, loss: 1.203935, ce: 1.203935, reg: 531.781250, reg_best: inf
+step:   1, cost: 0.00E+00, attack: 1.000, loss: 0.000071, ce: 0.000071, reg: 541.323364, reg_best: 541.323364
+step:   2, cost: 0.00E+00, attack: 1.000, loss: 0.000037, ce: 0.000037, reg: 542.233032, reg_best: 541.323364
+step:   3, cost: 0.00E+00, attack: 1.000, loss: 0.000162, ce: 0.000162, reg: 549.411865, reg_best: 541.323364
+step:   4, cost: 0.00E+00, attack: 1.000, loss: 0.000001, ce: 0.000001, reg: 554.078552, reg_best: 541.323364
+step:   5, cost: 0.00E+00, attack: 1.000, loss: 0.000000, ce: 0.000000, reg: 554.363953, reg_best: 541.323364
+initialize cost to 1.00E-03
+step:   6, cost: 1.00E-03, attack: 0.998, loss: 0.387252, ce: 0.034599, reg: 352.652771, reg_best: 352.652771
+step:   7, cost: 1.00E-03, attack: 1.000, loss: 0.265989, ce: 0.000817, reg: 265.172272, reg_best: 265.172272
+step:   8, cost: 1.00E-03, attack: 0.999, loss: 0.224988, ce: 0.022648, reg: 202.339859, reg_best: 202.339859
+step:   9, cost: 1.00E-03, attack: 0.997, loss: 0.217775, ce: 0.043136, reg: 174.638870, reg_best: 174.638870
+up cost from 1.00E-03 to 2.00E-03
+step:  10, cost: 2.00E-03, attack: 0.997, loss: 0.347014, ce: 0.042711, reg: 152.151489, reg_best: 152.151489
+step:  11, cost: 2.00E-03, attack: 0.998, loss: 0.328839, ce: 0.039159, reg: 144.861420, reg_best: 144.861420
+step:  12, cost: 2.00E-03, attack: 0.997, loss: 0.307501, ce: 0.051444, reg: 128.028549, reg_best: 128.028549
+step:  13, cost: 2.00E-03, attack: 0.997, loss: 0.288928, ce: 0.038432, reg: 125.248032, reg_best: 125.248032
+step:  14, cost: 2.00E-03, attack: 0.998, loss: 0.267996, ce: 0.030645, reg: 118.675926, reg_best: 118.675926
+up cost from 2.00E-03 to 4.00E-03
+step:  15, cost: 4.00E-03, attack: 0.995, loss: 0.487862, ce: 0.080554, reg: 101.827042, reg_best: 101.827042
+step:  16, cost: 4.00E-03, attack: 0.995, loss: 0.467078, ce: 0.088567, reg: 94.627701, reg_best: 94.627701
+step:  17, cost: 4.00E-03, attack: 0.998, loss: 0.409191, ce: 0.033877, reg: 93.828476, reg_best: 93.828476
+step:  18, cost: 4.00E-03, attack: 0.998, loss: 0.382908, ce: 0.037916, reg: 86.248016, reg_best: 86.248016
+step:  19, cost: 4.00E-03, attack: 0.998, loss: 0.400118, ce: 0.043933, reg: 89.046432, reg_best: 86.248016
+up cost from 4.00E-03 to 8.00E-03
+step:  20, cost: 8.00E-03, attack: 0.996, loss: 0.717264, ce: 0.071491, reg: 80.721649, reg_best: 80.721649
+step:  21, cost: 8.00E-03, attack: 0.997, loss: 0.675907, ce: 0.050505, reg: 78.175339, reg_best: 78.175339
+step:  22, cost: 8.00E-03, attack: 0.994, loss: 0.718480, ce: 0.096564, reg: 77.739540, reg_best: 77.739540
+step:  23, cost: 8.00E-03, attack: 0.990, loss: 0.750052, ce: 0.157602, reg: 74.056213, reg_best: 77.739540
+step:  24, cost: 8.00E-03, attack: 0.994, loss: 0.690661, ce: 0.114514, reg: 72.016602, reg_best: 72.016602
+step:  25, cost: 8.00E-03, attack: 0.994, loss: 0.689979, ce: 0.103615, reg: 73.295464, reg_best: 72.016602
+step:  26, cost: 8.00E-03, attack: 0.992, loss: 0.703410, ce: 0.118055, reg: 73.169441, reg_best: 72.016602
+step:  27, cost: 8.00E-03, attack: 0.995, loss: 0.683897, ce: 0.099445, reg: 73.056488, reg_best: 72.016602
+step:  28, cost: 8.00E-03, attack: 0.997, loss: 0.639161, ce: 0.062065, reg: 72.136963, reg_best: 72.016602
+up cost from 8.00E-03 to 1.60E-02
+step:  29, cost: 1.60E-02, attack: 0.989, loss: 1.216967, ce: 0.178684, reg: 64.892731, reg_best: 72.016602
+step:  30, cost: 1.60E-02, attack: 0.987, loss: 1.234541, ce: 0.212348, reg: 63.887074, reg_best: 72.016602
+step:  31, cost: 1.60E-02, attack: 0.993, loss: 1.162838, ce: 0.126068, reg: 64.798119, reg_best: 64.798119
+step:  32, cost: 1.60E-02, attack: 0.997, loss: 1.121936, ce: 0.075058, reg: 65.429916, reg_best: 64.798119
+step:  33, cost: 1.60E-02, attack: 0.993, loss: 1.126019, ce: 0.108037, reg: 63.623898, reg_best: 63.623898
+step:  34, cost: 1.60E-02, attack: 0.987, loss: 1.146274, ce: 0.204003, reg: 58.891926, reg_best: 63.623898
+step:  35, cost: 1.60E-02, attack: 0.989, loss: 1.168722, ce: 0.205024, reg: 60.231102, reg_best: 63.623898
+step:  36, cost: 1.60E-02, attack: 0.993, loss: 1.096662, ce: 0.114864, reg: 61.369801, reg_best: 61.369801
+step:  37, cost: 1.60E-02, attack: 0.997, loss: 1.057921, ce: 0.067631, reg: 61.893154, reg_best: 61.369801
+step:  38, cost: 1.60E-02, attack: 0.992, loss: 1.096402, ce: 0.140349, reg: 59.753311, reg_best: 59.753311
+step:  39, cost: 1.60E-02, attack: 0.994, loss: 1.117257, ce: 0.109013, reg: 63.015244, reg_best: 59.753311
+step:  40, cost: 1.60E-02, attack: 0.986, loss: 1.206330, ce: 0.219237, reg: 61.693287, reg_best: 59.753311
+step:  41, cost: 1.60E-02, attack: 0.994, loss: 1.081481, ce: 0.101222, reg: 61.266197, reg_best: 59.753311
+step:  42, cost: 1.60E-02, attack: 0.994, loss: 1.049444, ce: 0.108549, reg: 58.805923, reg_best: 58.805923
+step:  43, cost: 1.60E-02, attack: 0.984, loss: 1.167038, ce: 0.254770, reg: 57.016811, reg_best: 58.805923
+step:  44, cost: 1.60E-02, attack: 0.991, loss: 1.088972, ce: 0.151524, reg: 58.590454, reg_best: 58.590454
+step:  45, cost: 1.60E-02, attack: 0.990, loss: 1.105145, ce: 0.168964, reg: 58.511299, reg_best: 58.590454
+step:  46, cost: 1.60E-02, attack: 0.994, loss: 1.072666, ce: 0.112954, reg: 59.981956, reg_best: 58.590454
+step:  47, cost: 1.60E-02, attack: 0.997, loss: 1.007595, ce: 0.053352, reg: 59.640152, reg_best: 58.590454
+step:  48, cost: 1.60E-02, attack: 0.997, loss: 0.985987, ce: 0.048463, reg: 58.595257, reg_best: 58.590454
+step:  49, cost: 1.60E-02, attack: 0.988, loss: 1.124296, ce: 0.199794, reg: 57.774078, reg_best: 58.590454
+step:  50, cost: 1.60E-02, attack: 0.998, loss: 0.980390, ce: 0.038850, reg: 58.846245, reg_best: 58.590454
+step:  51, cost: 1.60E-02, attack: 0.993, loss: 1.042513, ce: 0.099858, reg: 58.915977, reg_best: 58.590454
+step:  52, cost: 1.60E-02, attack: 0.988, loss: 1.120343, ce: 0.178546, reg: 58.862339, reg_best: 58.590454
+step:  53, cost: 1.60E-02, attack: 0.991, loss: 1.080568, ce: 0.146599, reg: 58.373066, reg_best: 58.373066
+step:  54, cost: 1.60E-02, attack: 0.991, loss: 1.068146, ce: 0.153587, reg: 57.159908, reg_best: 57.159908
+step:  55, cost: 1.60E-02, attack: 0.990, loss: 1.088783, ce: 0.180006, reg: 56.798527, reg_best: 57.159908
+step:  56, cost: 1.60E-02, attack: 0.992, loss: 1.041252, ce: 0.116297, reg: 57.809685, reg_best: 57.159908
+step:  57, cost: 1.60E-02, attack: 0.991, loss: 1.058211, ce: 0.150283, reg: 56.745499, reg_best: 56.745499
+step:  58, cost: 1.60E-02, attack: 0.991, loss: 1.085839, ce: 0.165617, reg: 57.513863, reg_best: 56.745499
+step:  59, cost: 1.60E-02, attack: 0.993, loss: 1.040387, ce: 0.106544, reg: 58.365181, reg_best: 56.745499
+step:  60, cost: 1.60E-02, attack: 0.993, loss: 1.024241, ce: 0.112497, reg: 56.984032, reg_best: 56.745499
+up cost from 1.60E-02 to 3.20E-02
+step:  61, cost: 3.20E-02, attack: 0.986, loss: 2.098597, ce: 0.236984, reg: 58.175411, reg_best: 56.745499
+step:  62, cost: 3.20E-02, attack: 0.990, loss: 1.927809, ce: 0.165971, reg: 55.063335, reg_best: 56.745499
+step:  63, cost: 3.20E-02, attack: 0.988, loss: 1.922883, ce: 0.205003, reg: 53.683727, reg_best: 56.745499
+step:  64, cost: 3.20E-02, attack: 0.987, loss: 1.915605, ce: 0.210648, reg: 53.279877, reg_best: 56.745499
+step:  65, cost: 3.20E-02, attack: 0.981, loss: 2.019187, ce: 0.311968, reg: 53.350609, reg_best: 56.745499
+down cost from 3.20E-02 to 1.13E-02
+step:  66, cost: 1.13E-02, attack: 0.990, loss: 0.809652, ce: 0.180190, reg: 55.637119, reg_best: 56.745499
+step:  67, cost: 1.13E-02, attack: 0.994, loss: 0.748052, ce: 0.100653, reg: 57.222450, reg_best: 56.745499
+step:  68, cost: 1.13E-02, attack: 0.996, loss: 0.733804, ce: 0.075078, reg: 58.223728, reg_best: 56.745499
+step:  69, cost: 1.13E-02, attack: 0.996, loss: 0.726545, ce: 0.073398, reg: 57.730568, reg_best: 56.745499
+step:  70, cost: 1.13E-02, attack: 0.996, loss: 0.750957, ce: 0.077291, reg: 59.544209, reg_best: 56.745499
+step:  71, cost: 1.13E-02, attack: 0.998, loss: 0.683104, ce: 0.041702, reg: 56.692455, reg_best: 56.692455
+up cost from 1.13E-02 to 2.26E-02
+step:  72, cost: 2.26E-02, attack: 0.989, loss: 1.417517, ce: 0.168743, reg: 55.188522, reg_best: 56.692455
+step:  73, cost: 2.26E-02, attack: 0.991, loss: 1.353745, ce: 0.157086, reg: 52.885372, reg_best: 52.885372
+step:  74, cost: 2.26E-02, attack: 0.988, loss: 1.434708, ce: 0.200561, reg: 54.542110, reg_best: 52.885372
+step:  75, cost: 2.26E-02, attack: 0.995, loss: 1.373820, ce: 0.103629, reg: 56.141975, reg_best: 52.885372
+step:  76, cost: 2.26E-02, attack: 0.989, loss: 1.418945, ce: 0.172736, reg: 55.075169, reg_best: 52.885372
+step:  77, cost: 2.26E-02, attack: 0.990, loss: 1.417327, ce: 0.196432, reg: 53.956417, reg_best: 52.885372
+step:  78, cost: 2.26E-02, attack: 0.994, loss: 1.383013, ce: 0.094370, reg: 56.950493, reg_best: 52.885372
+step:  79, cost: 2.26E-02, attack: 0.994, loss: 1.313526, ce: 0.105553, reg: 53.385357, reg_best: 52.885372
+step:  80, cost: 2.26E-02, attack: 0.990, loss: 1.416313, ce: 0.164634, reg: 55.316925, reg_best: 52.885372
+step:  81, cost: 2.26E-02, attack: 0.994, loss: 1.373958, ce: 0.099665, reg: 56.316315, reg_best: 52.885372
+step:  82, cost: 2.26E-02, attack: 0.991, loss: 1.434010, ce: 0.172637, reg: 55.745350, reg_best: 52.885372
+step:  83, cost: 2.26E-02, attack: 0.991, loss: 1.380126, ce: 0.148180, reg: 54.444790, reg_best: 52.885372
+step:  84, cost: 2.26E-02, attack: 0.989, loss: 1.412737, ce: 0.188369, reg: 54.109940, reg_best: 52.885372
+step:  85, cost: 2.26E-02, attack: 0.991, loss: 1.354921, ce: 0.140393, reg: 53.675091, reg_best: 52.885372
+step:  86, cost: 2.26E-02, attack: 0.988, loss: 1.461638, ce: 0.228795, reg: 54.484482, reg_best: 52.885372
+step:  87, cost: 2.26E-02, attack: 0.988, loss: 1.408558, ce: 0.197344, reg: 53.536865, reg_best: 52.885372
+step:  88, cost: 2.26E-02, attack: 0.986, loss: 1.423530, ce: 0.219772, reg: 53.199116, reg_best: 52.885372
+step:  89, cost: 2.26E-02, attack: 0.984, loss: 1.420712, ce: 0.249334, reg: 51.768047, reg_best: 52.885372
+step:  90, cost: 2.26E-02, attack: 0.990, loss: 1.406364, ce: 0.189915, reg: 53.759956, reg_best: 52.885372
+down cost from 2.26E-02 to 8.00E-03
+step:  91, cost: 8.00E-03, attack: 0.985, loss: 0.672308, ce: 0.240096, reg: 54.026516, reg_best: 52.885372
+step:  92, cost: 8.00E-03, attack: 0.996, loss: 0.525973, ce: 0.069957, reg: 57.001926, reg_best: 52.885372
+step:  93, cost: 8.00E-03, attack: 0.999, loss: 0.504740, ce: 0.033208, reg: 58.941570, reg_best: 52.885372
+step:  94, cost: 8.00E-03, attack: 0.996, loss: 0.535489, ce: 0.065654, reg: 58.729374, reg_best: 52.885372
+step:  95, cost: 8.00E-03, attack: 0.995, loss: 0.528704, ce: 0.071321, reg: 57.172832, reg_best: 52.885372
+step:  96, cost: 8.00E-03, attack: 0.995, loss: 0.539157, ce: 0.085177, reg: 56.747475, reg_best: 52.885372
+up cost from 8.00E-03 to 1.60E-02
+step:  97, cost: 1.60E-02, attack: 0.998, loss: 0.964922, ce: 0.029771, reg: 58.446896, reg_best: 52.885372
+step:  98, cost: 1.60E-02, attack: 0.992, loss: 1.014099, ce: 0.116277, reg: 56.113884, reg_best: 52.885372
+early stop
+pattern, shape: (32, 32, 3), min: -0.000015, max: 255.000031
+mask, shape: (32, 32), min: -0.000000, max: 1.000000
+mask norm of label 5: 52.686104
+visualization cost 90.080843 seconds
+processing label 6
+resetting state
+mask_tanh -3.722716612297594 3.5317082036486735
+pattern_tanh -4.6194581838719175 5.703393827392391
+step:   0, cost: 0.00E+00, attack: 0.871, loss: 2.133392, ce: 2.133392, reg: 557.658142, reg_best: inf
+step:   1, cost: 0.00E+00, attack: 1.000, loss: 0.000445, ce: 0.000445, reg: 574.667480, reg_best: 574.667480
+step:   2, cost: 0.00E+00, attack: 1.000, loss: 0.001539, ce: 0.001539, reg: 575.856628, reg_best: 574.667480
+step:   3, cost: 0.00E+00, attack: 1.000, loss: 0.000066, ce: 0.000066, reg: 582.678894, reg_best: 574.667480
+step:   4, cost: 0.00E+00, attack: 1.000, loss: 0.000000, ce: 0.000000, reg: 585.747253, reg_best: 574.667480
+step:   5, cost: 0.00E+00, attack: 1.000, loss: 0.000001, ce: 0.000001, reg: 585.960327, reg_best: 574.667480
+initialize cost to 1.00E-03
+step:   6, cost: 1.00E-03, attack: 0.999, loss: 0.460945, ce: 0.034611, reg: 426.333435, reg_best: 426.333435
+step:   7, cost: 1.00E-03, attack: 0.998, loss: 0.386280, ce: 0.034855, reg: 351.425049, reg_best: 351.425049
+step:   8, cost: 1.00E-03, attack: 0.999, loss: 0.310827, ce: 0.017718, reg: 293.108551, reg_best: 293.108551
+step:   9, cost: 1.00E-03, attack: 0.998, loss: 0.254512, ce: 0.036802, reg: 217.710220, reg_best: 217.710220
+up cost from 1.00E-03 to 2.00E-03
+step:  10, cost: 2.00E-03, attack: 0.999, loss: 0.400117, ce: 0.018690, reg: 190.713150, reg_best: 190.713150
+step:  11, cost: 2.00E-03, attack: 0.995, loss: 0.427197, ce: 0.074146, reg: 176.525192, reg_best: 176.525192
+step:  12, cost: 2.00E-03, attack: 0.998, loss: 0.366731, ce: 0.027276, reg: 169.727722, reg_best: 169.727722
+step:  13, cost: 2.00E-03, attack: 0.998, loss: 0.322803, ce: 0.036207, reg: 143.298233, reg_best: 143.298233
+step:  14, cost: 2.00E-03, attack: 0.997, loss: 0.311963, ce: 0.052114, reg: 129.944351, reg_best: 129.944351
+up cost from 2.00E-03 to 4.00E-03
+step:  15, cost: 4.00E-03, attack: 0.998, loss: 0.527134, ce: 0.044344, reg: 120.697495, reg_best: 120.697495
+step:  16, cost: 4.00E-03, attack: 0.996, loss: 0.525990, ce: 0.052168, reg: 118.455498, reg_best: 118.455498
+step:  17, cost: 4.00E-03, attack: 0.995, loss: 0.529103, ce: 0.088397, reg: 110.176338, reg_best: 110.176338
+step:  18, cost: 4.00E-03, attack: 0.995, loss: 0.490948, ce: 0.084323, reg: 101.656357, reg_best: 101.656357
+step:  19, cost: 4.00E-03, attack: 0.999, loss: 0.444258, ce: 0.027205, reg: 104.263245, reg_best: 101.656357
+up cost from 4.00E-03 to 8.00E-03
+step:  20, cost: 8.00E-03, attack: 0.997, loss: 0.843376, ce: 0.061331, reg: 97.755684, reg_best: 97.755684
+step:  21, cost: 8.00E-03, attack: 0.993, loss: 0.898481, ce: 0.133041, reg: 95.679970, reg_best: 95.679970
+step:  22, cost: 8.00E-03, attack: 0.997, loss: 0.815535, ce: 0.051557, reg: 95.497223, reg_best: 95.497223
+step:  23, cost: 8.00E-03, attack: 0.987, loss: 0.955625, ce: 0.214153, reg: 92.684013, reg_best: 95.497223
+step:  24, cost: 8.00E-03, attack: 0.997, loss: 0.798372, ce: 0.046084, reg: 94.036003, reg_best: 94.036003
+step:  25, cost: 8.00E-03, attack: 0.993, loss: 0.780821, ce: 0.112470, reg: 83.543900, reg_best: 83.543900
+step:  26, cost: 8.00E-03, attack: 0.996, loss: 0.770335, ce: 0.072682, reg: 87.206581, reg_best: 83.543900
+step:  27, cost: 8.00E-03, attack: 0.997, loss: 0.730997, ce: 0.047390, reg: 85.514259, reg_best: 83.543900
+step:  28, cost: 8.00E-03, attack: 0.992, loss: 0.789532, ce: 0.120381, reg: 83.643799, reg_best: 83.543900
+up cost from 8.00E-03 to 1.60E-02
+step:  29, cost: 1.60E-02, attack: 0.990, loss: 1.460788, ce: 0.163445, reg: 81.083908, reg_best: 83.543900
+step:  30, cost: 1.60E-02, attack: 0.993, loss: 1.383666, ce: 0.111125, reg: 79.533783, reg_best: 79.533783
+step:  31, cost: 1.60E-02, attack: 0.991, loss: 1.399719, ce: 0.142464, reg: 78.578407, reg_best: 78.578407
+step:  32, cost: 1.60E-02, attack: 0.993, loss: 1.391659, ce: 0.117645, reg: 79.625938, reg_best: 78.578407
+step:  33, cost: 1.60E-02, attack: 0.992, loss: 1.419294, ce: 0.148687, reg: 79.412941, reg_best: 78.578407
+step:  34, cost: 1.60E-02, attack: 0.987, loss: 1.456277, ce: 0.235301, reg: 76.310974, reg_best: 78.578407
+step:  35, cost: 1.60E-02, attack: 0.993, loss: 1.353958, ce: 0.106403, reg: 77.972183, reg_best: 77.972183
+step:  36, cost: 1.60E-02, attack: 0.992, loss: 1.336699, ce: 0.140429, reg: 74.766891, reg_best: 74.766891
+step:  37, cost: 1.60E-02, attack: 0.994, loss: 1.327863, ce: 0.096906, reg: 76.934776, reg_best: 74.766891
+step:  38, cost: 1.60E-02, attack: 0.993, loss: 1.347044, ce: 0.141586, reg: 75.341133, reg_best: 74.766891
+step:  39, cost: 1.60E-02, attack: 0.989, loss: 1.364487, ce: 0.169520, reg: 74.677773, reg_best: 74.766891
+step:  40, cost: 1.60E-02, attack: 0.998, loss: 1.307510, ce: 0.055041, reg: 78.279305, reg_best: 74.766891
+step:  41, cost: 1.60E-02, attack: 0.989, loss: 1.371958, ce: 0.178931, reg: 74.564148, reg_best: 74.766891
+step:  42, cost: 1.60E-02, attack: 0.994, loss: 1.262589, ce: 0.099956, reg: 72.664536, reg_best: 72.664536
+step:  43, cost: 1.60E-02, attack: 0.992, loss: 1.331419, ce: 0.141793, reg: 74.351624, reg_best: 72.664536
+step:  44, cost: 1.60E-02, attack: 0.982, loss: 1.451741, ce: 0.300384, reg: 71.959808, reg_best: 72.664536
+step:  45, cost: 1.60E-02, attack: 0.989, loss: 1.357954, ce: 0.181249, reg: 73.544037, reg_best: 72.664536
+step:  46, cost: 1.60E-02, attack: 0.996, loss: 1.311432, ce: 0.068638, reg: 77.674637, reg_best: 72.664536
+step:  47, cost: 1.60E-02, attack: 0.986, loss: 1.400036, ce: 0.233507, reg: 72.908073, reg_best: 72.664536
+step:  48, cost: 1.60E-02, attack: 0.993, loss: 1.312729, ce: 0.122038, reg: 74.418182, reg_best: 72.664536
+step:  49, cost: 1.60E-02, attack: 0.993, loss: 1.309159, ce: 0.122989, reg: 74.135605, reg_best: 72.664536
+step:  50, cost: 1.60E-02, attack: 0.990, loss: 1.385912, ce: 0.178095, reg: 75.488556, reg_best: 72.664536
+step:  51, cost: 1.60E-02, attack: 0.990, loss: 1.366596, ce: 0.170934, reg: 74.728821, reg_best: 72.664536
+step:  52, cost: 1.60E-02, attack: 0.992, loss: 1.309507, ce: 0.125030, reg: 74.010345, reg_best: 72.664536
+step:  53, cost: 1.60E-02, attack: 0.997, loss: 1.258715, ce: 0.070654, reg: 74.253822, reg_best: 72.664536
+step:  54, cost: 1.60E-02, attack: 0.991, loss: 1.357687, ce: 0.157712, reg: 74.998451, reg_best: 72.664536
+step:  55, cost: 1.60E-02, attack: 0.987, loss: 1.382048, ce: 0.223558, reg: 72.405609, reg_best: 72.664536
+step:  56, cost: 1.60E-02, attack: 0.997, loss: 1.236917, ce: 0.059314, reg: 73.600227, reg_best: 72.664536
+step:  57, cost: 1.60E-02, attack: 0.992, loss: 1.292297, ce: 0.143527, reg: 71.798134, reg_best: 71.798134
+step:  58, cost: 1.60E-02, attack: 0.989, loss: 1.345653, ce: 0.206326, reg: 71.207924, reg_best: 71.798134
+step:  59, cost: 1.60E-02, attack: 0.987, loss: 1.382469, ce: 0.199854, reg: 73.913391, reg_best: 71.798134
+step:  60, cost: 1.60E-02, attack: 0.993, loss: 1.287730, ce: 0.120513, reg: 72.951057, reg_best: 71.798134
+step:  61, cost: 1.60E-02, attack: 0.992, loss: 1.286220, ce: 0.130785, reg: 72.214684, reg_best: 71.798134
+step:  62, cost: 1.60E-02, attack: 0.991, loss: 1.348487, ce: 0.169979, reg: 73.656723, reg_best: 71.798134
+step:  63, cost: 1.60E-02, attack: 0.996, loss: 1.272079, ce: 0.097957, reg: 73.382622, reg_best: 71.798134
+step:  64, cost: 1.60E-02, attack: 0.986, loss: 1.397709, ce: 0.246093, reg: 71.975990, reg_best: 71.798134
+step:  65, cost: 1.60E-02, attack: 0.987, loss: 1.359565, ce: 0.196353, reg: 72.702377, reg_best: 71.798134
+step:  66, cost: 1.60E-02, attack: 0.990, loss: 1.342936, ce: 0.171220, reg: 73.232246, reg_best: 71.798134
+step:  67, cost: 1.60E-02, attack: 0.997, loss: 1.220309, ce: 0.069281, reg: 71.939194, reg_best: 71.798134
+step:  68, cost: 1.60E-02, attack: 0.991, loss: 1.320155, ce: 0.155095, reg: 72.816246, reg_best: 71.798134
+step:  69, cost: 1.60E-02, attack: 0.994, loss: 1.279386, ce: 0.111217, reg: 73.010567, reg_best: 71.798134
+step:  70, cost: 1.60E-02, attack: 0.993, loss: 1.314010, ce: 0.124025, reg: 74.374046, reg_best: 71.798134
+step:  71, cost: 1.60E-02, attack: 0.991, loss: 1.272699, ce: 0.150008, reg: 70.168175, reg_best: 70.168175
+up cost from 1.60E-02 to 3.20E-02
+step:  72, cost: 3.20E-02, attack: 0.990, loss: 2.494663, ce: 0.178433, reg: 72.382172, reg_best: 70.168175
+step:  73, cost: 3.20E-02, attack: 0.975, loss: 2.612572, ce: 0.407372, reg: 68.912483, reg_best: 70.168175
+step:  74, cost: 3.20E-02, attack: 0.989, loss: 2.432357, ce: 0.176856, reg: 70.484406, reg_best: 70.168175
+step:  75, cost: 3.20E-02, attack: 0.989, loss: 2.421824, ce: 0.216717, reg: 68.909622, reg_best: 70.168175
+step:  76, cost: 3.20E-02, attack: 0.973, loss: 2.584334, ce: 0.432659, reg: 67.239876, reg_best: 70.168175
+down cost from 3.20E-02 to 1.13E-02
+step:  77, cost: 1.13E-02, attack: 0.988, loss: 1.021096, ce: 0.199261, reg: 72.640640, reg_best: 70.168175
+step:  78, cost: 1.13E-02, attack: 0.986, loss: 1.065837, ce: 0.234565, reg: 73.484962, reg_best: 70.168175
+step:  79, cost: 1.13E-02, attack: 0.987, loss: 1.033695, ce: 0.237160, reg: 70.404373, reg_best: 70.168175
+step:  80, cost: 1.13E-02, attack: 0.995, loss: 0.913957, ce: 0.099076, reg: 72.025970, reg_best: 70.168175
+step:  81, cost: 1.13E-02, attack: 0.994, loss: 0.930695, ce: 0.113838, reg: 72.200653, reg_best: 70.168175
+step:  82, cost: 1.13E-02, attack: 0.989, loss: 1.016392, ce: 0.185159, reg: 73.471359, reg_best: 70.168175
+step:  83, cost: 1.13E-02, attack: 0.990, loss: 0.992475, ce: 0.160791, reg: 73.511215, reg_best: 70.168175
+step:  84, cost: 1.13E-02, attack: 0.992, loss: 0.967453, ce: 0.134269, reg: 73.643723, reg_best: 70.168175
+step:  85, cost: 1.13E-02, attack: 0.992, loss: 0.972763, ce: 0.122418, reg: 75.160652, reg_best: 70.168175
+step:  86, cost: 1.13E-02, attack: 1.000, loss: 0.856577, ce: 0.016387, reg: 74.263000, reg_best: 70.168175
+step:  87, cost: 1.13E-02, attack: 0.993, loss: 0.946301, ce: 0.122014, reg: 72.857277, reg_best: 70.168175
+step:  88, cost: 1.13E-02, attack: 0.991, loss: 0.992056, ce: 0.144487, reg: 74.915176, reg_best: 70.168175
+up cost from 1.13E-02 to 2.26E-02
+step:  89, cost: 2.26E-02, attack: 0.990, loss: 1.795809, ce: 0.148078, reg: 72.820099, reg_best: 70.168175
+step:  90, cost: 2.26E-02, attack: 0.990, loss: 1.790709, ce: 0.189962, reg: 70.749130, reg_best: 70.168175
+step:  91, cost: 2.26E-02, attack: 0.993, loss: 1.756899, ce: 0.132569, reg: 71.785934, reg_best: 70.168175
+step:  92, cost: 2.26E-02, attack: 0.994, loss: 1.730448, ce: 0.121130, reg: 71.122482, reg_best: 70.168175
+step:  93, cost: 2.26E-02, attack: 0.986, loss: 1.855500, ce: 0.252512, reg: 70.842758, reg_best: 70.168175
+step:  94, cost: 2.26E-02, attack: 0.989, loss: 1.812595, ce: 0.193633, reg: 71.548676, reg_best: 70.168175
+step:  95, cost: 2.26E-02, attack: 0.986, loss: 1.850595, ce: 0.224079, reg: 71.882553, reg_best: 70.168175
+step:  96, cost: 2.26E-02, attack: 0.993, loss: 1.736954, ce: 0.138898, reg: 70.624748, reg_best: 70.168175
+early stop
+pattern, shape: (32, 32, 3), min: -0.000015, max: 255.000000
+mask, shape: (32, 32), min: -0.000000, max: 1.000000
+mask norm of label 6: 76.059265
+visualization cost 88.943197 seconds
+processing label 7
+resetting state
+mask_tanh -4.372341455591133 3.1848792773436543
+pattern_tanh -4.528584031032309 4.070027402979864
+step:   0, cost: 0.00E+00, attack: 0.888, loss: 1.806122, ce: 1.806122, reg: 550.059265, reg_best: inf
+step:   1, cost: 0.00E+00, attack: 1.000, loss: 0.000001, ce: 0.000001, reg: 562.905945, reg_best: 562.905945
+step:   2, cost: 0.00E+00, attack: 1.000, loss: 0.000011, ce: 0.000011, reg: 563.193848, reg_best: 562.905945
+step:   3, cost: 0.00E+00, attack: 1.000, loss: 0.000032, ce: 0.000032, reg: 567.020386, reg_best: 562.905945
+step:   4, cost: 0.00E+00, attack: 1.000, loss: 0.000000, ce: 0.000000, reg: 573.023438, reg_best: 562.905945
+step:   5, cost: 0.00E+00, attack: 1.000, loss: 0.000138, ce: 0.000138, reg: 586.460815, reg_best: 562.905945
+initialize cost to 1.00E-03
+step:   6, cost: 1.00E-03, attack: 0.996, loss: 0.459915, ce: 0.061218, reg: 398.457855, reg_best: 398.457855
+step:   7, cost: 1.00E-03, attack: 0.999, loss: 0.326751, ce: 0.019964, reg: 306.787018, reg_best: 306.787018
+step:   8, cost: 1.00E-03, attack: 1.000, loss: 0.248070, ce: 0.001465, reg: 246.604126, reg_best: 246.604126
+step:   9, cost: 1.00E-03, attack: 0.999, loss: 0.220721, ce: 0.017674, reg: 203.046890, reg_best: 203.046890
+up cost from 1.00E-03 to 2.00E-03
+step:  10, cost: 2.00E-03, attack: 0.999, loss: 0.355134, ce: 0.018913, reg: 168.110428, reg_best: 168.110428
+step:  11, cost: 2.00E-03, attack: 0.993, loss: 0.407816, ce: 0.111226, reg: 148.295059, reg_best: 148.295059
+step:  12, cost: 2.00E-03, attack: 1.000, loss: 0.308485, ce: 0.003326, reg: 152.579742, reg_best: 148.295059
+step:  13, cost: 2.00E-03, attack: 0.995, loss: 0.336354, ce: 0.074108, reg: 131.122986, reg_best: 131.122986
+step:  14, cost: 2.00E-03, attack: 0.996, loss: 0.309266, ce: 0.050798, reg: 129.233887, reg_best: 129.233887
+up cost from 2.00E-03 to 4.00E-03
+step:  15, cost: 4.00E-03, attack: 0.998, loss: 0.520291, ce: 0.030003, reg: 122.571945, reg_best: 122.571945
+step:  16, cost: 4.00E-03, attack: 0.988, loss: 0.629341, ce: 0.204031, reg: 106.327347, reg_best: 122.571945
+step:  17, cost: 4.00E-03, attack: 0.993, loss: 0.540838, ce: 0.102099, reg: 109.684547, reg_best: 109.684547
+step:  18, cost: 4.00E-03, attack: 0.997, loss: 0.472128, ce: 0.038997, reg: 108.282784, reg_best: 108.282784
+step:  19, cost: 4.00E-03, attack: 0.999, loss: 0.436024, ce: 0.022709, reg: 103.361107, reg_best: 103.361107
+step:  20, cost: 4.00E-03, attack: 0.997, loss: 0.435522, ce: 0.045485, reg: 97.509315, reg_best: 97.509315
+step:  21, cost: 4.00E-03, attack: 0.994, loss: 0.455535, ce: 0.099526, reg: 89.002205, reg_best: 89.002205
+up cost from 4.00E-03 to 8.00E-03
+step:  22, cost: 8.00E-03, attack: 0.996, loss: 0.765946, ce: 0.051700, reg: 89.280800, reg_best: 89.002205
+step:  23, cost: 8.00E-03, attack: 0.997, loss: 0.761697, ce: 0.054566, reg: 88.391373, reg_best: 88.391373
+step:  24, cost: 8.00E-03, attack: 0.995, loss: 0.746236, ce: 0.086393, reg: 82.480431, reg_best: 82.480431
+step:  25, cost: 8.00E-03, attack: 0.992, loss: 0.761088, ce: 0.114442, reg: 80.830704, reg_best: 80.830704
+step:  26, cost: 8.00E-03, attack: 0.996, loss: 0.724244, ce: 0.078734, reg: 80.688759, reg_best: 80.688759
+up cost from 8.00E-03 to 1.60E-02
+step:  27, cost: 1.60E-02, attack: 0.995, loss: 1.361394, ce: 0.089907, reg: 79.467941, reg_best: 79.467941
+step:  28, cost: 1.60E-02, attack: 0.995, loss: 1.288577, ce: 0.098506, reg: 74.379448, reg_best: 74.379448
+step:  29, cost: 1.60E-02, attack: 0.991, loss: 1.348473, ce: 0.144929, reg: 75.221497, reg_best: 74.379448
+step:  30, cost: 1.60E-02, attack: 0.982, loss: 1.428530, ce: 0.306305, reg: 70.139061, reg_best: 74.379448
+step:  31, cost: 1.60E-02, attack: 0.990, loss: 1.320306, ce: 0.169710, reg: 71.929176, reg_best: 74.379448
+step:  32, cost: 1.60E-02, attack: 0.995, loss: 1.239519, ce: 0.083856, reg: 72.228920, reg_best: 72.228920
+step:  33, cost: 1.60E-02, attack: 0.996, loss: 1.229949, ce: 0.081780, reg: 71.760521, reg_best: 71.760521
+step:  34, cost: 1.60E-02, attack: 0.992, loss: 1.210088, ce: 0.146119, reg: 66.498077, reg_best: 66.498077
+step:  35, cost: 1.60E-02, attack: 0.991, loss: 1.222586, ce: 0.140835, reg: 67.609436, reg_best: 66.498077
+step:  36, cost: 1.60E-02, attack: 0.986, loss: 1.222145, ce: 0.223442, reg: 62.418903, reg_best: 66.498077
+step:  37, cost: 1.60E-02, attack: 0.987, loss: 1.189887, ce: 0.210337, reg: 61.221821, reg_best: 66.498077
+step:  38, cost: 1.60E-02, attack: 0.979, loss: 1.304415, ce: 0.339689, reg: 60.295341, reg_best: 66.498077
+step:  39, cost: 1.60E-02, attack: 0.987, loss: 1.230197, ce: 0.213404, reg: 63.549603, reg_best: 66.498077
+step:  40, cost: 1.60E-02, attack: 0.984, loss: 1.250798, ce: 0.248755, reg: 62.627693, reg_best: 66.498077
+down cost from 1.60E-02 to 5.66E-03
+step:  41, cost: 5.66E-03, attack: 0.988, loss: 0.568261, ce: 0.194244, reg: 66.117447, reg_best: 66.498077
+step:  42, cost: 5.66E-03, attack: 0.994, loss: 0.492448, ce: 0.099734, reg: 69.422699, reg_best: 66.498077
+step:  43, cost: 5.66E-03, attack: 0.996, loss: 0.448706, ce: 0.066879, reg: 67.498093, reg_best: 66.498077
+step:  44, cost: 5.66E-03, attack: 0.995, loss: 0.482122, ce: 0.068202, reg: 73.186867, reg_best: 66.498077
+step:  45, cost: 5.66E-03, attack: 0.996, loss: 0.486560, ce: 0.077030, reg: 72.395493, reg_best: 66.498077
+step:  46, cost: 5.66E-03, attack: 1.000, loss: 0.413786, ce: 0.007362, reg: 71.846344, reg_best: 66.498077
+up cost from 5.66E-03 to 1.13E-02
+step:  47, cost: 1.13E-02, attack: 0.991, loss: 0.921716, ce: 0.147440, reg: 68.436974, reg_best: 66.498077
+step:  48, cost: 1.13E-02, attack: 0.987, loss: 0.947030, ce: 0.192739, reg: 66.670502, reg_best: 66.498077
+step:  49, cost: 1.13E-02, attack: 0.996, loss: 0.854895, ce: 0.061854, reg: 70.095551, reg_best: 66.498077
+step:  50, cost: 1.13E-02, attack: 0.989, loss: 0.907444, ce: 0.179989, reg: 64.298553, reg_best: 66.498077
+step:  51, cost: 1.13E-02, attack: 0.995, loss: 0.831467, ce: 0.073007, reg: 67.039055, reg_best: 66.498077
+step:  52, cost: 1.13E-02, attack: 0.993, loss: 0.865846, ce: 0.120781, reg: 65.855049, reg_best: 65.855049
+step:  53, cost: 1.13E-02, attack: 0.998, loss: 0.766040, ce: 0.035134, reg: 64.603546, reg_best: 64.603546
+step:  54, cost: 1.13E-02, attack: 0.993, loss: 0.863888, ce: 0.127752, reg: 65.065880, reg_best: 64.603546
+step:  55, cost: 1.13E-02, attack: 0.993, loss: 0.847615, ce: 0.116773, reg: 64.597992, reg_best: 64.597992
+up cost from 1.13E-02 to 2.26E-02
+step:  56, cost: 2.26E-02, attack: 0.987, loss: 1.597379, ce: 0.205859, reg: 61.497101, reg_best: 64.597992
+step:  57, cost: 2.26E-02, attack: 0.977, loss: 1.684084, ce: 0.366298, reg: 58.239845, reg_best: 64.597992
+step:  58, cost: 2.26E-02, attack: 0.994, loss: 1.462377, ce: 0.105422, reg: 59.969536, reg_best: 59.969536
+step:  59, cost: 2.26E-02, attack: 0.987, loss: 1.593464, ce: 0.227857, reg: 60.351891, reg_best: 59.969536
+step:  60, cost: 2.26E-02, attack: 0.983, loss: 1.615014, ce: 0.288455, reg: 58.626190, reg_best: 59.969536
+step:  61, cost: 2.26E-02, attack: 0.983, loss: 1.588594, ce: 0.273794, reg: 58.106483, reg_best: 59.969536
+step:  62, cost: 2.26E-02, attack: 0.984, loss: 1.641049, ce: 0.271261, reg: 60.536629, reg_best: 59.969536
+step:  63, cost: 2.26E-02, attack: 0.985, loss: 1.619825, ce: 0.220898, reg: 61.824429, reg_best: 59.969536
+down cost from 2.26E-02 to 8.00E-03
+step:  64, cost: 8.00E-03, attack: 0.994, loss: 0.611696, ce: 0.095790, reg: 64.488205, reg_best: 59.969536
+step:  65, cost: 8.00E-03, attack: 0.995, loss: 0.615570, ce: 0.074194, reg: 67.672020, reg_best: 59.969536
+step:  66, cost: 8.00E-03, attack: 0.991, loss: 0.659891, ce: 0.146681, reg: 64.151291, reg_best: 59.969536
+step:  67, cost: 8.00E-03, attack: 0.992, loss: 0.650975, ce: 0.133546, reg: 64.678558, reg_best: 59.969536
+step:  68, cost: 8.00E-03, attack: 0.997, loss: 0.596957, ce: 0.058643, reg: 67.289261, reg_best: 59.969536
+up cost from 8.00E-03 to 1.60E-02
+step:  69, cost: 1.60E-02, attack: 0.989, loss: 1.212344, ce: 0.191376, reg: 63.810528, reg_best: 59.969536
+step:  70, cost: 1.60E-02, attack: 0.989, loss: 1.199449, ce: 0.193826, reg: 62.857697, reg_best: 59.969536
+step:  71, cost: 1.60E-02, attack: 0.990, loss: 1.131688, ce: 0.162117, reg: 60.598175, reg_best: 59.969536
+step:  72, cost: 1.60E-02, attack: 0.976, loss: 1.298417, ce: 0.397177, reg: 56.327446, reg_best: 59.969536
+step:  73, cost: 1.60E-02, attack: 0.988, loss: 1.150603, ce: 0.195338, reg: 59.704006, reg_best: 59.969536
+down cost from 1.60E-02 to 5.66E-03
+step:  74, cost: 5.66E-03, attack: 0.991, loss: 0.482050, ce: 0.130870, reg: 62.080410, reg_best: 59.969536
+step:  75, cost: 5.66E-03, attack: 0.994, loss: 0.461298, ce: 0.089017, reg: 65.810509, reg_best: 59.969536
+step:  76, cost: 5.66E-03, attack: 0.995, loss: 0.470033, ce: 0.090493, reg: 67.093834, reg_best: 59.969536
+step:  77, cost: 5.66E-03, attack: 0.998, loss: 0.414811, ce: 0.035046, reg: 67.133545, reg_best: 59.969536
+step:  78, cost: 5.66E-03, attack: 0.999, loss: 0.428467, ce: 0.027462, reg: 70.888359, reg_best: 59.969536
+up cost from 5.66E-03 to 1.13E-02
+step:  79, cost: 1.13E-02, attack: 0.988, loss: 0.958569, ce: 0.184763, reg: 68.395393, reg_best: 59.969536
+step:  80, cost: 1.13E-02, attack: 0.991, loss: 0.905182, ce: 0.152233, reg: 66.551834, reg_best: 59.969536
+step:  81, cost: 1.13E-02, attack: 0.997, loss: 0.848247, ce: 0.069101, reg: 68.867378, reg_best: 59.969536
+step:  82, cost: 1.13E-02, attack: 0.993, loss: 0.860612, ce: 0.098612, reg: 67.363564, reg_best: 59.969536
+step:  83, cost: 1.13E-02, attack: 0.992, loss: 0.888817, ce: 0.151617, reg: 65.159935, reg_best: 59.969536
+early stop
+pattern, shape: (32, 32, 3), min: -0.000015, max: 255.000031
+mask, shape: (32, 32), min: -0.000000, max: 1.000000
+mask norm of label 7: 62.913506
+visualization cost 77.043405 seconds
+processing label 8
+resetting state
+mask_tanh -3.978981719305742 3.346857629935399
+pattern_tanh -3.903207424354863 3.7292861939622046
+step:   0, cost: 0.00E+00, attack: 0.905, loss: 1.580655, ce: 1.580655, reg: 550.313049, reg_best: inf
+step:   1, cost: 0.00E+00, attack: 1.000, loss: 0.000818, ce: 0.000818, reg: 564.770081, reg_best: 564.770081
+step:   2, cost: 0.00E+00, attack: 1.000, loss: 0.000003, ce: 0.000003, reg: 567.761169, reg_best: 564.770081
+step:   3, cost: 0.00E+00, attack: 1.000, loss: 0.000002, ce: 0.000002, reg: 567.916443, reg_best: 564.770081
+step:   4, cost: 0.00E+00, attack: 1.000, loss: 0.000003, ce: 0.000003, reg: 568.205322, reg_best: 564.770081
+step:   5, cost: 0.00E+00, attack: 1.000, loss: 0.000000, ce: 0.000000, reg: 572.965454, reg_best: 564.770081
+initialize cost to 1.00E-03
+step:   6, cost: 1.00E-03, attack: 0.982, loss: 0.666775, ce: 0.290308, reg: 376.467346, reg_best: 564.770081
+step:   7, cost: 1.00E-03, attack: 1.000, loss: 0.308852, ce: 0.002155, reg: 306.697540, reg_best: 306.697540
+step:   8, cost: 1.00E-03, attack: 1.000, loss: 0.247400, ce: 0.005975, reg: 241.424942, reg_best: 241.424942
+step:   9, cost: 1.00E-03, attack: 0.996, loss: 0.274111, ce: 0.073380, reg: 200.730789, reg_best: 200.730789
+step:  10, cost: 1.00E-03, attack: 0.999, loss: 0.202317, ce: 0.018453, reg: 183.864410, reg_best: 183.864410
+step:  11, cost: 1.00E-03, attack: 0.998, loss: 0.191546, ce: 0.024250, reg: 167.319595, reg_best: 167.319595
+up cost from 1.00E-03 to 2.00E-03
+step:  12, cost: 2.00E-03, attack: 0.997, loss: 0.345956, ce: 0.051359, reg: 147.298553, reg_best: 147.298553
+step:  13, cost: 2.00E-03, attack: 0.999, loss: 0.321601, ce: 0.037474, reg: 142.063629, reg_best: 142.063629
+step:  14, cost: 2.00E-03, attack: 0.998, loss: 0.295792, ce: 0.037175, reg: 129.308975, reg_best: 129.308975
+step:  15, cost: 2.00E-03, attack: 0.997, loss: 0.308022, ce: 0.061519, reg: 123.251625, reg_best: 123.251625
+step:  16, cost: 2.00E-03, attack: 0.998, loss: 0.287620, ce: 0.037936, reg: 124.842026, reg_best: 123.251625
+up cost from 2.00E-03 to 4.00E-03
+step:  17, cost: 4.00E-03, attack: 0.995, loss: 0.526314, ce: 0.071708, reg: 113.651390, reg_best: 113.651390
+step:  18, cost: 4.00E-03, attack: 0.997, loss: 0.486740, ce: 0.047690, reg: 109.762520, reg_best: 109.762520
+step:  19, cost: 4.00E-03, attack: 0.995, loss: 0.505246, ce: 0.086121, reg: 104.781158, reg_best: 104.781158
+step:  20, cost: 4.00E-03, attack: 0.994, loss: 0.545364, ce: 0.112938, reg: 108.106377, reg_best: 104.781158
+step:  21, cost: 4.00E-03, attack: 0.992, loss: 0.517885, ce: 0.125238, reg: 98.161758, reg_best: 98.161758
+up cost from 4.00E-03 to 8.00E-03
+step:  22, cost: 8.00E-03, attack: 0.993, loss: 0.870779, ce: 0.130356, reg: 92.552887, reg_best: 92.552887
+step:  23, cost: 8.00E-03, attack: 0.993, loss: 0.872776, ce: 0.116747, reg: 94.503517, reg_best: 92.552887
+step:  24, cost: 8.00E-03, attack: 0.990, loss: 0.891747, ce: 0.166589, reg: 90.625282, reg_best: 92.552887
+step:  25, cost: 8.00E-03, attack: 0.991, loss: 0.870502, ce: 0.129286, reg: 92.652008, reg_best: 92.552887
+step:  26, cost: 8.00E-03, attack: 0.998, loss: 0.783311, ce: 0.041391, reg: 92.739960, reg_best: 92.552887
+step:  27, cost: 8.00E-03, attack: 0.998, loss: 0.728994, ce: 0.031745, reg: 87.156120, reg_best: 87.156120
+step:  28, cost: 8.00E-03, attack: 0.995, loss: 0.791182, ce: 0.081512, reg: 88.708763, reg_best: 87.156120
+step:  29, cost: 8.00E-03, attack: 0.996, loss: 0.814258, ce: 0.084748, reg: 91.188698, reg_best: 87.156120
+up cost from 8.00E-03 to 1.60E-02
+step:  30, cost: 1.60E-02, attack: 0.991, loss: 1.543890, ce: 0.155101, reg: 86.799278, reg_best: 86.799278
+step:  31, cost: 1.60E-02, attack: 0.989, loss: 1.488163, ce: 0.174571, reg: 82.099556, reg_best: 86.799278
+step:  32, cost: 1.60E-02, attack: 0.990, loss: 1.456903, ce: 0.170037, reg: 80.429146, reg_best: 86.799278
+step:  33, cost: 1.60E-02, attack: 0.990, loss: 1.466780, ce: 0.160000, reg: 81.673767, reg_best: 86.799278
+step:  34, cost: 1.60E-02, attack: 0.988, loss: 1.455454, ce: 0.220043, reg: 77.213135, reg_best: 86.799278
+step:  35, cost: 1.60E-02, attack: 0.990, loss: 1.464726, ce: 0.190376, reg: 79.646858, reg_best: 86.799278
+down cost from 1.60E-02 to 5.66E-03
+step:  36, cost: 5.66E-03, attack: 0.994, loss: 0.571528, ce: 0.109518, reg: 81.672554, reg_best: 81.672554
+step:  37, cost: 5.66E-03, attack: 0.992, loss: 0.587629, ce: 0.140263, reg: 79.082520, reg_best: 79.082520
+step:  38, cost: 5.66E-03, attack: 0.990, loss: 0.613847, ce: 0.165186, reg: 79.312782, reg_best: 79.082520
+step:  39, cost: 5.66E-03, attack: 0.993, loss: 0.575783, ce: 0.111016, reg: 82.159966, reg_best: 79.082520
+step:  40, cost: 5.66E-03, attack: 0.991, loss: 0.605322, ce: 0.140216, reg: 82.219788, reg_best: 79.082520
+step:  41, cost: 5.66E-03, attack: 0.991, loss: 0.577066, ce: 0.137281, reg: 77.743690, reg_best: 77.743690
+step:  42, cost: 5.66E-03, attack: 0.995, loss: 0.553848, ce: 0.090065, reg: 81.985992, reg_best: 77.743690
+step:  43, cost: 5.66E-03, attack: 0.996, loss: 0.524504, ce: 0.070702, reg: 80.221626, reg_best: 77.743690
+up cost from 5.66E-03 to 1.13E-02
+step:  44, cost: 1.13E-02, attack: 0.994, loss: 1.034899, ce: 0.100884, reg: 82.556023, reg_best: 77.743690
+step:  45, cost: 1.13E-02, attack: 0.986, loss: 1.104398, ce: 0.221079, reg: 78.075035, reg_best: 77.743690
+step:  46, cost: 1.13E-02, attack: 0.991, loss: 1.037065, ce: 0.143562, reg: 78.975288, reg_best: 77.743690
+step:  47, cost: 1.13E-02, attack: 0.983, loss: 1.120603, ce: 0.253517, reg: 76.640251, reg_best: 77.743690
+step:  48, cost: 1.13E-02, attack: 0.991, loss: 1.006875, ce: 0.138197, reg: 76.781082, reg_best: 76.781082
+step:  49, cost: 1.13E-02, attack: 0.987, loss: 1.065712, ce: 0.213770, reg: 75.283401, reg_best: 76.781082
+step:  50, cost: 1.13E-02, attack: 0.991, loss: 0.987742, ce: 0.151983, reg: 73.871338, reg_best: 73.871338
+step:  51, cost: 1.13E-02, attack: 0.991, loss: 1.028980, ce: 0.136634, reg: 78.872948, reg_best: 73.871338
+step:  52, cost: 1.13E-02, attack: 0.997, loss: 0.951280, ce: 0.045975, reg: 80.018364, reg_best: 73.871338
+step:  53, cost: 1.13E-02, attack: 0.996, loss: 0.962306, ce: 0.086702, reg: 77.393196, reg_best: 73.871338
+step:  54, cost: 1.13E-02, attack: 0.994, loss: 0.985721, ce: 0.099825, reg: 78.302811, reg_best: 73.871338
+up cost from 1.13E-02 to 2.26E-02
+step:  55, cost: 2.26E-02, attack: 0.990, loss: 1.889233, ce: 0.167380, reg: 76.095879, reg_best: 73.871338
+step:  56, cost: 2.26E-02, attack: 0.983, loss: 1.950260, ce: 0.281255, reg: 73.760330, reg_best: 73.871338
+step:  57, cost: 2.26E-02, attack: 0.983, loss: 1.938946, ce: 0.273878, reg: 73.586288, reg_best: 73.871338
+step:  58, cost: 2.26E-02, attack: 0.991, loss: 1.852537, ce: 0.142439, reg: 75.576385, reg_best: 73.871338
+step:  59, cost: 2.26E-02, attack: 0.990, loss: 1.841334, ce: 0.178447, reg: 73.489952, reg_best: 73.871338
+step:  60, cost: 2.26E-02, attack: 0.986, loss: 1.834107, ce: 0.230507, reg: 70.869804, reg_best: 73.871338
+step:  61, cost: 2.26E-02, attack: 0.988, loss: 1.867178, ce: 0.190982, reg: 74.078117, reg_best: 73.871338
+step:  62, cost: 2.26E-02, attack: 0.983, loss: 1.886339, ce: 0.296979, reg: 70.243423, reg_best: 73.871338
+step:  63, cost: 2.26E-02, attack: 0.985, loss: 1.908193, ce: 0.261283, reg: 72.783867, reg_best: 73.871338
+down cost from 2.26E-02 to 8.00E-03
+step:  64, cost: 8.00E-03, attack: 0.988, loss: 0.774038, ce: 0.183942, reg: 73.761993, reg_best: 73.871338
+step:  65, cost: 8.00E-03, attack: 0.990, loss: 0.755563, ce: 0.146446, reg: 76.139641, reg_best: 73.871338
+step:  66, cost: 8.00E-03, attack: 0.993, loss: 0.751137, ce: 0.114884, reg: 79.531670, reg_best: 73.871338
+step:  67, cost: 8.00E-03, attack: 0.991, loss: 0.772360, ce: 0.142738, reg: 78.702782, reg_best: 73.871338
+step:  68, cost: 8.00E-03, attack: 0.995, loss: 0.718432, ce: 0.088559, reg: 78.734131, reg_best: 73.871338
+step:  69, cost: 8.00E-03, attack: 0.993, loss: 0.747377, ce: 0.119488, reg: 78.486130, reg_best: 73.871338
+step:  70, cost: 8.00E-03, attack: 0.997, loss: 0.658023, ce: 0.041760, reg: 77.032944, reg_best: 73.871338
+up cost from 8.00E-03 to 1.60E-02
+step:  71, cost: 1.60E-02, attack: 0.992, loss: 1.329798, ce: 0.133823, reg: 74.748398, reg_best: 73.871338
+step:  72, cost: 1.60E-02, attack: 0.988, loss: 1.392043, ce: 0.207615, reg: 74.026764, reg_best: 73.871338
+step:  73, cost: 1.60E-02, attack: 0.977, loss: 1.513082, ce: 0.362679, reg: 71.900215, reg_best: 73.871338
+step:  74, cost: 1.60E-02, attack: 0.990, loss: 1.385541, ce: 0.179668, reg: 75.367096, reg_best: 73.871338
+step:  75, cost: 1.60E-02, attack: 0.986, loss: 1.404646, ce: 0.219638, reg: 74.075241, reg_best: 73.871338
+early stop
+pattern, shape: (32, 32, 3), min: -0.000030, max: 255.000000
+mask, shape: (32, 32), min: -0.000000, max: 1.000000
+mask norm of label 8: 74.411758
+visualization cost 70.605726 seconds
+processing label 9
+resetting state
+mask_tanh -4.7181467481174675 3.254147291742535
+pattern_tanh -6.4534180758580755 5.1720046705702005
+step:   0, cost: 0.00E+00, attack: 0.853, loss: 2.487770, ce: 2.487770, reg: 551.053345, reg_best: inf
+step:   1, cost: 0.00E+00, attack: 1.000, loss: 0.000872, ce: 0.000872, reg: 577.542480, reg_best: 577.542480
+step:   2, cost: 0.00E+00, attack: 1.000, loss: 0.001296, ce: 0.001296, reg: 580.722656, reg_best: 577.542480
+step:   3, cost: 0.00E+00, attack: 1.000, loss: 0.000742, ce: 0.000742, reg: 584.307983, reg_best: 577.542480
+step:   4, cost: 0.00E+00, attack: 1.000, loss: 0.000260, ce: 0.000260, reg: 591.006409, reg_best: 577.542480
+step:   5, cost: 0.00E+00, attack: 1.000, loss: 0.000000, ce: 0.000000, reg: 591.347778, reg_best: 577.542480
+initialize cost to 1.00E-03
+step:   6, cost: 1.00E-03, attack: 0.997, loss: 0.467979, ce: 0.053542, reg: 414.437469, reg_best: 414.437469
+step:   7, cost: 1.00E-03, attack: 0.997, loss: 0.375013, ce: 0.039574, reg: 335.438843, reg_best: 335.438843
+step:   8, cost: 1.00E-03, attack: 0.997, loss: 0.323117, ce: 0.029617, reg: 293.499420, reg_best: 293.499420
+step:   9, cost: 1.00E-03, attack: 0.999, loss: 0.277848, ce: 0.009736, reg: 268.112061, reg_best: 268.112061
+up cost from 1.00E-03 to 2.00E-03
+step:  10, cost: 2.00E-03, attack: 0.999, loss: 0.488195, ce: 0.013026, reg: 237.584579, reg_best: 237.584579
+step:  11, cost: 2.00E-03, attack: 0.998, loss: 0.427545, ce: 0.039721, reg: 193.912292, reg_best: 193.912292
+step:  12, cost: 2.00E-03, attack: 0.998, loss: 0.372304, ce: 0.029461, reg: 171.435074, reg_best: 171.435074
+step:  13, cost: 2.00E-03, attack: 0.998, loss: 0.363729, ce: 0.039005, reg: 162.361603, reg_best: 162.361603
+step:  14, cost: 2.00E-03, attack: 0.998, loss: 0.334900, ce: 0.040016, reg: 147.442154, reg_best: 147.442154
+up cost from 2.00E-03 to 4.00E-03
+step:  15, cost: 4.00E-03, attack: 0.993, loss: 0.641416, ce: 0.131832, reg: 127.396049, reg_best: 127.396049
+step:  16, cost: 4.00E-03, attack: 0.994, loss: 0.585179, ce: 0.077263, reg: 126.978920, reg_best: 126.978920
+step:  17, cost: 4.00E-03, attack: 0.996, loss: 0.529563, ce: 0.053852, reg: 118.927887, reg_best: 118.927887
+step:  18, cost: 4.00E-03, attack: 0.999, loss: 0.485352, ce: 0.030885, reg: 113.616646, reg_best: 113.616646
+step:  19, cost: 4.00E-03, attack: 0.999, loss: 0.469362, ce: 0.021852, reg: 111.877670, reg_best: 111.877670
+up cost from 4.00E-03 to 8.00E-03
+step:  20, cost: 8.00E-03, attack: 0.997, loss: 0.876656, ce: 0.057720, reg: 102.366913, reg_best: 102.366913
+step:  21, cost: 8.00E-03, attack: 0.995, loss: 0.930454, ce: 0.096520, reg: 104.241730, reg_best: 102.366913
+step:  22, cost: 8.00E-03, attack: 0.995, loss: 0.848964, ce: 0.084902, reg: 95.507767, reg_best: 95.507767
+step:  23, cost: 8.00E-03, attack: 0.998, loss: 0.816042, ce: 0.048366, reg: 95.959518, reg_best: 95.507767
+step:  24, cost: 8.00E-03, attack: 0.995, loss: 0.836981, ce: 0.089788, reg: 93.369606, reg_best: 93.369606
+up cost from 8.00E-03 to 1.60E-02
+step:  25, cost: 1.60E-02, attack: 0.994, loss: 1.472456, ce: 0.115478, reg: 84.811119, reg_best: 84.811119
+step:  26, cost: 1.60E-02, attack: 0.990, loss: 1.552816, ce: 0.196770, reg: 84.752914, reg_best: 84.811119
+step:  27, cost: 1.60E-02, attack: 0.991, loss: 1.454457, ce: 0.158389, reg: 81.004257, reg_best: 81.004257
+step:  28, cost: 1.60E-02, attack: 0.991, loss: 1.430515, ce: 0.147515, reg: 80.187523, reg_best: 80.187523
+step:  29, cost: 1.60E-02, attack: 0.986, loss: 1.459450, ce: 0.224629, reg: 77.176308, reg_best: 80.187523
+step:  30, cost: 1.60E-02, attack: 0.977, loss: 1.608116, ce: 0.395521, reg: 75.787209, reg_best: 80.187523
+step:  31, cost: 1.60E-02, attack: 0.993, loss: 1.419252, ce: 0.122632, reg: 81.038734, reg_best: 80.187523
+step:  32, cost: 1.60E-02, attack: 0.989, loss: 1.419719, ce: 0.217742, reg: 75.123573, reg_best: 80.187523
+step:  33, cost: 1.60E-02, attack: 0.989, loss: 1.348992, ce: 0.184196, reg: 72.799728, reg_best: 80.187523
+step:  34, cost: 1.60E-02, attack: 0.979, loss: 1.476340, ce: 0.329576, reg: 71.672775, reg_best: 80.187523
+step:  35, cost: 1.60E-02, attack: 0.992, loss: 1.331431, ce: 0.145859, reg: 74.098251, reg_best: 74.098251
+step:  36, cost: 1.60E-02, attack: 0.991, loss: 1.349020, ce: 0.169190, reg: 73.739395, reg_best: 73.739395
+step:  37, cost: 1.60E-02, attack: 0.986, loss: 1.397302, ce: 0.213582, reg: 73.985481, reg_best: 73.739395
+step:  38, cost: 1.60E-02, attack: 0.989, loss: 1.325174, ce: 0.168187, reg: 72.311676, reg_best: 73.739395
+step:  39, cost: 1.60E-02, attack: 0.993, loss: 1.297076, ce: 0.126188, reg: 73.180519, reg_best: 73.180519
+step:  40, cost: 1.60E-02, attack: 0.987, loss: 1.348980, ce: 0.231184, reg: 69.862267, reg_best: 73.180519
+step:  41, cost: 1.60E-02, attack: 0.984, loss: 1.351795, ce: 0.272007, reg: 67.486717, reg_best: 73.180519
+step:  42, cost: 1.60E-02, attack: 0.989, loss: 1.362875, ce: 0.189139, reg: 73.358528, reg_best: 73.180519
+step:  43, cost: 1.60E-02, attack: 0.996, loss: 1.249611, ce: 0.072869, reg: 73.546410, reg_best: 73.180519
+step:  44, cost: 1.60E-02, attack: 0.992, loss: 1.288918, ce: 0.154659, reg: 70.891182, reg_best: 70.891182
+step:  45, cost: 1.60E-02, attack: 0.985, loss: 1.452778, ce: 0.249940, reg: 75.177383, reg_best: 70.891182
+step:  46, cost: 1.60E-02, attack: 0.991, loss: 1.320576, ce: 0.142933, reg: 73.602730, reg_best: 70.891182
+step:  47, cost: 1.60E-02, attack: 0.988, loss: 1.333903, ce: 0.201301, reg: 70.787613, reg_best: 70.891182
+step:  48, cost: 1.60E-02, attack: 0.990, loss: 1.304615, ce: 0.156458, reg: 71.759850, reg_best: 70.891182
+step:  49, cost: 1.60E-02, attack: 0.992, loss: 1.271310, ce: 0.120098, reg: 71.950752, reg_best: 70.891182
+step:  50, cost: 1.60E-02, attack: 0.986, loss: 1.342647, ce: 0.235986, reg: 69.172615, reg_best: 70.891182
+step:  51, cost: 1.60E-02, attack: 0.987, loss: 1.339519, ce: 0.211863, reg: 70.478485, reg_best: 70.891182
+step:  52, cost: 1.60E-02, attack: 0.990, loss: 1.319900, ce: 0.159571, reg: 72.520576, reg_best: 70.891182
+step:  53, cost: 1.60E-02, attack: 0.994, loss: 1.260490, ce: 0.097031, reg: 72.716164, reg_best: 70.891182
+step:  54, cost: 1.60E-02, attack: 0.992, loss: 1.240380, ce: 0.134700, reg: 69.105026, reg_best: 69.105026
+step:  55, cost: 1.60E-02, attack: 0.989, loss: 1.293455, ce: 0.181091, reg: 69.522713, reg_best: 69.105026
+step:  56, cost: 1.60E-02, attack: 0.991, loss: 1.269482, ce: 0.153976, reg: 69.719078, reg_best: 69.105026
+step:  57, cost: 1.60E-02, attack: 0.993, loss: 1.270041, ce: 0.111266, reg: 72.423393, reg_best: 69.105026
+step:  58, cost: 1.60E-02, attack: 0.994, loss: 1.276642, ce: 0.105059, reg: 73.223923, reg_best: 69.105026
+step:  59, cost: 1.60E-02, attack: 0.992, loss: 1.253247, ce: 0.146103, reg: 69.196495, reg_best: 69.105026
+step:  60, cost: 1.60E-02, attack: 0.989, loss: 1.302831, ce: 0.191747, reg: 69.442703, reg_best: 69.105026
+step:  61, cost: 1.60E-02, attack: 0.988, loss: 1.301362, ce: 0.181997, reg: 69.960297, reg_best: 69.105026
+step:  62, cost: 1.60E-02, attack: 0.989, loss: 1.288311, ce: 0.189549, reg: 68.672653, reg_best: 69.105026
+step:  63, cost: 1.60E-02, attack: 0.983, loss: 1.370241, ce: 0.279907, reg: 68.135742, reg_best: 69.105026
+step:  64, cost: 1.60E-02, attack: 0.987, loss: 1.335627, ce: 0.218456, reg: 69.823158, reg_best: 69.105026
+down cost from 1.60E-02 to 5.66E-03
+step:  65, cost: 5.66E-03, attack: 0.995, loss: 0.494003, ce: 0.082599, reg: 72.726715, reg_best: 69.105026
+step:  66, cost: 5.66E-03, attack: 0.994, loss: 0.499629, ce: 0.094971, reg: 71.534210, reg_best: 69.105026
+step:  67, cost: 5.66E-03, attack: 0.993, loss: 0.530166, ce: 0.110727, reg: 74.146950, reg_best: 69.105026
+step:  68, cost: 5.66E-03, attack: 0.997, loss: 0.479666, ce: 0.050053, reg: 75.945663, reg_best: 69.105026
+step:  69, cost: 5.66E-03, attack: 0.995, loss: 0.507744, ce: 0.088110, reg: 74.181511, reg_best: 69.105026
+up cost from 5.66E-03 to 1.13E-02
+step:  70, cost: 1.13E-02, attack: 0.996, loss: 0.925465, ce: 0.058973, reg: 76.587784, reg_best: 69.105026
+step:  71, cost: 1.13E-02, attack: 0.994, loss: 0.908197, ce: 0.091775, reg: 72.162140, reg_best: 69.105026
+step:  72, cost: 1.13E-02, attack: 0.995, loss: 0.942922, ce: 0.093500, reg: 75.078972, reg_best: 69.105026
+step:  73, cost: 1.13E-02, attack: 0.998, loss: 0.891314, ce: 0.038998, reg: 75.334785, reg_best: 69.105026
+step:  74, cost: 1.13E-02, attack: 0.995, loss: 0.930294, ce: 0.083246, reg: 74.869141, reg_best: 69.105026
+up cost from 1.13E-02 to 2.26E-02
+step:  75, cost: 2.26E-02, attack: 0.990, loss: 1.742110, ce: 0.168247, reg: 69.534996, reg_best: 69.105026
+step:  76, cost: 2.26E-02, attack: 0.990, loss: 1.686509, ce: 0.157066, reg: 67.592499, reg_best: 69.105026
+step:  77, cost: 2.26E-02, attack: 0.992, loss: 1.666323, ce: 0.154016, reg: 66.835136, reg_best: 66.835136
+step:  78, cost: 2.26E-02, attack: 0.991, loss: 1.705431, ce: 0.193186, reg: 66.832390, reg_best: 66.832390
+step:  79, cost: 2.26E-02, attack: 0.986, loss: 1.737259, ce: 0.222328, reg: 66.951126, reg_best: 66.832390
+step:  80, cost: 2.26E-02, attack: 0.978, loss: 1.849888, ce: 0.364157, reg: 65.660645, reg_best: 66.832390
+step:  81, cost: 2.26E-02, attack: 0.991, loss: 1.689412, ce: 0.139007, reg: 68.518860, reg_best: 66.832390
+step:  82, cost: 2.26E-02, attack: 0.991, loss: 1.715528, ce: 0.152158, reg: 69.091812, reg_best: 66.832390
+step:  83, cost: 2.26E-02, attack: 0.981, loss: 1.824575, ce: 0.303594, reg: 67.218521, reg_best: 66.832390
+step:  84, cost: 2.26E-02, attack: 0.991, loss: 1.692585, ce: 0.166082, reg: 67.462555, reg_best: 66.832390
+step:  85, cost: 2.26E-02, attack: 0.988, loss: 1.700980, ce: 0.185926, reg: 66.956566, reg_best: 66.832390
+step:  86, cost: 2.26E-02, attack: 0.991, loss: 1.723184, ce: 0.171132, reg: 68.591614, reg_best: 66.832390
+step:  87, cost: 2.26E-02, attack: 0.987, loss: 1.731740, ce: 0.223479, reg: 66.656357, reg_best: 66.832390
+step:  88, cost: 2.26E-02, attack: 0.991, loss: 1.668532, ce: 0.151643, reg: 67.042915, reg_best: 66.832390
+step:  89, cost: 2.26E-02, attack: 0.990, loss: 1.639331, ce: 0.148313, reg: 65.894318, reg_best: 66.832390
+step:  90, cost: 2.26E-02, attack: 0.989, loss: 1.665343, ce: 0.181567, reg: 65.574234, reg_best: 66.832390
+step:  91, cost: 2.26E-02, attack: 0.992, loss: 1.682831, ce: 0.113640, reg: 69.349098, reg_best: 66.832390
+step:  92, cost: 2.26E-02, attack: 0.985, loss: 1.787002, ce: 0.249761, reg: 67.937119, reg_best: 66.832390
+step:  93, cost: 2.26E-02, attack: 0.988, loss: 1.735505, ce: 0.204455, reg: 67.663483, reg_best: 66.832390
+step:  94, cost: 2.26E-02, attack: 0.987, loss: 1.742502, ce: 0.206888, reg: 67.865204, reg_best: 66.832390
+step:  95, cost: 2.26E-02, attack: 0.979, loss: 1.786510, ce: 0.346020, reg: 63.661278, reg_best: 66.832390
+step:  96, cost: 2.26E-02, attack: 0.989, loss: 1.687138, ce: 0.192525, reg: 66.053185, reg_best: 66.832390
+down cost from 2.26E-02 to 8.00E-03
+step:  97, cost: 8.00E-03, attack: 0.990, loss: 0.747940, ce: 0.179605, reg: 71.041862, reg_best: 66.832390
+step:  98, cost: 8.00E-03, attack: 0.998, loss: 0.597656, ce: 0.036892, reg: 70.095398, reg_best: 66.832390
+step:  99, cost: 8.00E-03, attack: 0.987, loss: 0.746353, ce: 0.210597, reg: 66.969559, reg_best: 66.832390
+step: 100, cost: 8.00E-03, attack: 0.994, loss: 0.669278, ce: 0.116848, reg: 69.053650, reg_best: 66.832390
+step: 101, cost: 8.00E-03, attack: 0.993, loss: 0.671357, ce: 0.128539, reg: 67.849541, reg_best: 66.832390
+step: 102, cost: 8.00E-03, attack: 0.987, loss: 0.781637, ce: 0.232856, reg: 68.597626, reg_best: 66.832390
+step: 103, cost: 8.00E-03, attack: 0.991, loss: 0.720176, ce: 0.142458, reg: 72.214729, reg_best: 66.832390
+early stop
+pattern, shape: (32, 32, 3), min: -0.000015, max: 255.000000
+mask, shape: (32, 32), min: -0.000000, max: 1.000000
+mask norm of label 9: 67.068733
+visualization cost 98.312401 seconds
+processing label 10
+resetting state
+mask_tanh -3.1749630368863366 3.9045520415904664
+pattern_tanh -3.8599982697628525 4.62867898467406
+step:   0, cost: 0.00E+00, attack: 0.816, loss: 2.970695, ce: 2.970695, reg: 534.399353, reg_best: inf
+step:   1, cost: 0.00E+00, attack: 1.000, loss: 0.000203, ce: 0.000203, reg: 550.822083, reg_best: 550.822083
+step:   2, cost: 0.00E+00, attack: 0.999, loss: 0.017823, ce: 0.017823, reg: 556.507812, reg_best: 550.822083
+step:   3, cost: 0.00E+00, attack: 0.999, loss: 0.013645, ce: 0.013645, reg: 559.029663, reg_best: 550.822083
+step:   4, cost: 0.00E+00, attack: 1.000, loss: 0.000013, ce: 0.000013, reg: 567.850281, reg_best: 550.822083
+step:   5, cost: 0.00E+00, attack: 1.000, loss: 0.000116, ce: 0.000116, reg: 569.834534, reg_best: 550.822083
+initialize cost to 1.00E-03
+step:   6, cost: 1.00E-03, attack: 1.000, loss: 0.381750, ce: 0.007989, reg: 373.761475, reg_best: 373.761475
+step:   7, cost: 1.00E-03, attack: 1.000, loss: 0.283944, ce: 0.015694, reg: 268.250031, reg_best: 268.250031
+step:   8, cost: 1.00E-03, attack: 1.000, loss: 0.249494, ce: 0.006373, reg: 243.121353, reg_best: 243.121353
+step:   9, cost: 1.00E-03, attack: 0.999, loss: 0.200448, ce: 0.012111, reg: 188.336838, reg_best: 188.336838
+up cost from 1.00E-03 to 2.00E-03
+step:  10, cost: 2.00E-03, attack: 0.998, loss: 0.354348, ce: 0.041107, reg: 156.758499, reg_best: 156.758499
+step:  11, cost: 2.00E-03, attack: 0.995, loss: 0.370443, ce: 0.088530, reg: 140.956573, reg_best: 140.956573
+step:  12, cost: 2.00E-03, attack: 0.998, loss: 0.292657, ce: 0.035873, reg: 128.391769, reg_best: 128.391769
+step:  13, cost: 2.00E-03, attack: 0.997, loss: 0.274797, ce: 0.040772, reg: 117.012344, reg_best: 117.012344
+step:  14, cost: 2.00E-03, attack: 0.997, loss: 0.285046, ce: 0.051138, reg: 116.953926, reg_best: 116.953926
+up cost from 2.00E-03 to 4.00E-03
+step:  15, cost: 4.00E-03, attack: 0.998, loss: 0.468005, ce: 0.035271, reg: 108.183640, reg_best: 108.183640
+step:  16, cost: 4.00E-03, attack: 0.998, loss: 0.454988, ce: 0.039348, reg: 103.909828, reg_best: 103.909828
+step:  17, cost: 4.00E-03, attack: 0.996, loss: 0.464010, ce: 0.071824, reg: 98.046555, reg_best: 98.046555
+step:  18, cost: 4.00E-03, attack: 0.996, loss: 0.440722, ce: 0.062961, reg: 94.440208, reg_best: 94.440208
+step:  19, cost: 4.00E-03, attack: 0.999, loss: 0.412756, ce: 0.027672, reg: 96.270935, reg_best: 94.440208
+up cost from 4.00E-03 to 8.00E-03
+step:  20, cost: 8.00E-03, attack: 0.991, loss: 0.838206, ce: 0.143807, reg: 86.799866, reg_best: 86.799866
+step:  21, cost: 8.00E-03, attack: 0.995, loss: 0.740904, ce: 0.087596, reg: 81.663406, reg_best: 81.663406
+step:  22, cost: 8.00E-03, attack: 0.997, loss: 0.722983, ce: 0.056108, reg: 83.318764, reg_best: 81.663406
+step:  23, cost: 8.00E-03, attack: 0.993, loss: 0.752148, ce: 0.111082, reg: 80.133286, reg_best: 80.133286
+step:  24, cost: 8.00E-03, attack: 0.993, loss: 0.714429, ce: 0.103299, reg: 76.391243, reg_best: 76.391243
+up cost from 8.00E-03 to 1.60E-02
+step:  25, cost: 1.60E-02, attack: 0.997, loss: 1.256916, ce: 0.068590, reg: 74.270393, reg_best: 74.270393
+step:  26, cost: 1.60E-02, attack: 0.994, loss: 1.266791, ce: 0.108081, reg: 72.419342, reg_best: 72.419342
+step:  27, cost: 1.60E-02, attack: 0.992, loss: 1.321908, ce: 0.138785, reg: 73.945152, reg_best: 72.419342
+step:  28, cost: 1.60E-02, attack: 0.993, loss: 1.289899, ce: 0.118158, reg: 73.233810, reg_best: 72.419342
+step:  29, cost: 1.60E-02, attack: 0.994, loss: 1.254734, ce: 0.113223, reg: 71.344429, reg_best: 71.344429
+up cost from 1.60E-02 to 3.20E-02
+step:  30, cost: 3.20E-02, attack: 0.990, loss: 2.338304, ce: 0.167517, reg: 67.837082, reg_best: 71.344429
+step:  31, cost: 3.20E-02, attack: 0.974, loss: 2.452636, ce: 0.418843, reg: 63.556007, reg_best: 71.344429
+step:  32, cost: 3.20E-02, attack: 0.993, loss: 2.299464, ce: 0.132133, reg: 67.729088, reg_best: 67.729088
+step:  33, cost: 3.20E-02, attack: 0.984, loss: 2.383426, ce: 0.252006, reg: 66.606865, reg_best: 67.729088
+step:  34, cost: 3.20E-02, attack: 0.990, loss: 2.282544, ce: 0.162226, reg: 66.259918, reg_best: 67.729088
+step:  35, cost: 3.20E-02, attack: 0.982, loss: 2.391900, ce: 0.307419, reg: 65.153389, reg_best: 67.729088
+step:  36, cost: 3.20E-02, attack: 0.985, loss: 2.307368, ce: 0.228915, reg: 64.951668, reg_best: 67.729088
+step:  37, cost: 3.20E-02, attack: 0.983, loss: 2.244045, ce: 0.288135, reg: 61.122196, reg_best: 67.729088
+down cost from 3.20E-02 to 1.13E-02
+step:  38, cost: 1.13E-02, attack: 0.989, loss: 0.905965, ce: 0.188430, reg: 63.421745, reg_best: 67.729088
+step:  39, cost: 1.13E-02, attack: 0.987, loss: 0.954462, ce: 0.226260, reg: 64.364548, reg_best: 67.729088
+step:  40, cost: 1.13E-02, attack: 0.995, loss: 0.837463, ce: 0.082644, reg: 66.717201, reg_best: 66.717201
+step:  41, cost: 1.13E-02, attack: 0.997, loss: 0.836950, ce: 0.051936, reg: 69.386147, reg_best: 66.717201
+step:  42, cost: 1.13E-02, attack: 0.996, loss: 0.818259, ce: 0.080995, reg: 65.165489, reg_best: 65.165489
+step:  43, cost: 1.13E-02, attack: 0.996, loss: 0.814158, ce: 0.063773, reg: 66.325287, reg_best: 65.165489
+step:  44, cost: 1.13E-02, attack: 0.997, loss: 0.796871, ce: 0.052734, reg: 65.773041, reg_best: 65.165489
+up cost from 1.13E-02 to 2.26E-02
+step:  45, cost: 2.26E-02, attack: 0.985, loss: 1.600493, ce: 0.230309, reg: 60.554192, reg_best: 65.165489
+step:  46, cost: 2.26E-02, attack: 0.993, loss: 1.536136, ce: 0.123911, reg: 62.412144, reg_best: 62.412144
+step:  47, cost: 2.26E-02, attack: 0.992, loss: 1.562046, ce: 0.149777, reg: 62.414062, reg_best: 62.412144
+step:  48, cost: 2.26E-02, attack: 0.992, loss: 1.532142, ce: 0.130689, reg: 61.918911, reg_best: 61.918911
+step:  49, cost: 2.26E-02, attack: 0.994, loss: 1.555953, ce: 0.110713, reg: 63.871178, reg_best: 61.918911
+step:  50, cost: 2.26E-02, attack: 0.991, loss: 1.543209, ce: 0.136792, reg: 62.155430, reg_best: 61.918911
+up cost from 2.26E-02 to 4.53E-02
+step:  51, cost: 4.53E-02, attack: 0.984, loss: 3.020307, ce: 0.272578, reg: 60.716789, reg_best: 61.918911
+step:  52, cost: 4.53E-02, attack: 0.985, loss: 2.877856, ce: 0.252945, reg: 58.002888, reg_best: 61.918911
+step:  53, cost: 4.53E-02, attack: 0.979, loss: 2.963821, ce: 0.347153, reg: 57.820736, reg_best: 61.918911
+step:  54, cost: 4.53E-02, attack: 0.982, loss: 2.917615, ce: 0.307185, reg: 57.682884, reg_best: 61.918911
+step:  55, cost: 4.53E-02, attack: 0.983, loss: 2.910781, ce: 0.273997, reg: 58.265247, reg_best: 61.918911
+down cost from 4.53E-02 to 1.60E-02
+step:  56, cost: 1.60E-02, attack: 0.987, loss: 1.169499, ce: 0.215193, reg: 59.644108, reg_best: 61.918911
+step:  57, cost: 1.60E-02, attack: 0.994, loss: 1.108134, ce: 0.081234, reg: 64.181290, reg_best: 61.918911
+step:  58, cost: 1.60E-02, attack: 0.993, loss: 1.118025, ce: 0.138265, reg: 61.235031, reg_best: 61.235031
+step:  59, cost: 1.60E-02, attack: 0.987, loss: 1.224860, ce: 0.222267, reg: 62.662014, reg_best: 61.235031
+step:  60, cost: 1.60E-02, attack: 0.995, loss: 1.120889, ce: 0.087336, reg: 64.597031, reg_best: 61.235031
+step:  61, cost: 1.60E-02, attack: 0.991, loss: 1.182656, ce: 0.144502, reg: 64.888397, reg_best: 61.235031
+step:  62, cost: 1.60E-02, attack: 0.991, loss: 1.146227, ce: 0.149032, reg: 62.324677, reg_best: 61.235031
+step:  63, cost: 1.60E-02, attack: 0.995, loss: 1.072031, ce: 0.086705, reg: 61.582867, reg_best: 61.235031
+step:  64, cost: 1.60E-02, attack: 0.995, loss: 1.068436, ce: 0.096845, reg: 60.724411, reg_best: 60.724411
+up cost from 1.60E-02 to 3.20E-02
+step:  65, cost: 3.20E-02, attack: 0.983, loss: 2.192565, ce: 0.280060, reg: 59.765751, reg_best: 60.724411
+step:  66, cost: 3.20E-02, attack: 0.985, loss: 2.110279, ce: 0.268854, reg: 57.544525, reg_best: 60.724411
+step:  67, cost: 3.20E-02, attack: 0.986, loss: 2.141910, ce: 0.256356, reg: 58.923557, reg_best: 60.724411
+step:  68, cost: 3.20E-02, attack: 0.986, loss: 2.162124, ce: 0.231449, reg: 60.333584, reg_best: 60.724411
+step:  69, cost: 3.20E-02, attack: 0.991, loss: 2.109185, ce: 0.143229, reg: 61.436134, reg_best: 60.724411
+step:  70, cost: 3.20E-02, attack: 0.994, loss: 2.027982, ce: 0.108151, reg: 59.994709, reg_best: 59.994709
+step:  71, cost: 3.20E-02, attack: 0.990, loss: 2.125501, ce: 0.174079, reg: 60.981937, reg_best: 59.994709
+step:  72, cost: 3.20E-02, attack: 0.987, loss: 2.076683, ce: 0.212130, reg: 58.267292, reg_best: 59.994709
+step:  73, cost: 3.20E-02, attack: 0.993, loss: 2.067241, ce: 0.119223, reg: 60.888622, reg_best: 59.994709
+step:  74, cost: 3.20E-02, attack: 0.986, loss: 2.143868, ce: 0.209602, reg: 60.445808, reg_best: 59.994709
+step:  75, cost: 3.20E-02, attack: 0.979, loss: 2.161146, ce: 0.334300, reg: 57.088898, reg_best: 59.994709
+step:  76, cost: 3.20E-02, attack: 0.981, loss: 2.101860, ce: 0.301765, reg: 56.252972, reg_best: 59.994709
+step:  77, cost: 3.20E-02, attack: 0.983, loss: 2.158803, ce: 0.257138, reg: 59.427032, reg_best: 59.994709
+step:  78, cost: 3.20E-02, attack: 0.986, loss: 2.088629, ce: 0.212861, reg: 58.617741, reg_best: 59.994709
+down cost from 3.20E-02 to 1.13E-02
+step:  79, cost: 1.13E-02, attack: 0.993, loss: 0.824688, ce: 0.117629, reg: 62.495747, reg_best: 59.994709
+step:  80, cost: 1.13E-02, attack: 0.994, loss: 0.831770, ce: 0.121337, reg: 62.793957, reg_best: 59.994709
+step:  81, cost: 1.13E-02, attack: 0.997, loss: 0.790360, ce: 0.052924, reg: 65.180801, reg_best: 59.994709
+step:  82, cost: 1.13E-02, attack: 0.987, loss: 0.914378, ce: 0.200474, reg: 63.100803, reg_best: 59.994709
+step:  83, cost: 1.13E-02, attack: 0.996, loss: 0.780765, ce: 0.069346, reg: 62.881168, reg_best: 59.994709
+step:  84, cost: 1.13E-02, attack: 0.996, loss: 0.781620, ce: 0.068154, reg: 63.062115, reg_best: 59.994709
+step:  85, cost: 1.13E-02, attack: 0.990, loss: 0.853425, ce: 0.162856, reg: 61.038231, reg_best: 59.994709
+step:  86, cost: 1.13E-02, attack: 0.992, loss: 0.839591, ce: 0.133618, reg: 62.408314, reg_best: 59.994709
+step:  87, cost: 1.13E-02, attack: 0.998, loss: 0.793174, ce: 0.053819, reg: 65.350403, reg_best: 59.994709
+step:  88, cost: 1.13E-02, attack: 0.993, loss: 0.814543, ce: 0.116913, reg: 61.662312, reg_best: 59.994709
+step:  89, cost: 1.13E-02, attack: 0.989, loss: 0.886187, ce: 0.177361, reg: 62.651939, reg_best: 59.994709
+step:  90, cost: 1.13E-02, attack: 0.994, loss: 0.830289, ce: 0.101272, reg: 64.436607, reg_best: 59.994709
+step:  91, cost: 1.13E-02, attack: 0.995, loss: 0.809901, ce: 0.091954, reg: 63.458164, reg_best: 59.994709
+step:  92, cost: 1.13E-02, attack: 0.991, loss: 0.837100, ce: 0.138571, reg: 61.741764, reg_best: 59.994709
+step:  93, cost: 1.13E-02, attack: 1.000, loss: 0.766480, ce: 0.026269, reg: 65.426033, reg_best: 59.994709
+step:  94, cost: 1.13E-02, attack: 0.997, loss: 0.775901, ce: 0.057872, reg: 63.465401, reg_best: 59.994709
+up cost from 1.13E-02 to 2.26E-02
+step:  95, cost: 2.26E-02, attack: 0.982, loss: 1.579562, ce: 0.281516, reg: 57.366074, reg_best: 59.994709
+early stop
+pattern, shape: (32, 32, 3), min: -0.000015, max: 255.000000
+mask, shape: (32, 32), min: -0.000000, max: 1.000000
+mask norm of label 10: 59.702087
+visualization cost 89.019460 seconds
+processing label 11
+resetting state
+mask_tanh -3.681159763746279 3.0730650423163306
+pattern_tanh -4.378639482407222 4.7355543226042345
+step:   0, cost: 0.00E+00, attack: 0.858, loss: 2.291730, ce: 2.291730, reg: 537.621643, reg_best: inf
+step:   1, cost: 0.00E+00, attack: 1.000, loss: 0.007553, ce: 0.007553, reg: 549.592163, reg_best: 549.592163
+step:   2, cost: 0.00E+00, attack: 1.000, loss: 0.000029, ce: 0.000029, reg: 555.797180, reg_best: 549.592163
+step:   3, cost: 0.00E+00, attack: 1.000, loss: 0.000043, ce: 0.000043, reg: 560.321594, reg_best: 549.592163
+step:   4, cost: 0.00E+00, attack: 1.000, loss: 0.000033, ce: 0.000033, reg: 563.400574, reg_best: 549.592163
+step:   5, cost: 0.00E+00, attack: 1.000, loss: 0.000000, ce: 0.000000, reg: 571.956665, reg_best: 549.592163
+initialize cost to 1.00E-03
+step:   6, cost: 1.00E-03, attack: 0.993, loss: 0.456614, ce: 0.132611, reg: 324.003448, reg_best: 324.003448
+step:   7, cost: 1.00E-03, attack: 0.998, loss: 0.295182, ce: 0.038627, reg: 256.554474, reg_best: 256.554474
+step:   8, cost: 1.00E-03, attack: 1.000, loss: 0.222058, ce: 0.006432, reg: 215.625854, reg_best: 215.625854
+step:   9, cost: 1.00E-03, attack: 0.999, loss: 0.202561, ce: 0.018869, reg: 183.692261, reg_best: 183.692261
+up cost from 1.00E-03 to 2.00E-03
+step:  10, cost: 2.00E-03, attack: 0.997, loss: 0.356317, ce: 0.049522, reg: 153.397537, reg_best: 153.397537
+step:  11, cost: 2.00E-03, attack: 0.998, loss: 0.286336, ce: 0.035819, reg: 125.258766, reg_best: 125.258766
+step:  12, cost: 2.00E-03, attack: 0.993, loss: 0.321459, ce: 0.109109, reg: 106.175316, reg_best: 106.175316
+step:  13, cost: 2.00E-03, attack: 0.998, loss: 0.253174, ce: 0.027209, reg: 112.982437, reg_best: 106.175316
+step:  14, cost: 2.00E-03, attack: 1.000, loss: 0.199692, ce: 0.002264, reg: 98.714249, reg_best: 98.714249
+up cost from 2.00E-03 to 4.00E-03
+step:  15, cost: 4.00E-03, attack: 0.995, loss: 0.414949, ce: 0.076293, reg: 84.663994, reg_best: 84.663994
+step:  16, cost: 4.00E-03, attack: 0.995, loss: 0.416794, ce: 0.082598, reg: 83.538162, reg_best: 83.538162
+step:  17, cost: 4.00E-03, attack: 1.000, loss: 0.326413, ce: 0.009098, reg: 79.328773, reg_best: 79.328773
+step:  18, cost: 4.00E-03, attack: 0.997, loss: 0.357185, ce: 0.046612, reg: 77.643257, reg_best: 77.643257
+step:  19, cost: 4.00E-03, attack: 0.996, loss: 0.348258, ce: 0.069972, reg: 69.571510, reg_best: 69.571510
+up cost from 4.00E-03 to 8.00E-03
+step:  20, cost: 8.00E-03, attack: 0.995, loss: 0.648035, ce: 0.091895, reg: 69.517464, reg_best: 69.517464
+step:  21, cost: 8.00E-03, attack: 0.998, loss: 0.593030, ce: 0.030854, reg: 70.272064, reg_best: 69.517464
+step:  22, cost: 8.00E-03, attack: 0.997, loss: 0.592138, ce: 0.058078, reg: 66.757568, reg_best: 66.757568
+step:  23, cost: 8.00E-03, attack: 0.993, loss: 0.626288, ce: 0.120602, reg: 63.210663, reg_best: 63.210663
+step:  24, cost: 8.00E-03, attack: 0.994, loss: 0.599089, ce: 0.090882, reg: 63.525959, reg_best: 63.210663
+up cost from 8.00E-03 to 1.60E-02
+step:  25, cost: 1.60E-02, attack: 0.991, loss: 1.085809, ce: 0.139276, reg: 59.158352, reg_best: 59.158352
+step:  26, cost: 1.60E-02, attack: 0.996, loss: 1.041941, ce: 0.082972, reg: 59.935581, reg_best: 59.158352
+step:  27, cost: 1.60E-02, attack: 0.978, loss: 1.205961, ce: 0.351508, reg: 53.403290, reg_best: 59.158352
+step:  28, cost: 1.60E-02, attack: 0.992, loss: 1.043043, ce: 0.140050, reg: 56.421219, reg_best: 56.421219
+step:  29, cost: 1.60E-02, attack: 0.991, loss: 1.058928, ce: 0.172683, reg: 55.390331, reg_best: 55.390331
+step:  30, cost: 1.60E-02, attack: 0.995, loss: 1.025212, ce: 0.081682, reg: 58.970604, reg_best: 55.390331
+step:  31, cost: 1.60E-02, attack: 0.996, loss: 1.002028, ce: 0.073795, reg: 58.014603, reg_best: 55.390331
+step:  32, cost: 1.60E-02, attack: 0.994, loss: 0.991390, ce: 0.102485, reg: 55.556541, reg_best: 55.390331
+up cost from 1.60E-02 to 3.20E-02
+step:  33, cost: 3.20E-02, attack: 0.986, loss: 1.804984, ce: 0.251915, reg: 48.533394, reg_best: 55.390331
+step:  34, cost: 3.20E-02, attack: 0.981, loss: 1.908475, ce: 0.306006, reg: 50.077148, reg_best: 55.390331
+step:  35, cost: 3.20E-02, attack: 0.989, loss: 1.765925, ce: 0.184694, reg: 49.413483, reg_best: 55.390331
+step:  36, cost: 3.20E-02, attack: 0.985, loss: 1.761301, ce: 0.255599, reg: 47.053181, reg_best: 55.390331
+step:  37, cost: 3.20E-02, attack: 0.988, loss: 1.716218, ce: 0.193873, reg: 47.573288, reg_best: 55.390331
+down cost from 3.20E-02 to 1.13E-02
+step:  38, cost: 1.13E-02, attack: 0.992, loss: 0.695484, ce: 0.126206, reg: 50.317520, reg_best: 50.317520
+step:  39, cost: 1.13E-02, attack: 0.994, loss: 0.684871, ce: 0.109019, reg: 50.898533, reg_best: 50.317520
+step:  40, cost: 1.13E-02, attack: 0.994, loss: 0.673582, ce: 0.099235, reg: 50.765572, reg_best: 50.317520
+step:  41, cost: 1.13E-02, attack: 0.995, loss: 0.654053, ce: 0.096776, reg: 49.239601, reg_best: 49.239601
+step:  42, cost: 1.13E-02, attack: 0.993, loss: 0.690340, ce: 0.116086, reg: 50.757431, reg_best: 49.239601
+up cost from 1.13E-02 to 2.26E-02
+step:  43, cost: 2.26E-02, attack: 0.992, loss: 1.282207, ce: 0.125591, reg: 51.115681, reg_best: 49.239601
+step:  44, cost: 2.26E-02, attack: 0.990, loss: 1.270626, ce: 0.159050, reg: 49.125172, reg_best: 49.239601
+step:  45, cost: 2.26E-02, attack: 0.993, loss: 1.203823, ce: 0.154120, reg: 46.390781, reg_best: 46.390781
+step:  46, cost: 2.26E-02, attack: 0.991, loss: 1.241579, ce: 0.148016, reg: 48.329128, reg_best: 46.390781
+step:  47, cost: 2.26E-02, attack: 0.993, loss: 1.247105, ce: 0.126039, reg: 49.544598, reg_best: 46.390781
+step:  48, cost: 2.26E-02, attack: 0.995, loss: 1.189489, ce: 0.104870, reg: 47.933830, reg_best: 46.390781
+step:  49, cost: 2.26E-02, attack: 0.994, loss: 1.260383, ce: 0.119727, reg: 50.410381, reg_best: 46.390781
+up cost from 2.26E-02 to 4.53E-02
+step:  50, cost: 4.53E-02, attack: 0.988, loss: 2.300700, ce: 0.203007, reg: 46.352913, reg_best: 46.390781
+step:  51, cost: 4.53E-02, attack: 0.972, loss: 2.374806, ce: 0.434800, reg: 42.868481, reg_best: 46.390781
+step:  52, cost: 4.53E-02, attack: 0.985, loss: 2.273277, ce: 0.222931, reg: 45.306656, reg_best: 46.390781
+step:  53, cost: 4.53E-02, attack: 0.984, loss: 2.273760, ce: 0.260580, reg: 44.485420, reg_best: 46.390781
+step:  54, cost: 4.53E-02, attack: 0.978, loss: 2.273312, ce: 0.366884, reg: 42.137161, reg_best: 46.390781
+down cost from 4.53E-02 to 1.60E-02
+step:  55, cost: 1.60E-02, attack: 0.991, loss: 0.909645, ce: 0.174579, reg: 45.941654, reg_best: 45.941654
+step:  56, cost: 1.60E-02, attack: 0.990, loss: 0.924764, ce: 0.162347, reg: 47.651039, reg_best: 45.941654
+step:  57, cost: 1.60E-02, attack: 0.995, loss: 0.891451, ce: 0.096010, reg: 49.715073, reg_best: 45.941654
+step:  58, cost: 1.60E-02, attack: 0.989, loss: 0.928549, ce: 0.177465, reg: 46.942768, reg_best: 45.941654
+step:  59, cost: 1.60E-02, attack: 0.995, loss: 0.879315, ce: 0.082908, reg: 49.775433, reg_best: 45.941654
+step:  60, cost: 1.60E-02, attack: 0.992, loss: 0.920141, ce: 0.130011, reg: 49.383160, reg_best: 45.941654
+step:  61, cost: 1.60E-02, attack: 0.993, loss: 0.882347, ce: 0.114181, reg: 48.010334, reg_best: 45.941654
+step:  62, cost: 1.60E-02, attack: 0.993, loss: 0.917981, ce: 0.139592, reg: 48.649307, reg_best: 45.941654
+step:  63, cost: 1.60E-02, attack: 0.992, loss: 0.893882, ce: 0.136227, reg: 47.353378, reg_best: 45.941654
+up cost from 1.60E-02 to 3.20E-02
+step:  64, cost: 3.20E-02, attack: 0.989, loss: 1.709756, ce: 0.201700, reg: 47.126732, reg_best: 45.941654
+step:  65, cost: 3.20E-02, attack: 0.997, loss: 1.646259, ce: 0.086525, reg: 48.741688, reg_best: 45.941654
+step:  66, cost: 3.20E-02, attack: 0.989, loss: 1.621097, ce: 0.187161, reg: 44.807892, reg_best: 45.941654
+step:  67, cost: 3.20E-02, attack: 0.987, loss: 1.614758, ce: 0.217878, reg: 43.652496, reg_best: 45.941654
+step:  68, cost: 3.20E-02, attack: 0.986, loss: 1.661060, ce: 0.241219, reg: 44.370026, reg_best: 45.941654
+step:  69, cost: 3.20E-02, attack: 0.986, loss: 1.654474, ce: 0.202459, reg: 45.375462, reg_best: 45.941654
+step:  70, cost: 3.20E-02, attack: 0.996, loss: 1.590942, ce: 0.098013, reg: 46.654037, reg_best: 45.941654
+step:  71, cost: 3.20E-02, attack: 0.994, loss: 1.631043, ce: 0.098433, reg: 47.894058, reg_best: 45.941654
+step:  72, cost: 3.20E-02, attack: 0.983, loss: 1.750191, ce: 0.289468, reg: 45.647583, reg_best: 45.941654
+step:  73, cost: 3.20E-02, attack: 0.984, loss: 1.651734, ce: 0.258633, reg: 43.534416, reg_best: 45.941654
+step:  74, cost: 3.20E-02, attack: 0.983, loss: 1.704079, ce: 0.273456, reg: 44.706944, reg_best: 45.941654
+step:  75, cost: 3.20E-02, attack: 0.979, loss: 1.732636, ce: 0.342913, reg: 43.428837, reg_best: 45.941654
+step:  76, cost: 3.20E-02, attack: 0.988, loss: 1.699667, ce: 0.225311, reg: 46.073643, reg_best: 45.941654
+down cost from 3.20E-02 to 1.13E-02
+step:  77, cost: 1.13E-02, attack: 0.996, loss: 0.637860, ce: 0.062115, reg: 50.889141, reg_best: 45.941654
+step:  78, cost: 1.13E-02, attack: 0.997, loss: 0.617198, ce: 0.054894, reg: 49.701092, reg_best: 45.941654
+step:  79, cost: 1.13E-02, attack: 0.994, loss: 0.647225, ce: 0.094330, reg: 48.867607, reg_best: 45.941654
+step:  80, cost: 1.13E-02, attack: 1.000, loss: 0.577671, ce: 0.019576, reg: 49.329014, reg_best: 45.941654
+early stop
+pattern, shape: (32, 32, 3), min: -0.000015, max: 255.000000
+mask, shape: (32, 32), min: -0.000000, max: 1.000000
+mask norm of label 11: 47.885380
+visualization cost 74.457904 seconds
+processing label 12
+resetting state
+mask_tanh -5.810388366017178 3.8929679189767774
+pattern_tanh -3.430380597206923 4.159399790269891
+step:   0, cost: 0.00E+00, attack: 0.932, loss: 1.107485, ce: 1.107485, reg: 546.548889, reg_best: inf
+step:   1, cost: 0.00E+00, attack: 1.000, loss: 0.000502, ce: 0.000502, reg: 561.494019, reg_best: 561.494019
+step:   2, cost: 0.00E+00, attack: 1.000, loss: 0.000008, ce: 0.000008, reg: 562.462891, reg_best: 561.494019
+step:   3, cost: 0.00E+00, attack: 1.000, loss: 0.000003, ce: 0.000003, reg: 562.690186, reg_best: 561.494019
+step:   4, cost: 0.00E+00, attack: 1.000, loss: 0.000305, ce: 0.000305, reg: 570.658081, reg_best: 561.494019
+step:   5, cost: 0.00E+00, attack: 1.000, loss: 0.000000, ce: 0.000000, reg: 574.127625, reg_best: 561.494019
+initialize cost to 1.00E-03
+step:   6, cost: 1.00E-03, attack: 0.997, loss: 0.369706, ce: 0.051027, reg: 318.679779, reg_best: 318.679779
+step:   7, cost: 1.00E-03, attack: 0.997, loss: 0.247296, ce: 0.044433, reg: 202.863068, reg_best: 202.863068
+step:   8, cost: 1.00E-03, attack: 0.997, loss: 0.219610, ce: 0.048676, reg: 170.933258, reg_best: 170.933258
+step:   9, cost: 1.00E-03, attack: 0.998, loss: 0.172819, ce: 0.031022, reg: 141.797348, reg_best: 141.797348
+up cost from 1.00E-03 to 2.00E-03
+step:  10, cost: 2.00E-03, attack: 0.998, loss: 0.289403, ce: 0.034746, reg: 127.328194, reg_best: 127.328194
+step:  11, cost: 2.00E-03, attack: 0.999, loss: 0.245525, ce: 0.020628, reg: 112.433556, reg_best: 112.433556
+step:  12, cost: 2.00E-03, attack: 0.999, loss: 0.229958, ce: 0.019552, reg: 105.202950, reg_best: 105.202950
+step:  13, cost: 2.00E-03, attack: 1.000, loss: 0.229144, ce: 0.009841, reg: 109.651199, reg_best: 105.202950
+step:  14, cost: 2.00E-03, attack: 0.997, loss: 0.241565, ce: 0.044905, reg: 98.329857, reg_best: 98.329857
+up cost from 2.00E-03 to 4.00E-03
+step:  15, cost: 4.00E-03, attack: 0.996, loss: 0.428639, ce: 0.070554, reg: 89.521179, reg_best: 89.521179
+step:  16, cost: 4.00E-03, attack: 0.995, loss: 0.424276, ce: 0.081291, reg: 85.746201, reg_best: 85.746201
+step:  17, cost: 4.00E-03, attack: 0.998, loss: 0.368308, ce: 0.045558, reg: 80.687332, reg_best: 80.687332
+step:  18, cost: 4.00E-03, attack: 0.997, loss: 0.377284, ce: 0.054066, reg: 80.804520, reg_best: 80.687332
+step:  19, cost: 4.00E-03, attack: 0.999, loss: 0.343222, ce: 0.015176, reg: 82.011421, reg_best: 80.687332
+up cost from 4.00E-03 to 8.00E-03
+step:  20, cost: 8.00E-03, attack: 0.994, loss: 0.688239, ce: 0.088475, reg: 74.970398, reg_best: 74.970398
+step:  21, cost: 8.00E-03, attack: 0.994, loss: 0.705284, ce: 0.112376, reg: 74.113533, reg_best: 74.113533
+step:  22, cost: 8.00E-03, attack: 0.994, loss: 0.695657, ce: 0.087547, reg: 76.013748, reg_best: 74.113533
+step:  23, cost: 8.00E-03, attack: 0.993, loss: 0.694144, ce: 0.117623, reg: 72.065071, reg_best: 72.065071
+step:  24, cost: 8.00E-03, attack: 0.993, loss: 0.714731, ce: 0.126436, reg: 73.507256, reg_best: 72.065071
+up cost from 8.00E-03 to 1.60E-02
+step:  25, cost: 1.60E-02, attack: 0.994, loss: 1.203472, ce: 0.102299, reg: 68.823326, reg_best: 68.823326
+step:  26, cost: 1.60E-02, attack: 0.993, loss: 1.223797, ce: 0.117091, reg: 69.169106, reg_best: 68.823326
+step:  27, cost: 1.60E-02, attack: 0.995, loss: 1.184262, ce: 0.083605, reg: 68.791039, reg_best: 68.791039
+step:  28, cost: 1.60E-02, attack: 0.994, loss: 1.202728, ce: 0.112282, reg: 68.152863, reg_best: 68.152863
+step:  29, cost: 1.60E-02, attack: 0.995, loss: 1.126127, ce: 0.086246, reg: 64.992561, reg_best: 64.992561
+up cost from 1.60E-02 to 3.20E-02
+step:  30, cost: 3.20E-02, attack: 0.985, loss: 2.201298, ce: 0.246792, reg: 61.078297, reg_best: 64.992561
+step:  31, cost: 3.20E-02, attack: 0.981, loss: 2.196093, ce: 0.314176, reg: 58.809906, reg_best: 64.992561
+step:  32, cost: 3.20E-02, attack: 0.978, loss: 2.292166, ce: 0.332235, reg: 61.247826, reg_best: 64.992561
+step:  33, cost: 3.20E-02, attack: 0.988, loss: 2.175021, ce: 0.225469, reg: 60.923508, reg_best: 64.992561
+step:  34, cost: 3.20E-02, attack: 0.979, loss: 2.266614, ce: 0.352761, reg: 59.807926, reg_best: 64.992561
+down cost from 3.20E-02 to 1.13E-02
+step:  35, cost: 1.13E-02, attack: 0.993, loss: 0.862830, ce: 0.101621, reg: 67.281937, reg_best: 64.992561
+step:  36, cost: 1.13E-02, attack: 0.996, loss: 0.824751, ce: 0.087104, reg: 65.197891, reg_best: 64.992561
+step:  37, cost: 1.13E-02, attack: 0.994, loss: 0.844752, ce: 0.107113, reg: 65.198647, reg_best: 64.992561
+step:  38, cost: 1.13E-02, attack: 0.992, loss: 0.832546, ce: 0.118755, reg: 63.090866, reg_best: 63.090866
+step:  39, cost: 1.13E-02, attack: 0.996, loss: 0.799200, ce: 0.072382, reg: 64.242226, reg_best: 63.090866
+up cost from 1.13E-02 to 2.26E-02
+step:  40, cost: 2.26E-02, attack: 0.983, loss: 1.654585, ce: 0.287194, reg: 60.430702, reg_best: 63.090866
+step:  41, cost: 2.26E-02, attack: 0.989, loss: 1.597797, ce: 0.167598, reg: 63.206455, reg_best: 63.090866
+step:  42, cost: 2.26E-02, attack: 0.985, loss: 1.582379, ce: 0.231112, reg: 59.718140, reg_best: 63.090866
+step:  43, cost: 2.26E-02, attack: 0.984, loss: 1.615583, ce: 0.281440, reg: 58.961353, reg_best: 63.090866
+step:  44, cost: 2.26E-02, attack: 0.988, loss: 1.616500, ce: 0.197736, reg: 62.701077, reg_best: 63.090866
+down cost from 2.26E-02 to 8.00E-03
+step:  45, cost: 8.00E-03, attack: 0.995, loss: 0.617756, ce: 0.084903, reg: 66.606621, reg_best: 63.090866
+step:  46, cost: 8.00E-03, attack: 0.996, loss: 0.608628, ce: 0.069141, reg: 67.435905, reg_best: 63.090866
+step:  47, cost: 8.00E-03, attack: 0.993, loss: 0.635849, ce: 0.115698, reg: 65.018860, reg_best: 63.090866
+step:  48, cost: 8.00E-03, attack: 0.995, loss: 0.597561, ce: 0.084085, reg: 64.184502, reg_best: 63.090866
+step:  49, cost: 8.00E-03, attack: 0.992, loss: 0.634966, ce: 0.137909, reg: 62.116531, reg_best: 62.116531
+up cost from 8.00E-03 to 1.60E-02
+step:  50, cost: 1.60E-02, attack: 0.994, loss: 1.108165, ce: 0.093112, reg: 63.440777, reg_best: 62.116531
+step:  51, cost: 1.60E-02, attack: 0.987, loss: 1.186612, ce: 0.229756, reg: 59.803490, reg_best: 62.116531
+step:  52, cost: 1.60E-02, attack: 0.987, loss: 1.197628, ce: 0.234999, reg: 60.164330, reg_best: 62.116531
+step:  53, cost: 1.60E-02, attack: 0.986, loss: 1.218335, ce: 0.235900, reg: 61.402203, reg_best: 62.116531
+step:  54, cost: 1.60E-02, attack: 0.983, loss: 1.254467, ce: 0.267625, reg: 61.677624, reg_best: 62.116531
+step:  55, cost: 1.60E-02, attack: 0.994, loss: 1.136489, ce: 0.126060, reg: 63.151798, reg_best: 62.116531
+step:  56, cost: 1.60E-02, attack: 0.993, loss: 1.129524, ce: 0.121782, reg: 62.983849, reg_best: 62.116531
+step:  57, cost: 1.60E-02, attack: 0.995, loss: 1.139932, ce: 0.090594, reg: 65.583618, reg_best: 62.116531
+step:  58, cost: 1.60E-02, attack: 0.999, loss: 1.086509, ce: 0.024948, reg: 66.347572, reg_best: 62.116531
+step:  59, cost: 1.60E-02, attack: 0.994, loss: 1.124902, ce: 0.109733, reg: 63.448067, reg_best: 62.116531
+up cost from 1.60E-02 to 3.20E-02
+step:  60, cost: 3.20E-02, attack: 0.982, loss: 2.169299, ce: 0.296501, reg: 58.524948, reg_best: 62.116531
+step:  61, cost: 3.20E-02, attack: 0.989, loss: 2.141178, ce: 0.190529, reg: 60.957764, reg_best: 62.116531
+step:  62, cost: 3.20E-02, attack: 0.990, loss: 2.142475, ce: 0.173386, reg: 61.538445, reg_best: 62.116531
+step:  63, cost: 3.20E-02, attack: 0.988, loss: 2.106186, ce: 0.170404, reg: 60.493176, reg_best: 62.116531
+step:  64, cost: 3.20E-02, attack: 0.980, loss: 2.187279, ce: 0.333948, reg: 57.916580, reg_best: 62.116531
+down cost from 3.20E-02 to 1.13E-02
+step:  65, cost: 1.13E-02, attack: 0.996, loss: 0.776658, ce: 0.083336, reg: 61.281540, reg_best: 61.281540
+step:  66, cost: 1.13E-02, attack: 0.994, loss: 0.836217, ce: 0.094218, reg: 65.584145, reg_best: 61.281540
+step:  67, cost: 1.13E-02, attack: 0.993, loss: 0.862227, ce: 0.105235, reg: 66.909264, reg_best: 61.281540
+step:  68, cost: 1.13E-02, attack: 0.993, loss: 0.818996, ce: 0.114836, reg: 62.239548, reg_best: 61.281540
+step:  69, cost: 1.13E-02, attack: 0.993, loss: 0.814194, ce: 0.115195, reg: 61.783352, reg_best: 61.281540
+up cost from 1.13E-02 to 2.26E-02
+step:  70, cost: 2.26E-02, attack: 0.990, loss: 1.606871, ce: 0.154878, reg: 64.169617, reg_best: 61.281540
+step:  71, cost: 2.26E-02, attack: 0.987, loss: 1.577347, ce: 0.215956, reg: 60.165527, reg_best: 61.281540
+step:  72, cost: 2.26E-02, attack: 0.997, loss: 1.465404, ce: 0.057926, reg: 62.202354, reg_best: 61.281540
+step:  73, cost: 2.26E-02, attack: 0.990, loss: 1.577430, ce: 0.164426, reg: 62.446564, reg_best: 61.281540
+step:  74, cost: 2.26E-02, attack: 0.992, loss: 1.584243, ce: 0.153881, reg: 63.213654, reg_best: 61.281540
+step:  75, cost: 2.26E-02, attack: 0.998, loss: 1.485327, ce: 0.044381, reg: 63.675411, reg_best: 61.281540
+step:  76, cost: 2.26E-02, attack: 0.988, loss: 1.553288, ce: 0.192840, reg: 60.123848, reg_best: 61.281540
+step:  77, cost: 2.26E-02, attack: 0.985, loss: 1.667406, ce: 0.236754, reg: 63.226486, reg_best: 61.281540
+step:  78, cost: 2.26E-02, attack: 0.993, loss: 1.537170, ce: 0.116842, reg: 62.770233, reg_best: 61.281540
+step:  79, cost: 2.26E-02, attack: 0.993, loss: 1.551533, ce: 0.127555, reg: 62.931507, reg_best: 61.281540
+step:  80, cost: 2.26E-02, attack: 0.993, loss: 1.540057, ce: 0.127185, reg: 62.440739, reg_best: 61.281540
+step:  81, cost: 2.26E-02, attack: 0.992, loss: 1.564533, ce: 0.129017, reg: 63.441456, reg_best: 61.281540
+step:  82, cost: 2.26E-02, attack: 0.994, loss: 1.488234, ce: 0.115180, reg: 60.680977, reg_best: 60.680977
+up cost from 2.26E-02 to 4.53E-02
+step:  83, cost: 4.53E-02, attack: 0.989, loss: 2.940262, ce: 0.184566, reg: 60.892864, reg_best: 60.680977
+step:  84, cost: 4.53E-02, attack: 0.987, loss: 2.925573, ce: 0.237416, reg: 59.400433, reg_best: 60.680977
+step:  85, cost: 4.53E-02, attack: 0.978, loss: 3.078566, ce: 0.380614, reg: 59.616871, reg_best: 60.680977
+step:  86, cost: 4.53E-02, attack: 0.989, loss: 2.871462, ce: 0.215273, reg: 58.694035, reg_best: 60.680977
+step:  87, cost: 4.53E-02, attack: 0.988, loss: 2.894860, ce: 0.217863, reg: 59.118549, reg_best: 60.680977
+down cost from 4.53E-02 to 1.60E-02
+step:  88, cost: 1.60E-02, attack: 0.982, loss: 1.253373, ce: 0.291530, reg: 60.115158, reg_best: 60.680977
+step:  89, cost: 1.60E-02, attack: 0.993, loss: 1.108799, ce: 0.105396, reg: 62.712666, reg_best: 60.680977
+step:  90, cost: 1.60E-02, attack: 0.994, loss: 1.079069, ce: 0.091053, reg: 61.751007, reg_best: 60.680977
+step:  91, cost: 1.60E-02, attack: 0.994, loss: 1.127045, ce: 0.117980, reg: 63.066544, reg_best: 60.680977
+step:  92, cost: 1.60E-02, attack: 0.994, loss: 1.083041, ce: 0.104385, reg: 61.165989, reg_best: 60.680977
+step:  93, cost: 1.60E-02, attack: 0.992, loss: 1.112471, ce: 0.144665, reg: 60.487869, reg_best: 60.487869
+up cost from 1.60E-02 to 3.20E-02
+step:  94, cost: 3.20E-02, attack: 0.990, loss: 2.159823, ce: 0.157839, reg: 62.562008, reg_best: 60.487869
+step:  95, cost: 3.20E-02, attack: 0.988, loss: 2.111307, ce: 0.209266, reg: 59.438789, reg_best: 60.487869
+step:  96, cost: 3.20E-02, attack: 0.980, loss: 2.162796, ce: 0.318764, reg: 57.625973, reg_best: 60.487869
+step:  97, cost: 3.20E-02, attack: 0.988, loss: 2.053663, ce: 0.212148, reg: 57.547340, reg_best: 60.487869
+step:  98, cost: 3.20E-02, attack: 0.989, loss: 2.098041, ce: 0.189063, reg: 59.655540, reg_best: 60.487869
+down cost from 3.20E-02 to 1.13E-02
+step:  99, cost: 1.13E-02, attack: 0.991, loss: 0.839473, ce: 0.147793, reg: 61.136471, reg_best: 60.487869
+step: 100, cost: 1.13E-02, attack: 0.992, loss: 0.834743, ce: 0.132175, reg: 62.087734, reg_best: 60.487869
+step: 101, cost: 1.13E-02, attack: 0.994, loss: 0.846783, ce: 0.099660, reg: 66.036942, reg_best: 60.487869
+step: 102, cost: 1.13E-02, attack: 0.992, loss: 0.828622, ce: 0.111091, reg: 63.421371, reg_best: 60.487869
+step: 103, cost: 1.13E-02, attack: 0.995, loss: 0.822638, ce: 0.092376, reg: 64.546616, reg_best: 60.487869
+up cost from 1.13E-02 to 2.26E-02
+step: 104, cost: 2.26E-02, attack: 0.993, loss: 1.470450, ce: 0.111268, reg: 60.067959, reg_best: 60.067959
+step: 105, cost: 2.26E-02, attack: 0.983, loss: 1.615485, ce: 0.293345, reg: 58.430866, reg_best: 60.067959
+step: 106, cost: 2.26E-02, attack: 0.991, loss: 1.513757, ce: 0.161377, reg: 59.767288, reg_best: 59.767288
+step: 107, cost: 2.26E-02, attack: 0.992, loss: 1.533410, ce: 0.151392, reg: 61.077145, reg_best: 59.767288
+step: 108, cost: 2.26E-02, attack: 0.987, loss: 1.541545, ce: 0.217592, reg: 58.511002, reg_best: 59.767288
+step: 109, cost: 2.26E-02, attack: 0.985, loss: 1.628978, ce: 0.272012, reg: 59.969982, reg_best: 59.767288
+step: 110, cost: 2.26E-02, attack: 0.990, loss: 1.513129, ce: 0.160533, reg: 59.776829, reg_best: 59.767288
+step: 111, cost: 2.26E-02, attack: 0.989, loss: 1.577855, ce: 0.188195, reg: 61.414829, reg_best: 59.767288
+step: 112, cost: 2.26E-02, attack: 0.990, loss: 1.502388, ce: 0.170896, reg: 58.844234, reg_best: 59.767288
+down cost from 2.26E-02 to 8.00E-03
+step: 113, cost: 8.00E-03, attack: 0.989, loss: 0.651442, ce: 0.163111, reg: 61.049999, reg_best: 59.767288
+step: 114, cost: 8.00E-03, attack: 0.992, loss: 0.627241, ce: 0.126450, reg: 62.598869, reg_best: 59.767288
+step: 115, cost: 8.00E-03, attack: 0.997, loss: 0.575192, ce: 0.064302, reg: 63.861168, reg_best: 59.767288
+step: 116, cost: 8.00E-03, attack: 0.993, loss: 0.646961, ce: 0.121236, reg: 65.715652, reg_best: 59.767288
+step: 117, cost: 8.00E-03, attack: 0.997, loss: 0.562548, ce: 0.061079, reg: 62.683594, reg_best: 59.767288
+step: 118, cost: 8.00E-03, attack: 0.995, loss: 0.603006, ce: 0.088347, reg: 64.332382, reg_best: 59.767288
+up cost from 8.00E-03 to 1.60E-02
+step: 119, cost: 1.60E-02, attack: 0.997, loss: 1.122944, ce: 0.063920, reg: 66.188972, reg_best: 59.767288
+step: 120, cost: 1.60E-02, attack: 0.994, loss: 1.104496, ce: 0.115152, reg: 61.834000, reg_best: 59.767288
+step: 121, cost: 1.60E-02, attack: 0.992, loss: 1.140683, ce: 0.142008, reg: 62.417168, reg_best: 59.767288
+step: 122, cost: 1.60E-02, attack: 0.997, loss: 1.063679, ce: 0.053121, reg: 63.159882, reg_best: 59.767288
+step: 123, cost: 1.60E-02, attack: 0.991, loss: 1.143422, ce: 0.149902, reg: 62.094955, reg_best: 59.767288
+up cost from 1.60E-02 to 3.20E-02
+step: 124, cost: 3.20E-02, attack: 0.983, loss: 2.160671, ce: 0.289431, reg: 58.476231, reg_best: 59.767288
+step: 125, cost: 3.20E-02, attack: 0.988, loss: 2.067190, ce: 0.206374, reg: 58.150520, reg_best: 59.767288
+step: 126, cost: 3.20E-02, attack: 0.985, loss: 2.158727, ce: 0.254836, reg: 59.513119, reg_best: 59.767288
+step: 127, cost: 3.20E-02, attack: 0.986, loss: 2.068162, ce: 0.238061, reg: 57.190662, reg_best: 59.767288
+step: 128, cost: 3.20E-02, attack: 0.988, loss: 2.099454, ce: 0.189102, reg: 59.698502, reg_best: 59.767288
+down cost from 3.20E-02 to 1.13E-02
+step: 129, cost: 1.13E-02, attack: 0.989, loss: 0.868227, ce: 0.185441, reg: 60.350323, reg_best: 59.767288
+step: 130, cost: 1.13E-02, attack: 0.996, loss: 0.790750, ce: 0.079491, reg: 62.867027, reg_best: 59.767288
+step: 131, cost: 1.13E-02, attack: 0.990, loss: 0.873276, ce: 0.153530, reg: 63.617119, reg_best: 59.767288
+early stop
+pattern, shape: (32, 32, 3), min: -0.000015, max: 255.000000
+mask, shape: (32, 32), min: -0.000000, max: 1.000000
+mask norm of label 12: 60.433346
+visualization cost 122.478553 seconds
+processing label 13
+resetting state
+mask_tanh -3.5674470299671635 3.276839420354767
+pattern_tanh -4.638749448727935 3.9206493573355092
+step:   0, cost: 0.00E+00, attack: 0.924, loss: 1.283836, ce: 1.283836, reg: 551.158630, reg_best: inf
+step:   1, cost: 0.00E+00, attack: 1.000, loss: 0.000556, ce: 0.000556, reg: 563.805481, reg_best: 563.805481
+step:   2, cost: 0.00E+00, attack: 1.000, loss: 0.000054, ce: 0.000054, reg: 568.536377, reg_best: 563.805481
+step:   3, cost: 0.00E+00, attack: 1.000, loss: 0.000006, ce: 0.000006, reg: 569.993225, reg_best: 563.805481
+step:   4, cost: 0.00E+00, attack: 1.000, loss: 0.000002, ce: 0.000002, reg: 571.807739, reg_best: 563.805481
+step:   5, cost: 0.00E+00, attack: 1.000, loss: 0.000001, ce: 0.000001, reg: 573.820923, reg_best: 563.805481
+initialize cost to 1.00E-03
+step:   6, cost: 1.00E-03, attack: 0.996, loss: 0.472071, ce: 0.059268, reg: 412.291412, reg_best: 412.291412
+step:   7, cost: 1.00E-03, attack: 0.999, loss: 0.365868, ce: 0.018526, reg: 347.342072, reg_best: 347.342072
+step:   8, cost: 1.00E-03, attack: 1.000, loss: 0.267642, ce: 0.007411, reg: 260.231445, reg_best: 260.231445
+step:   9, cost: 1.00E-03, attack: 1.000, loss: 0.220176, ce: 0.001927, reg: 218.248703, reg_best: 218.248703
+up cost from 1.00E-03 to 2.00E-03
+step:  10, cost: 2.00E-03, attack: 0.998, loss: 0.379747, ce: 0.033158, reg: 173.294632, reg_best: 173.294632
+step:  11, cost: 2.00E-03, attack: 0.998, loss: 0.332707, ce: 0.036423, reg: 148.142227, reg_best: 148.142227
+step:  12, cost: 2.00E-03, attack: 0.998, loss: 0.325429, ce: 0.027453, reg: 148.988007, reg_best: 148.142227
+step:  13, cost: 2.00E-03, attack: 0.997, loss: 0.308045, ce: 0.041162, reg: 133.441788, reg_best: 133.441788
+step:  14, cost: 2.00E-03, attack: 0.999, loss: 0.279397, ce: 0.011374, reg: 134.011383, reg_best: 133.441788
+up cost from 2.00E-03 to 4.00E-03
+step:  15, cost: 4.00E-03, attack: 0.996, loss: 0.564513, ce: 0.066687, reg: 124.456459, reg_best: 124.456459
+step:  16, cost: 4.00E-03, attack: 0.999, loss: 0.513565, ce: 0.023046, reg: 122.629791, reg_best: 122.629791
+step:  17, cost: 4.00E-03, attack: 0.991, loss: 0.571338, ce: 0.139876, reg: 107.865524, reg_best: 107.865524
+step:  18, cost: 4.00E-03, attack: 0.996, loss: 0.479704, ce: 0.053487, reg: 106.554237, reg_best: 106.554237
+step:  19, cost: 4.00E-03, attack: 0.999, loss: 0.439100, ce: 0.032001, reg: 101.738686, reg_best: 101.738686
+up cost from 4.00E-03 to 8.00E-03
+step:  20, cost: 8.00E-03, attack: 0.998, loss: 0.858616, ce: 0.056727, reg: 100.236130, reg_best: 100.236130
+step:  21, cost: 8.00E-03, attack: 0.990, loss: 0.894485, ce: 0.162770, reg: 91.464401, reg_best: 100.236130
+step:  22, cost: 8.00E-03, attack: 0.996, loss: 0.830512, ce: 0.071776, reg: 94.842026, reg_best: 94.842026
+step:  23, cost: 8.00E-03, attack: 0.995, loss: 0.800029, ce: 0.087300, reg: 89.091034, reg_best: 89.091034
+step:  24, cost: 8.00E-03, attack: 0.992, loss: 0.838009, ce: 0.133663, reg: 88.043289, reg_best: 88.043289
+step:  25, cost: 8.00E-03, attack: 0.994, loss: 0.759038, ce: 0.097558, reg: 82.685089, reg_best: 82.685089
+step:  26, cost: 8.00E-03, attack: 0.993, loss: 0.789128, ce: 0.125729, reg: 82.924904, reg_best: 82.685089
+up cost from 8.00E-03 to 1.60E-02
+step:  27, cost: 1.60E-02, attack: 0.994, loss: 1.321842, ce: 0.111246, reg: 75.662193, reg_best: 75.662193
+step:  28, cost: 1.60E-02, attack: 0.993, loss: 1.305741, ce: 0.116271, reg: 74.341896, reg_best: 74.341896
+step:  29, cost: 1.60E-02, attack: 0.986, loss: 1.404859, ce: 0.225902, reg: 73.684784, reg_best: 74.341896
+step:  30, cost: 1.60E-02, attack: 0.994, loss: 1.382529, ce: 0.127204, reg: 78.457779, reg_best: 74.341896
+step:  31, cost: 1.60E-02, attack: 0.994, loss: 1.336749, ce: 0.114769, reg: 76.373749, reg_best: 74.341896
+step:  32, cost: 1.60E-02, attack: 0.995, loss: 1.289688, ce: 0.084957, reg: 75.298325, reg_best: 74.341896
+step:  33, cost: 1.60E-02, attack: 0.990, loss: 1.354682, ce: 0.164140, reg: 74.408882, reg_best: 74.341896
+step:  34, cost: 1.60E-02, attack: 0.994, loss: 1.324208, ce: 0.103159, reg: 76.315514, reg_best: 74.341896
+step:  35, cost: 1.60E-02, attack: 0.995, loss: 1.239131, ce: 0.094431, reg: 71.543762, reg_best: 71.543762
+step:  36, cost: 1.60E-02, attack: 0.994, loss: 1.216648, ce: 0.118271, reg: 68.648537, reg_best: 68.648537
+step:  37, cost: 1.60E-02, attack: 0.988, loss: 1.340446, ce: 0.176787, reg: 72.728645, reg_best: 68.648537
+step:  38, cost: 1.60E-02, attack: 0.992, loss: 1.262362, ce: 0.126922, reg: 70.965042, reg_best: 68.648537
+step:  39, cost: 1.60E-02, attack: 0.986, loss: 1.318851, ce: 0.227331, reg: 68.220016, reg_best: 68.648537
+step:  40, cost: 1.60E-02, attack: 0.992, loss: 1.267253, ce: 0.144175, reg: 70.192421, reg_best: 68.648537
+step:  41, cost: 1.60E-02, attack: 0.997, loss: 1.205518, ce: 0.053137, reg: 72.023811, reg_best: 68.648537
+step:  42, cost: 1.60E-02, attack: 0.993, loss: 1.205219, ce: 0.125143, reg: 67.504723, reg_best: 67.504723
+step:  43, cost: 1.60E-02, attack: 0.994, loss: 1.214113, ce: 0.114088, reg: 68.751534, reg_best: 67.504723
+step:  44, cost: 1.60E-02, attack: 0.989, loss: 1.274470, ce: 0.176510, reg: 68.622498, reg_best: 67.504723
+step:  45, cost: 1.60E-02, attack: 0.997, loss: 1.193656, ce: 0.059004, reg: 70.932831, reg_best: 67.504723
+step:  46, cost: 1.60E-02, attack: 0.990, loss: 1.242188, ce: 0.138062, reg: 69.007843, reg_best: 67.504723
+step:  47, cost: 1.60E-02, attack: 0.988, loss: 1.262036, ce: 0.193937, reg: 66.756134, reg_best: 67.504723
+step:  48, cost: 1.60E-02, attack: 0.991, loss: 1.216878, ce: 0.130976, reg: 67.868866, reg_best: 67.504723
+step:  49, cost: 1.60E-02, attack: 0.983, loss: 1.322419, ce: 0.268467, reg: 65.872025, reg_best: 67.504723
+step:  50, cost: 1.60E-02, attack: 0.992, loss: 1.220291, ce: 0.124970, reg: 68.457565, reg_best: 67.504723
+step:  51, cost: 1.60E-02, attack: 0.994, loss: 1.159118, ce: 0.113304, reg: 65.363327, reg_best: 65.363327
+step:  52, cost: 1.60E-02, attack: 0.987, loss: 1.286708, ce: 0.208513, reg: 67.387169, reg_best: 65.363327
+step:  53, cost: 1.60E-02, attack: 0.995, loss: 1.159555, ce: 0.090769, reg: 66.799110, reg_best: 65.363327
+step:  54, cost: 1.60E-02, attack: 0.993, loss: 1.182690, ce: 0.100570, reg: 67.632477, reg_best: 65.363327
+step:  55, cost: 1.60E-02, attack: 0.987, loss: 1.300670, ce: 0.195744, reg: 69.057831, reg_best: 65.363327
+step:  56, cost: 1.60E-02, attack: 0.994, loss: 1.186149, ce: 0.088429, reg: 68.607437, reg_best: 65.363327
+step:  57, cost: 1.60E-02, attack: 0.989, loss: 1.279714, ce: 0.200329, reg: 67.440971, reg_best: 65.363327
+step:  58, cost: 1.60E-02, attack: 0.986, loss: 1.294001, ce: 0.224385, reg: 66.850990, reg_best: 65.363327
+step:  59, cost: 1.60E-02, attack: 0.991, loss: 1.195038, ce: 0.155673, reg: 64.960289, reg_best: 64.960289
+step:  60, cost: 1.60E-02, attack: 0.983, loss: 1.261806, ce: 0.267861, reg: 62.121563, reg_best: 64.960289
+step:  61, cost: 1.60E-02, attack: 0.984, loss: 1.262204, ce: 0.268775, reg: 62.089291, reg_best: 64.960289
+step:  62, cost: 1.60E-02, attack: 0.984, loss: 1.294728, ce: 0.252950, reg: 65.111092, reg_best: 64.960289
+step:  63, cost: 1.60E-02, attack: 0.997, loss: 1.112351, ce: 0.063590, reg: 65.547523, reg_best: 64.960289
+step:  64, cost: 1.60E-02, attack: 0.989, loss: 1.201697, ce: 0.176315, reg: 64.086380, reg_best: 64.960289
+step:  65, cost: 1.60E-02, attack: 0.990, loss: 1.178599, ce: 0.173585, reg: 62.813335, reg_best: 64.960289
+step:  66, cost: 1.60E-02, attack: 0.990, loss: 1.207412, ce: 0.169010, reg: 64.900169, reg_best: 64.960289
+step:  67, cost: 1.60E-02, attack: 0.995, loss: 1.131914, ce: 0.095096, reg: 64.801117, reg_best: 64.801117
+step:  68, cost: 1.60E-02, attack: 0.993, loss: 1.128018, ce: 0.119053, reg: 63.060284, reg_best: 63.060284
+step:  69, cost: 1.60E-02, attack: 0.987, loss: 1.223568, ce: 0.213265, reg: 63.143936, reg_best: 63.060284
+step:  70, cost: 1.60E-02, attack: 0.992, loss: 1.138394, ce: 0.144796, reg: 62.089005, reg_best: 62.089005
+step:  71, cost: 1.60E-02, attack: 0.990, loss: 1.212956, ce: 0.172872, reg: 65.005219, reg_best: 62.089005
+step:  72, cost: 1.60E-02, attack: 0.989, loss: 1.191592, ce: 0.185598, reg: 62.874645, reg_best: 62.089005
+step:  73, cost: 1.60E-02, attack: 0.994, loss: 1.100269, ce: 0.095409, reg: 62.803783, reg_best: 62.089005
+step:  74, cost: 1.60E-02, attack: 0.995, loss: 1.175995, ce: 0.099615, reg: 67.273720, reg_best: 62.089005
+step:  75, cost: 1.60E-02, attack: 0.993, loss: 1.167468, ce: 0.116755, reg: 65.669533, reg_best: 62.089005
+step:  76, cost: 1.60E-02, attack: 0.994, loss: 1.188009, ce: 0.110272, reg: 67.358498, reg_best: 62.089005
+step:  77, cost: 1.60E-02, attack: 0.991, loss: 1.197506, ce: 0.157649, reg: 64.991058, reg_best: 62.089005
+up cost from 1.60E-02 to 3.20E-02
+step:  78, cost: 3.20E-02, attack: 0.982, loss: 2.226942, ce: 0.300291, reg: 60.207848, reg_best: 62.089005
+step:  79, cost: 3.20E-02, attack: 0.980, loss: 2.180812, ce: 0.314520, reg: 58.321629, reg_best: 62.089005
+step:  80, cost: 3.20E-02, attack: 0.983, loss: 2.131786, ce: 0.267002, reg: 58.274506, reg_best: 62.089005
+step:  81, cost: 3.20E-02, attack: 0.980, loss: 2.233024, ce: 0.355923, reg: 58.659386, reg_best: 62.089005
+step:  82, cost: 3.20E-02, attack: 0.980, loss: 2.217042, ce: 0.305203, reg: 59.744972, reg_best: 62.089005
+down cost from 3.20E-02 to 1.13E-02
+step:  83, cost: 1.13E-02, attack: 0.991, loss: 0.869798, ce: 0.153535, reg: 63.307934, reg_best: 62.089005
+step:  84, cost: 1.13E-02, attack: 0.989, loss: 0.897175, ce: 0.196318, reg: 61.947632, reg_best: 62.089005
+step:  85, cost: 1.13E-02, attack: 0.988, loss: 0.914604, ce: 0.202735, reg: 62.920887, reg_best: 62.089005
+step:  86, cost: 1.13E-02, attack: 0.990, loss: 0.878805, ce: 0.158113, reg: 63.700756, reg_best: 62.089005
+step:  87, cost: 1.13E-02, attack: 0.992, loss: 0.863876, ce: 0.150566, reg: 63.048264, reg_best: 62.089005
+step:  88, cost: 1.13E-02, attack: 0.991, loss: 0.878032, ce: 0.133509, reg: 65.807175, reg_best: 62.089005
+step:  89, cost: 1.13E-02, attack: 0.995, loss: 0.818270, ce: 0.088035, reg: 64.544266, reg_best: 62.089005
+step:  90, cost: 1.13E-02, attack: 0.992, loss: 0.880721, ce: 0.129429, reg: 66.405411, reg_best: 62.089005
+step:  91, cost: 1.13E-02, attack: 0.990, loss: 0.903557, ce: 0.156713, reg: 66.012375, reg_best: 62.089005
+step:  92, cost: 1.13E-02, attack: 0.998, loss: 0.802777, ce: 0.051963, reg: 66.363243, reg_best: 62.089005
+step:  93, cost: 1.13E-02, attack: 0.997, loss: 0.823876, ce: 0.063388, reg: 67.218277, reg_best: 62.089005
+step:  94, cost: 1.13E-02, attack: 0.998, loss: 0.806852, ce: 0.041171, reg: 67.677322, reg_best: 62.089005
+step:  95, cost: 1.13E-02, attack: 0.990, loss: 0.914696, ce: 0.165702, reg: 66.202309, reg_best: 62.089005
+early stop
+pattern, shape: (32, 32, 3), min: -0.000015, max: 255.000000
+mask, shape: (32, 32), min: -0.000000, max: 1.000000
+mask norm of label 13: 62.200581
+visualization cost 91.280067 seconds
+processing label 14
+resetting state
+mask_tanh -5.17995303058195 4.027217517948112
+pattern_tanh -3.4222547461850423 4.533018422116144
+step:   0, cost: 0.00E+00, attack: 0.872, loss: 2.139118, ce: 2.139118, reg: 543.725464, reg_best: inf
+step:   1, cost: 0.00E+00, attack: 1.000, loss: 0.000197, ce: 0.000197, reg: 558.483093, reg_best: 558.483093
+step:   2, cost: 0.00E+00, attack: 1.000, loss: 0.000136, ce: 0.000136, reg: 561.593201, reg_best: 558.483093
+step:   3, cost: 0.00E+00, attack: 1.000, loss: 0.000003, ce: 0.000003, reg: 563.840027, reg_best: 558.483093
+step:   4, cost: 0.00E+00, attack: 1.000, loss: 0.000001, ce: 0.000001, reg: 564.645569, reg_best: 558.483093
+step:   5, cost: 0.00E+00, attack: 1.000, loss: 0.000009, ce: 0.000009, reg: 578.206360, reg_best: 558.483093
+initialize cost to 1.00E-03
+step:   6, cost: 1.00E-03, attack: 0.996, loss: 0.484915, ce: 0.060394, reg: 424.521423, reg_best: 424.521423
+step:   7, cost: 1.00E-03, attack: 0.997, loss: 0.359548, ce: 0.048147, reg: 311.401031, reg_best: 311.401031
+step:   8, cost: 1.00E-03, attack: 1.000, loss: 0.256530, ce: 0.002681, reg: 253.848373, reg_best: 253.848373
+step:   9, cost: 1.00E-03, attack: 0.997, loss: 0.240610, ce: 0.037985, reg: 202.625336, reg_best: 202.625336
+up cost from 1.00E-03 to 2.00E-03
+step:  10, cost: 2.00E-03, attack: 0.998, loss: 0.383933, ce: 0.029130, reg: 177.401474, reg_best: 177.401474
+step:  11, cost: 2.00E-03, attack: 0.999, loss: 0.339941, ce: 0.010698, reg: 164.621353, reg_best: 164.621353
+step:  12, cost: 2.00E-03, attack: 0.998, loss: 0.337852, ce: 0.036531, reg: 150.671219, reg_best: 150.671219
+step:  13, cost: 2.00E-03, attack: 0.998, loss: 0.321162, ce: 0.045831, reg: 137.665344, reg_best: 137.665344
+step:  14, cost: 2.00E-03, attack: 0.996, loss: 0.330840, ce: 0.050818, reg: 140.011017, reg_best: 137.665344
+up cost from 2.00E-03 to 4.00E-03
+step:  15, cost: 4.00E-03, attack: 0.998, loss: 0.562113, ce: 0.033613, reg: 132.125031, reg_best: 132.125031
+step:  16, cost: 4.00E-03, attack: 0.997, loss: 0.550540, ce: 0.069147, reg: 120.348259, reg_best: 120.348259
+step:  17, cost: 4.00E-03, attack: 0.997, loss: 0.540383, ce: 0.052142, reg: 122.060242, reg_best: 120.348259
+step:  18, cost: 4.00E-03, attack: 0.998, loss: 0.529282, ce: 0.026216, reg: 125.766678, reg_best: 120.348259
+step:  19, cost: 4.00E-03, attack: 0.998, loss: 0.536632, ce: 0.035962, reg: 125.167282, reg_best: 120.348259
+up cost from 4.00E-03 to 8.00E-03
+step:  20, cost: 8.00E-03, attack: 0.998, loss: 0.947821, ce: 0.027106, reg: 115.089386, reg_best: 115.089386
+step:  21, cost: 8.00E-03, attack: 0.996, loss: 0.928581, ce: 0.073095, reg: 106.935844, reg_best: 106.935844
+step:  22, cost: 8.00E-03, attack: 0.997, loss: 0.880100, ce: 0.070424, reg: 101.209457, reg_best: 101.209457
+step:  23, cost: 8.00E-03, attack: 0.997, loss: 0.874187, ce: 0.054307, reg: 102.485008, reg_best: 101.209457
+step:  24, cost: 8.00E-03, attack: 0.995, loss: 0.875358, ce: 0.079779, reg: 99.447403, reg_best: 99.447403
+up cost from 8.00E-03 to 1.60E-02
+step:  25, cost: 1.60E-02, attack: 0.992, loss: 1.637778, ce: 0.143209, reg: 93.399612, reg_best: 93.399612
+step:  26, cost: 1.60E-02, attack: 0.996, loss: 1.538436, ce: 0.093814, reg: 90.288864, reg_best: 90.288864
+step:  27, cost: 1.60E-02, attack: 0.990, loss: 1.621944, ce: 0.162025, reg: 91.244949, reg_best: 90.288864
+step:  28, cost: 1.60E-02, attack: 0.985, loss: 1.593393, ce: 0.240525, reg: 84.554268, reg_best: 90.288864
+step:  29, cost: 1.60E-02, attack: 0.992, loss: 1.479915, ce: 0.145910, reg: 83.375305, reg_best: 83.375305
+step:  30, cost: 1.60E-02, attack: 0.987, loss: 1.557044, ce: 0.232075, reg: 82.810562, reg_best: 83.375305
+step:  31, cost: 1.60E-02, attack: 0.983, loss: 1.579151, ce: 0.272843, reg: 81.644272, reg_best: 83.375305
+step:  32, cost: 1.60E-02, attack: 0.989, loss: 1.533125, ce: 0.195585, reg: 83.596237, reg_best: 83.375305
+step:  33, cost: 1.60E-02, attack: 0.993, loss: 1.505306, ce: 0.146362, reg: 84.933983, reg_best: 83.375305
+step:  34, cost: 1.60E-02, attack: 0.991, loss: 1.459713, ce: 0.126894, reg: 83.301178, reg_best: 83.301178
+step:  35, cost: 1.60E-02, attack: 0.990, loss: 1.574792, ce: 0.179668, reg: 87.195244, reg_best: 83.301178
+step:  36, cost: 1.60E-02, attack: 0.989, loss: 1.495501, ce: 0.169467, reg: 82.877121, reg_best: 83.301178
+step:  37, cost: 1.60E-02, attack: 0.991, loss: 1.503352, ce: 0.153608, reg: 84.358994, reg_best: 83.301178
+step:  38, cost: 1.60E-02, attack: 0.991, loss: 1.467378, ce: 0.157838, reg: 81.856895, reg_best: 81.856895
+step:  39, cost: 1.60E-02, attack: 0.995, loss: 1.462286, ce: 0.104282, reg: 84.875259, reg_best: 81.856895
+step:  40, cost: 1.60E-02, attack: 0.991, loss: 1.495956, ce: 0.145656, reg: 84.393738, reg_best: 81.856895
+step:  41, cost: 1.60E-02, attack: 0.985, loss: 1.516216, ce: 0.234871, reg: 80.084023, reg_best: 81.856895
+step:  42, cost: 1.60E-02, attack: 0.991, loss: 1.451583, ce: 0.142925, reg: 81.791107, reg_best: 81.791107
+step:  43, cost: 1.60E-02, attack: 0.990, loss: 1.458375, ce: 0.151102, reg: 81.704559, reg_best: 81.791107
+step:  44, cost: 1.60E-02, attack: 0.996, loss: 1.384835, ce: 0.079918, reg: 81.557312, reg_best: 81.557312
+step:  45, cost: 1.60E-02, attack: 0.991, loss: 1.412850, ce: 0.155809, reg: 78.565086, reg_best: 78.565086
+step:  46, cost: 1.60E-02, attack: 0.988, loss: 1.434404, ce: 0.202617, reg: 76.986687, reg_best: 78.565086
+step:  47, cost: 1.60E-02, attack: 0.993, loss: 1.390636, ce: 0.115728, reg: 79.681747, reg_best: 78.565086
+step:  48, cost: 1.60E-02, attack: 0.992, loss: 1.423281, ce: 0.130026, reg: 80.828453, reg_best: 78.565086
+step:  49, cost: 1.60E-02, attack: 0.985, loss: 1.465135, ce: 0.242751, reg: 76.398979, reg_best: 78.565086
+step:  50, cost: 1.60E-02, attack: 0.988, loss: 1.447552, ce: 0.196629, reg: 78.182678, reg_best: 78.565086
+step:  51, cost: 1.60E-02, attack: 0.990, loss: 1.479140, ce: 0.192797, reg: 80.357399, reg_best: 78.565086
+step:  52, cost: 1.60E-02, attack: 0.995, loss: 1.346872, ce: 0.075051, reg: 79.488785, reg_best: 78.565086
+step:  53, cost: 1.60E-02, attack: 0.986, loss: 1.474350, ce: 0.238404, reg: 77.246628, reg_best: 78.565086
+step:  54, cost: 1.60E-02, attack: 0.989, loss: 1.439705, ce: 0.191479, reg: 78.014130, reg_best: 78.565086
+step:  55, cost: 1.60E-02, attack: 0.991, loss: 1.411556, ce: 0.156180, reg: 78.461021, reg_best: 78.461021
+step:  56, cost: 1.60E-02, attack: 0.994, loss: 1.397013, ce: 0.103216, reg: 80.862289, reg_best: 78.461021
+step:  57, cost: 1.60E-02, attack: 0.989, loss: 1.497269, ce: 0.196988, reg: 81.267578, reg_best: 78.461021
+step:  58, cost: 1.60E-02, attack: 0.986, loss: 1.465639, ce: 0.226180, reg: 77.466179, reg_best: 78.461021
+step:  59, cost: 1.60E-02, attack: 0.997, loss: 1.329067, ce: 0.080793, reg: 78.017128, reg_best: 78.017128
+step:  60, cost: 1.60E-02, attack: 0.988, loss: 1.436818, ce: 0.205521, reg: 76.956055, reg_best: 78.017128
+step:  61, cost: 1.60E-02, attack: 0.992, loss: 1.402552, ce: 0.142682, reg: 78.741875, reg_best: 78.017128
+step:  62, cost: 1.60E-02, attack: 0.996, loss: 1.333300, ce: 0.086228, reg: 77.941963, reg_best: 77.941963
+step:  63, cost: 1.60E-02, attack: 0.993, loss: 1.388994, ce: 0.135494, reg: 78.353340, reg_best: 77.941963
+step:  64, cost: 1.60E-02, attack: 0.993, loss: 1.350248, ce: 0.119787, reg: 76.903770, reg_best: 76.903770
+step:  65, cost: 1.60E-02, attack: 0.984, loss: 1.478837, ce: 0.251080, reg: 76.734756, reg_best: 76.903770
+step:  66, cost: 1.60E-02, attack: 0.994, loss: 1.370418, ce: 0.099282, reg: 79.445992, reg_best: 76.903770
+step:  67, cost: 1.60E-02, attack: 0.989, loss: 1.424551, ce: 0.192128, reg: 77.026459, reg_best: 76.903770
+step:  68, cost: 1.60E-02, attack: 0.991, loss: 1.354307, ce: 0.133467, reg: 76.302490, reg_best: 76.302490
