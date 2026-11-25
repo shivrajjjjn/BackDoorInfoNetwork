@@ -139,7 +139,7 @@ Harmless warnings that can be ignored: `SyntaxWarning: "is" with a literal` (aut
 | Results analysis | analyze_results.py | <hash> |
 | Experimental protocol and plan | docs/protocol.md, docs/plan.md | <hash> |
 | Notes and MNIST section | notes_roger.md, README_mnist_section.md | <hash> |
-| Sweep results | <path to sweep.csv or logs, if pushed> | <hash> |
+| Sweep results, analysis outputs, and logs | `results/sweep.csv`, `results/analysis/`, `logs/sweep_run.txt` | `<hash>` |
 
 Commits by each member can be listed with: git log --author="<name>" --oneline
 
