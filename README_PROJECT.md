@@ -129,6 +129,31 @@ Harmless warnings that can be ignored: `SyntaxWarning: "is" with a literal` (aut
 
 ## Team and status
 
-- Shivraj (sdn55): Neural Cleanse reproduction, MAD detection, and the MNIST adaptation of the detector (next step, waiting on a trained MNIST model).
-- Roger (rtm141): MNIST backdoor training, sweep orchestration, clean-model control, and the experimental protocol. See his logs and commits.
+- Shivraj (sdn55): Neural Cleanse reproduction, MAD detection, and the MNIST adaptation of the detector.
+- Roger (rtm141): MNIST backdoor training, sweep orchestration (`sweep.py`), clean-model control, experimental protocol, statistical analysis (`analyze_results.py`), and input-filtering mitigation (`mitigate_filter.py`). See his logs and commits.
 - The third team member has left the group; the instructor said their part does not need to be covered.
+
+## End-to-End Reproduction Pipeline
+
+1. **Install dependencies:**
+   ```bash
+   pip install -r requirements-gpu.txt
+   ```
+
+2. **Run the trigger-size sweep & clean controls (MNIST):**
+   ```bash
+   python sweep.py
+   ```
+   Logs clean accuracy, ASR, MAD anomaly indices, and detection runtimes to `results/sweep.csv`.
+
+3. **Run threshold validation & statistical significance analysis:**
+   ```bash
+   python analyze_results.py --input results/sweep.csv --outdir results/analysis
+   ```
+   Outputs summary CSVs, plots (`*_anomaly_vs_size.png`, `*_threshold_tradeoff.png`), and `trigger_sweep_table.tex`.
+
+4. **Run activation-based input filtering mitigation on flagged models:**
+   ```bash
+   python mitigate_filter.py --sweep_csv results/sweep.csv --outdir results/analysis
+   ```
+   Outputs before/after clean accuracy and ASR to `results/analysis/mitigation_results.csv` and `mitigation_table.tex`.
