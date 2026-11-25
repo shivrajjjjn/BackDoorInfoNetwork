@@ -119,16 +119,32 @@ Failure logs kept in `logs/`: `failure_gpu_run0_set_random_seed.txt`, `failure_g
 
 Harmless warnings that can be ignored: `SyntaxWarning: "is" with a literal` (authors' code), "Operation ... was changed by setting attribute" (graph-mode noise), the AVX2/FMA CPU message, and the PTX compile message.
 
-## Evidence of work (Shivraj, sdn55)
+## Evidence of work
 
-- Baseline reproduction and detection: the logs and results listed above
-- Environment records: `requirements-gpu.txt`, `requirements.txt`, `docs/env_notes.txt`
-- Dated lab notebook: `docs/lab_notebook.md`
-- Sanity check: `docs/sanity_check.md`
-- Code port: commits on `shivraj/gpu-port`
+### Shivraj Nath (sdn55)
+
+| Work | File | Commit |
+|---|---|---|
+| Neural Cleanse baseline run (GTSRB) | logs/baseline_gtsrb_infected_gpu_run1.txt | 72e2f4e |
+| MAD detection output | logs/baseline_gtsrb_infected_gpu_mad1.txt | 3abedc0 |
+| TF2/GPU port of the authors' code | gtsrb_visualize_example.py, utils_backdoor.py, visualizer.py | <hash> |
+| MNIST adaptation of the detector | mnist_visualize.py | <hash> |
+| Sanity check and lab notebook | docs/sanity_check.md, docs/lab_notebook.md | <hash> |
+
+### Roger Mendez (rtm141)
+
+| Work | File | Commit |
+|---|---|---|
+| BadNets trigger injection and MNIST training script | mnist/train_backdoor.py | <hash> |
+| Results analysis | analyze_results.py | <hash> |
+| Experimental protocol and plan | docs/protocol.md, docs/plan.md | <hash> |
+| Notes and MNIST section | notes_roger.md, README_mnist_section.md | <hash> |
+| Sweep results | <path to sweep.csv or logs, if pushed> | <hash> |
+
+Commits by each member can be listed with: git log --author="<name>" --oneline
 
 ## Team and status
 
-- Shivraj (sdn55): Neural Cleanse reproduction, MAD detection, and the MNIST adaptation of the detector (next step, waiting on a trained MNIST model).
-- Roger (rtm141): MNIST backdoor training, sweep orchestration, clean-model control, and the experimental protocol. See his logs and commits.
-- The third team member has left the group; the instructor said their part does not need to be covered.
+- Shivraj (sdn55): baseline reproduction, MAD detection, and the MNIST adaptation of the detector.
+- Roger (rtm141): MNIST backdoor training, clean-model control, sweep orchestration, and the experimental protocol.
+- The third team member left the group; the instructor said their part does not need to be covered.
